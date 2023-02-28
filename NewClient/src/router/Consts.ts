@@ -1,0 +1,10 @@
+export const REGISTRATION_ROUTE: string = "/registration";
+export const CHOOSEINSTITURE_ROUTE: string = "/chooseinstitute";
+export const LOGIN_ROUTE: string = "/login";
+export const INSTITUTESPAGE_ROUTE: string = "/institutespage";
+export const INSTITUTEINFO_ROUTE: string = "/instituteinfo";
+export const USERINFO_ROUTE: string = "/userinfo";
+export const USERSETTINGS_ROUTE: string = "/usersettings";
+export const INSTITUTEMAP_ROUTE: string = "/institutemap";
+export const ADMINPANEL_ROUTE: string = "/adminpanel";
+export const INSTITUTEPAGE_ROUTE: string = "/institutepage";

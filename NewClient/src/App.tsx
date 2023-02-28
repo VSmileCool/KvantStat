@@ -1,8 +1,8 @@
 import React from "react";
-import Map from "./pages/Map";
-
+import "./css/app.css";
+import AppRouter from "./router/AppRouter";
 const App = () => {
-  return <Map></Map>;
+  return <AppRouter></AppRouter>;
 };
 
 export default App;
