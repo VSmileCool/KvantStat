@@ -1,17 +1,13 @@
 import {
   ADMINPANEL_ROUTE,
-  CHOOSEINSTITURE_ROUTE,
   INSTITUTEINFO_ROUTE,
   INSTITUTEMAP_ROUTE,
   INSTITUTEPAGE_ROUTE,
-  INSTITUTESPAGE_ROUTE,
   LOGIN_ROUTE,
   REGISTRATION_ROUTE,
   USERINFO_ROUTE,
-  USERSETTINGS_ROUTE,
 } from "./Consts";
 
-import { RouteComponent } from "react-router-dom";
 import Auth from "../pages/Auth";
 import InstitutesMap from "../pages/InstitutesMap";
 import InstitutePage from "../pages/InstitutePage";
@@ -21,7 +17,7 @@ import UserInfo from "../pages/UserInfo";
 
 export type Route = {
   path: string;
-  component: RouteComponent;
+  component: React.ComponentType<any>;
 };
 
 export const publicRoutes: Route[] = [
