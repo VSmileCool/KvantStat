@@ -1,14 +1,21 @@
 import React, { useState } from "react";
 import logo from "../img/КВАНТ 1.svg";
 import "../css/header.css";
+import gear from "../img/gear.png";
+import menu from "../img/menu.png";
+import Gear from "./gear";
 
+interface ButtonProps {
+  defaultIcon: string;
+  activeIcon: string;
+  onClick?: () => void;
+}
 const Header: React.FC = () => {
-  const [showSecondaryButtons, setShowSecondaryButtons] = useState(false);
-
-  const handleGearClick = () => {
-    setShowSecondaryButtons(!showSecondaryButtons);
+  const viewButtons = () => {
+    setAdditionalButtonsVisible(!isAdditionalButtonsVisible);
   };
-
+  const [isAdditionalButtonsVisible, setAdditionalButtonsVisible] =
+    useState(false);
   return (
     <div className="HeaderWrapper">
       <div className="LogoWrapper">
@@ -20,28 +27,21 @@ const Header: React.FC = () => {
         <h1 className="LogoText">KVANTSTAT</h1>
       </div>
       <div className="ButtonWrapper">
-        {!showSecondaryButtons && (
-          <>
-            <button className="Button">ВОЙТИ</button>
-            <button className="Button" onClick={handleGearClick}>
-              О НАС
-            </button>
-          </>
-        )}
-        {showSecondaryButtons && (
-          <>
-            <button className="Button">Версия для слабовидящих</button>
-            <button className="Button">Темная тема</button>
-          </>
-        )}
+        <button className="Button">ВОЙТИ</button>
+        <button className="Button">О НАС</button>
+        {isAdditionalButtonsVisible ? (
+          <div>
+            <button className="Button">ТЕМНЫЙ РЕЖИМ</button>
+            <button className="Button">ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ</button>
+          </div>
+        ) : null}
+
+        <Gear
+          onClick={() => viewButtons()}
+          activeIcon={menu}
+          defaultIcon={gear}
+        />
       </div>
-      {showSecondaryButtons && (
-        <div className="ButtonWrapper">
-          <button className="Button" onClick={handleGearClick}>
-            &#10094; Назад
-          </button>
-        </div>
-      )}
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
+import MyMap from "../components/Map";
 
 const InstitutesMap: React.FC = () => {
   const [center, setCenter] = useState([55.76, 37.64]);
@@ -10,17 +11,11 @@ const InstitutesMap: React.FC = () => {
   };
 
   return (
-    <YMaps>
-      <div style={{ height: "800px" }}>
-        <Map
-          style={{ height: "800px" }}
-          state={{ center, zoom }}
-          onClick={handleMapClick}
-        >
-          <Placemark geometry={center} />
-        </Map>
+    <div>
+      <div style={{ width: "1080px", marginTop: "100px", marginLeft: "700px" }}>
+        <MyMap />
       </div>
-    </YMaps>
+    </div>
   );
 };
 
