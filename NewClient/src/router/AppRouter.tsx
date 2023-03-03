@@ -1,28 +1,29 @@
 import React from "react";
-import { Route, Routes, useNavigate } from "react-router-dom";
-import { INSTITUTEMAP_ROUTE } from "./Consts";
+import { Route, Routes } from "react-router-dom";
 import { authRoutes, publicRoutes } from "./Routes";
-import { useSelector } from "react-redux";
 import Header from "../components/header";
-import { RootState } from "../store/store";
+import NotFound from "../pages/NotFound";
+import InstitutesMap from "../pages/InstitutesMap";
 const AppRouter = () => {
-  const user = useSelector((state: RootState) => state.user);
-  let navigate = useNavigate();
-  function handleClick() {
-    navigate("/home");
-  }
-
   return (
     <div>
       <Header />
       <Routes>
         {authRoutes.map(({ path, component }) => (
-          <Route key={path} path={path} element={component} exact />
+          <Route
+            key={path}
+            path={path}
+            element={React.createElement(component)}
+          />
         ))}
         {publicRoutes.map(({ path, component }) => (
-          <Route key={path} path={path} element={component} exact />
+          <Route
+            key={path}
+            path={path}
+            element={React.createElement(component)}
+          />
         ))}
-        <Route path="*" element={navigate} />
+        <Route path="*" element={React.createElement(InstitutesMap)} />
       </Routes>
     </div>
   );

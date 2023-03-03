@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 
-const MyMap: React.FC = () => {
+const InstitutesMap: React.FC = () => {
   const [center, setCenter] = useState([55.76, 37.64]);
   const [zoom, setZoom] = useState(10);
 
@@ -24,4 +24,4 @@ const MyMap: React.FC = () => {
   );
 };
 
-export default MyMap;
+export default InstitutesMap;
