@@ -1,0 +1,6717 @@
+[
+  {
+    "lo": 0,
+    "hi": 1114111,
+    "tag": "unassigned",
+    "comment": "(U+0..U+10ffff)"
+  },
+  {
+    "lo": 0,
+    "hi": 887,
+    "tag": "-unassigned assigned",
+    "comment": "(U+0..U+377)"
+  },
+  {
+    "lo": 890,
+    "hi": 895,
+    "tag": "-unassigned assigned",
+    "comment": "(U+37a..U+37f)"
+  },
+  {
+    "lo": 900,
+    "hi": 906,
+    "tag": "-unassigned assigned",
+    "comment": "(U+384..U+38a)"
+  },
+  {
+    "lo": 908,
+    "hi": 908,
+    "tag": "-unassigned assigned",
+    "comment": "(U+38c..U+38c)"
+  },
+  {
+    "lo": 910,
+    "hi": 929,
+    "tag": "-unassigned assigned",
+    "comment": "(U+38e..U+3a1)"
+  },
+  {
+    "lo": 931,
+    "hi": 1327,
+    "tag": "-unassigned assigned",
+    "comment": "(U+3a3..U+52f)"
+  },
+  {
+    "lo": 1329,
+    "hi": 1366,
+    "tag": "-unassigned assigned",
+    "comment": "(U+531..U+556)"
+  },
+  {
+    "lo": 1369,
+    "hi": 1375,
+    "tag": "-unassigned assigned",
+    "comment": "(U+559..U+55f)"
+  },
+  {
+    "lo": 1377,
+    "hi": 1415,
+    "tag": "-unassigned assigned",
+    "comment": "(U+561..U+587)"
+  },
+  {
+    "lo": 1417,
+    "hi": 1418,
+    "tag": "-unassigned assigned",
+    "comment": "(U+589..U+58a)"
+  },
+  {
+    "lo": 1421,
+    "hi": 1423,
+    "tag": "-unassigned assigned",
+    "comment": "(U+58d..U+58f)"
+  },
+  {
+    "lo": 1425,
+    "hi": 1479,
+    "tag": "-unassigned assigned",
+    "comment": "(U+591..U+5c7)"
+  },
+  {
+    "lo": 1488,
+    "hi": 1514,
+    "tag": "-unassigned assigned",
+    "comment": "(U+5d0..U+5ea)"
+  },
+  {
+    "lo": 1520,
+    "hi": 1524,
+    "tag": "-unassigned assigned",
+    "comment": "(U+5f0..U+5f4)"
+  },
+  {
+    "lo": 1536,
+    "hi": 1564,
+    "tag": "-unassigned assigned",
+    "comment": "(U+600..U+61c)"
+  },
+  {
+    "lo": 1566,
+    "hi": 1805,
+    "tag": "-unassigned assigned",
+    "comment": "(U+61e..U+70d)"
+  },
+  {
+    "lo": 1807,
+    "hi": 1866,
+    "tag": "-unassigned assigned",
+    "comment": "(U+70f..U+74a)"
+  },
+  {
+    "lo": 1869,
+    "hi": 1969,
+    "tag": "-unassigned assigned",
+    "comment": "(U+74d..U+7b1)"
+  },
+  {
+    "lo": 1984,
+    "hi": 2042,
+    "tag": "-unassigned assigned",
+    "comment": "(U+7c0..U+7fa)"
+  },
+  {
+    "lo": 2048,
+    "hi": 2093,
+    "tag": "-unassigned assigned",
+    "comment": "(U+800..U+82d)"
+  },
+  {
+    "lo": 2096,
+    "hi": 2110,
+    "tag": "-unassigned assigned",
+    "comment": "(U+830..U+83e)"
+  },
+  {
+    "lo": 2112,
+    "hi": 2139,
+    "tag": "-unassigned assigned",
+    "comment": "(U+840..U+85b)"
+  },
+  {
+    "lo": 2142,
+    "hi": 2142,
+    "tag": "-unassigned assigned",
+    "comment": "(U+85e..U+85e)"
+  },
+  {
+    "lo": 2208,
+    "hi": 2228,
+    "tag": "-unassigned assigned",
+    "comment": "(U+8a0..U+8b4)"
+  },
+  {
+    "lo": 2230,
+    "hi": 2237,
+    "tag": "-unassigned assigned",
+    "comment": "(U+8b6..U+8bd)"
+  },
+  {
+    "lo": 2260,
+    "hi": 2435,
+    "tag": "-unassigned assigned",
+    "comment": "(U+8d4..U+983)"
+  },
+  {
+    "lo": 2437,
+    "hi": 2444,
+    "tag": "-unassigned assigned",
+    "comment": "(U+985..U+98c)"
+  },
+  {
+    "lo": 2447,
+    "hi": 2448,
+    "tag": "-unassigned assigned",
+    "comment": "(U+98f..U+990)"
+  },
+  {
+    "lo": 2451,
+    "hi": 2472,
+    "tag": "-unassigned assigned",
+    "comment": "(U+993..U+9a8)"
+  },
+  {
+    "lo": 2474,
+    "hi": 2480,
+    "tag": "-unassigned assigned",
+    "comment": "(U+9aa..U+9b0)"
+  },
+  {
+    "lo": 2482,
+    "hi": 2482,
+    "tag": "-unassigned assigned",
+    "comment": "(U+9b2..U+9b2)"
+  },
+  {
+    "lo": 2486,
+    "hi": 2489,
+    "tag": "-unassigned assigned",
+    "comment": "(U+9b6..U+9b9)"
+  },
+  {
+    "lo": 2492,
+    "hi": 2500,
+    "tag": "-unassigned assigned",
+    "comment": "(U+9bc..U+9c4)"
+  },
+  {
+    "lo": 2503,
+    "hi": 2504,
+    "tag": "-unassigned assigned",
+    "comment": "(U+9c7..U+9c8)"
+  },
+  {
+    "lo": 2507,
+    "hi": 2510,
+    "tag": "-unassigned assigned",
+    "comment": "(U+9cb..U+9ce)"
+  },
+  {
+    "lo": 2519,
+    "hi": 2519,
+    "tag": "-unassigned assigned",
+    "comment": "(U+9d7..U+9d7)"
+  },
+  {
+    "lo": 2524,
+    "hi": 2525,
+    "tag": "-unassigned assigned",
+    "comment": "(U+9dc..U+9dd)"
+  },
+  {
+    "lo": 2527,
+    "hi": 2531,
+    "tag": "-unassigned assigned",
+    "comment": "(U+9df..U+9e3)"
+  },
+  {
+    "lo": 2534,
+    "hi": 2555,
+    "tag": "-unassigned assigned",
+    "comment": "(U+9e6..U+9fb)"
+  },
+  {
+    "lo": 2561,
+    "hi": 2563,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a01..U+a03)"
+  },
+  {
+    "lo": 2565,
+    "hi": 2570,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a05..U+a0a)"
+  },
+  {
+    "lo": 2575,
+    "hi": 2576,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a0f..U+a10)"
+  },
+  {
+    "lo": 2579,
+    "hi": 2600,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a13..U+a28)"
+  },
+  {
+    "lo": 2602,
+    "hi": 2608,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a2a..U+a30)"
+  },
+  {
+    "lo": 2610,
+    "hi": 2611,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a32..U+a33)"
+  },
+  {
+    "lo": 2613,
+    "hi": 2614,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a35..U+a36)"
+  },
+  {
+    "lo": 2616,
+    "hi": 2617,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a38..U+a39)"
+  },
+  {
+    "lo": 2620,
+    "hi": 2620,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a3c..U+a3c)"
+  },
+  {
+    "lo": 2622,
+    "hi": 2626,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a3e..U+a42)"
+  },
+  {
+    "lo": 2631,
+    "hi": 2632,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a47..U+a48)"
+  },
+  {
+    "lo": 2635,
+    "hi": 2637,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a4b..U+a4d)"
+  },
+  {
+    "lo": 2641,
+    "hi": 2641,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a51..U+a51)"
+  },
+  {
+    "lo": 2649,
+    "hi": 2652,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a59..U+a5c)"
+  },
+  {
+    "lo": 2654,
+    "hi": 2654,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a5e..U+a5e)"
+  },
+  {
+    "lo": 2662,
+    "hi": 2677,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a66..U+a75)"
+  },
+  {
+    "lo": 2689,
+    "hi": 2691,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a81..U+a83)"
+  },
+  {
+    "lo": 2693,
+    "hi": 2701,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a85..U+a8d)"
+  },
+  {
+    "lo": 2703,
+    "hi": 2705,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a8f..U+a91)"
+  },
+  {
+    "lo": 2707,
+    "hi": 2728,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a93..U+aa8)"
+  },
+  {
+    "lo": 2730,
+    "hi": 2736,
+    "tag": "-unassigned assigned",
+    "comment": "(U+aaa..U+ab0)"
+  },
+  {
+    "lo": 2738,
+    "hi": 2739,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ab2..U+ab3)"
+  },
+  {
+    "lo": 2741,
+    "hi": 2745,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ab5..U+ab9)"
+  },
+  {
+    "lo": 2748,
+    "hi": 2757,
+    "tag": "-unassigned assigned",
+    "comment": "(U+abc..U+ac5)"
+  },
+  {
+    "lo": 2759,
+    "hi": 2761,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ac7..U+ac9)"
+  },
+  {
+    "lo": 2763,
+    "hi": 2765,
+    "tag": "-unassigned assigned",
+    "comment": "(U+acb..U+acd)"
+  },
+  {
+    "lo": 2768,
+    "hi": 2768,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ad0..U+ad0)"
+  },
+  {
+    "lo": 2784,
+    "hi": 2787,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ae0..U+ae3)"
+  },
+  {
+    "lo": 2790,
+    "hi": 2801,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ae6..U+af1)"
+  },
+  {
+    "lo": 2809,
+    "hi": 2809,
+    "tag": "-unassigned assigned",
+    "comment": "(U+af9..U+af9)"
+  },
+  {
+    "lo": 2817,
+    "hi": 2819,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b01..U+b03)"
+  },
+  {
+    "lo": 2821,
+    "hi": 2828,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b05..U+b0c)"
+  },
+  {
+    "lo": 2831,
+    "hi": 2832,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b0f..U+b10)"
+  },
+  {
+    "lo": 2835,
+    "hi": 2856,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b13..U+b28)"
+  },
+  {
+    "lo": 2858,
+    "hi": 2864,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b2a..U+b30)"
+  },
+  {
+    "lo": 2866,
+    "hi": 2867,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b32..U+b33)"
+  },
+  {
+    "lo": 2869,
+    "hi": 2873,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b35..U+b39)"
+  },
+  {
+    "lo": 2876,
+    "hi": 2884,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b3c..U+b44)"
+  },
+  {
+    "lo": 2887,
+    "hi": 2888,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b47..U+b48)"
+  },
+  {
+    "lo": 2891,
+    "hi": 2893,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b4b..U+b4d)"
+  },
+  {
+    "lo": 2902,
+    "hi": 2903,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b56..U+b57)"
+  },
+  {
+    "lo": 2908,
+    "hi": 2909,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b5c..U+b5d)"
+  },
+  {
+    "lo": 2911,
+    "hi": 2915,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b5f..U+b63)"
+  },
+  {
+    "lo": 2918,
+    "hi": 2935,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b66..U+b77)"
+  },
+  {
+    "lo": 2946,
+    "hi": 2947,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b82..U+b83)"
+  },
+  {
+    "lo": 2949,
+    "hi": 2954,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b85..U+b8a)"
+  },
+  {
+    "lo": 2958,
+    "hi": 2960,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b8e..U+b90)"
+  },
+  {
+    "lo": 2962,
+    "hi": 2965,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b92..U+b95)"
+  },
+  {
+    "lo": 2969,
+    "hi": 2970,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b99..U+b9a)"
+  },
+  {
+    "lo": 2972,
+    "hi": 2972,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b9c..U+b9c)"
+  },
+  {
+    "lo": 2974,
+    "hi": 2975,
+    "tag": "-unassigned assigned",
+    "comment": "(U+b9e..U+b9f)"
+  },
+  {
+    "lo": 2979,
+    "hi": 2980,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ba3..U+ba4)"
+  },
+  {
+    "lo": 2984,
+    "hi": 2986,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ba8..U+baa)"
+  },
+  {
+    "lo": 2990,
+    "hi": 3001,
+    "tag": "-unassigned assigned",
+    "comment": "(U+bae..U+bb9)"
+  },
+  {
+    "lo": 3006,
+    "hi": 3010,
+    "tag": "-unassigned assigned",
+    "comment": "(U+bbe..U+bc2)"
+  },
+  {
+    "lo": 3014,
+    "hi": 3016,
+    "tag": "-unassigned assigned",
+    "comment": "(U+bc6..U+bc8)"
+  },
+  {
+    "lo": 3018,
+    "hi": 3021,
+    "tag": "-unassigned assigned",
+    "comment": "(U+bca..U+bcd)"
+  },
+  {
+    "lo": 3024,
+    "hi": 3024,
+    "tag": "-unassigned assigned",
+    "comment": "(U+bd0..U+bd0)"
+  },
+  {
+    "lo": 3031,
+    "hi": 3031,
+    "tag": "-unassigned assigned",
+    "comment": "(U+bd7..U+bd7)"
+  },
+  {
+    "lo": 3046,
+    "hi": 3066,
+    "tag": "-unassigned assigned",
+    "comment": "(U+be6..U+bfa)"
+  },
+  {
+    "lo": 3072,
+    "hi": 3075,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c00..U+c03)"
+  },
+  {
+    "lo": 3077,
+    "hi": 3084,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c05..U+c0c)"
+  },
+  {
+    "lo": 3086,
+    "hi": 3088,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c0e..U+c10)"
+  },
+  {
+    "lo": 3090,
+    "hi": 3112,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c12..U+c28)"
+  },
+  {
+    "lo": 3114,
+    "hi": 3129,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c2a..U+c39)"
+  },
+  {
+    "lo": 3133,
+    "hi": 3140,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c3d..U+c44)"
+  },
+  {
+    "lo": 3142,
+    "hi": 3144,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c46..U+c48)"
+  },
+  {
+    "lo": 3146,
+    "hi": 3149,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c4a..U+c4d)"
+  },
+  {
+    "lo": 3157,
+    "hi": 3158,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c55..U+c56)"
+  },
+  {
+    "lo": 3160,
+    "hi": 3162,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c58..U+c5a)"
+  },
+  {
+    "lo": 3168,
+    "hi": 3171,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c60..U+c63)"
+  },
+  {
+    "lo": 3174,
+    "hi": 3183,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c66..U+c6f)"
+  },
+  {
+    "lo": 3192,
+    "hi": 3203,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c78..U+c83)"
+  },
+  {
+    "lo": 3205,
+    "hi": 3212,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c85..U+c8c)"
+  },
+  {
+    "lo": 3214,
+    "hi": 3216,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c8e..U+c90)"
+  },
+  {
+    "lo": 3218,
+    "hi": 3240,
+    "tag": "-unassigned assigned",
+    "comment": "(U+c92..U+ca8)"
+  },
+  {
+    "lo": 3242,
+    "hi": 3251,
+    "tag": "-unassigned assigned",
+    "comment": "(U+caa..U+cb3)"
+  },
+  {
+    "lo": 3253,
+    "hi": 3257,
+    "tag": "-unassigned assigned",
+    "comment": "(U+cb5..U+cb9)"
+  },
+  {
+    "lo": 3260,
+    "hi": 3268,
+    "tag": "-unassigned assigned",
+    "comment": "(U+cbc..U+cc4)"
+  },
+  {
+    "lo": 3270,
+    "hi": 3272,
+    "tag": "-unassigned assigned",
+    "comment": "(U+cc6..U+cc8)"
+  },
+  {
+    "lo": 3274,
+    "hi": 3277,
+    "tag": "-unassigned assigned",
+    "comment": "(U+cca..U+ccd)"
+  },
+  {
+    "lo": 3285,
+    "hi": 3286,
+    "tag": "-unassigned assigned",
+    "comment": "(U+cd5..U+cd6)"
+  },
+  {
+    "lo": 3294,
+    "hi": 3294,
+    "tag": "-unassigned assigned",
+    "comment": "(U+cde..U+cde)"
+  },
+  {
+    "lo": 3296,
+    "hi": 3299,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ce0..U+ce3)"
+  },
+  {
+    "lo": 3302,
+    "hi": 3311,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ce6..U+cef)"
+  },
+  {
+    "lo": 3313,
+    "hi": 3314,
+    "tag": "-unassigned assigned",
+    "comment": "(U+cf1..U+cf2)"
+  },
+  {
+    "lo": 3329,
+    "hi": 3331,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d01..U+d03)"
+  },
+  {
+    "lo": 3333,
+    "hi": 3340,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d05..U+d0c)"
+  },
+  {
+    "lo": 3342,
+    "hi": 3344,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d0e..U+d10)"
+  },
+  {
+    "lo": 3346,
+    "hi": 3386,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d12..U+d3a)"
+  },
+  {
+    "lo": 3389,
+    "hi": 3396,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d3d..U+d44)"
+  },
+  {
+    "lo": 3398,
+    "hi": 3400,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d46..U+d48)"
+  },
+  {
+    "lo": 3402,
+    "hi": 3407,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d4a..U+d4f)"
+  },
+  {
+    "lo": 3412,
+    "hi": 3427,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d54..U+d63)"
+  },
+  {
+    "lo": 3430,
+    "hi": 3455,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d66..U+d7f)"
+  },
+  {
+    "lo": 3458,
+    "hi": 3459,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d82..U+d83)"
+  },
+  {
+    "lo": 3461,
+    "hi": 3478,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d85..U+d96)"
+  },
+  {
+    "lo": 3482,
+    "hi": 3505,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d9a..U+db1)"
+  },
+  {
+    "lo": 3507,
+    "hi": 3515,
+    "tag": "-unassigned assigned",
+    "comment": "(U+db3..U+dbb)"
+  },
+  {
+    "lo": 3517,
+    "hi": 3517,
+    "tag": "-unassigned assigned",
+    "comment": "(U+dbd..U+dbd)"
+  },
+  {
+    "lo": 3520,
+    "hi": 3526,
+    "tag": "-unassigned assigned",
+    "comment": "(U+dc0..U+dc6)"
+  },
+  {
+    "lo": 3530,
+    "hi": 3530,
+    "tag": "-unassigned assigned",
+    "comment": "(U+dca..U+dca)"
+  },
+  {
+    "lo": 3535,
+    "hi": 3540,
+    "tag": "-unassigned assigned",
+    "comment": "(U+dcf..U+dd4)"
+  },
+  {
+    "lo": 3542,
+    "hi": 3542,
+    "tag": "-unassigned assigned",
+    "comment": "(U+dd6..U+dd6)"
+  },
+  {
+    "lo": 3544,
+    "hi": 3551,
+    "tag": "-unassigned assigned",
+    "comment": "(U+dd8..U+ddf)"
+  },
+  {
+    "lo": 3558,
+    "hi": 3567,
+    "tag": "-unassigned assigned",
+    "comment": "(U+de6..U+def)"
+  },
+  {
+    "lo": 3570,
+    "hi": 3572,
+    "tag": "-unassigned assigned",
+    "comment": "(U+df2..U+df4)"
+  },
+  {
+    "lo": 3585,
+    "hi": 3642,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e01..U+e3a)"
+  },
+  {
+    "lo": 3647,
+    "hi": 3675,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e3f..U+e5b)"
+  },
+  {
+    "lo": 3713,
+    "hi": 3714,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e81..U+e82)"
+  },
+  {
+    "lo": 3716,
+    "hi": 3716,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e84..U+e84)"
+  },
+  {
+    "lo": 3719,
+    "hi": 3720,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e87..U+e88)"
+  },
+  {
+    "lo": 3722,
+    "hi": 3722,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e8a..U+e8a)"
+  },
+  {
+    "lo": 3725,
+    "hi": 3725,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e8d..U+e8d)"
+  },
+  {
+    "lo": 3732,
+    "hi": 3735,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e94..U+e97)"
+  },
+  {
+    "lo": 3737,
+    "hi": 3743,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e99..U+e9f)"
+  },
+  {
+    "lo": 3745,
+    "hi": 3747,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ea1..U+ea3)"
+  },
+  {
+    "lo": 3749,
+    "hi": 3749,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ea5..U+ea5)"
+  },
+  {
+    "lo": 3751,
+    "hi": 3751,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ea7..U+ea7)"
+  },
+  {
+    "lo": 3754,
+    "hi": 3755,
+    "tag": "-unassigned assigned",
+    "comment": "(U+eaa..U+eab)"
+  },
+  {
+    "lo": 3757,
+    "hi": 3769,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ead..U+eb9)"
+  },
+  {
+    "lo": 3771,
+    "hi": 3773,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ebb..U+ebd)"
+  },
+  {
+    "lo": 3776,
+    "hi": 3780,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ec0..U+ec4)"
+  },
+  {
+    "lo": 3782,
+    "hi": 3782,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ec6..U+ec6)"
+  },
+  {
+    "lo": 3784,
+    "hi": 3789,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ec8..U+ecd)"
+  },
+  {
+    "lo": 3792,
+    "hi": 3801,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ed0..U+ed9)"
+  },
+  {
+    "lo": 3804,
+    "hi": 3807,
+    "tag": "-unassigned assigned",
+    "comment": "(U+edc..U+edf)"
+  },
+  {
+    "lo": 3840,
+    "hi": 3911,
+    "tag": "-unassigned assigned",
+    "comment": "(U+f00..U+f47)"
+  },
+  {
+    "lo": 3913,
+    "hi": 3948,
+    "tag": "-unassigned assigned",
+    "comment": "(U+f49..U+f6c)"
+  },
+  {
+    "lo": 3953,
+    "hi": 3991,
+    "tag": "-unassigned assigned",
+    "comment": "(U+f71..U+f97)"
+  },
+  {
+    "lo": 3993,
+    "hi": 4028,
+    "tag": "-unassigned assigned",
+    "comment": "(U+f99..U+fbc)"
+  },
+  {
+    "lo": 4030,
+    "hi": 4044,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fbe..U+fcc)"
+  },
+  {
+    "lo": 4046,
+    "hi": 4058,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fce..U+fda)"
+  },
+  {
+    "lo": 4096,
+    "hi": 4293,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1000..U+10c5)"
+  },
+  {
+    "lo": 4295,
+    "hi": 4295,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10c7..U+10c7)"
+  },
+  {
+    "lo": 4301,
+    "hi": 4301,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10cd..U+10cd)"
+  },
+  {
+    "lo": 4304,
+    "hi": 4680,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10d0..U+1248)"
+  },
+  {
+    "lo": 4682,
+    "hi": 4685,
+    "tag": "-unassigned assigned",
+    "comment": "(U+124a..U+124d)"
+  },
+  {
+    "lo": 4688,
+    "hi": 4694,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1250..U+1256)"
+  },
+  {
+    "lo": 4696,
+    "hi": 4696,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1258..U+1258)"
+  },
+  {
+    "lo": 4698,
+    "hi": 4701,
+    "tag": "-unassigned assigned",
+    "comment": "(U+125a..U+125d)"
+  },
+  {
+    "lo": 4704,
+    "hi": 4744,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1260..U+1288)"
+  },
+  {
+    "lo": 4746,
+    "hi": 4749,
+    "tag": "-unassigned assigned",
+    "comment": "(U+128a..U+128d)"
+  },
+  {
+    "lo": 4752,
+    "hi": 4784,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1290..U+12b0)"
+  },
+  {
+    "lo": 4786,
+    "hi": 4789,
+    "tag": "-unassigned assigned",
+    "comment": "(U+12b2..U+12b5)"
+  },
+  {
+    "lo": 4792,
+    "hi": 4798,
+    "tag": "-unassigned assigned",
+    "comment": "(U+12b8..U+12be)"
+  },
+  {
+    "lo": 4800,
+    "hi": 4800,
+    "tag": "-unassigned assigned",
+    "comment": "(U+12c0..U+12c0)"
+  },
+  {
+    "lo": 4802,
+    "hi": 4805,
+    "tag": "-unassigned assigned",
+    "comment": "(U+12c2..U+12c5)"
+  },
+  {
+    "lo": 4808,
+    "hi": 4822,
+    "tag": "-unassigned assigned",
+    "comment": "(U+12c8..U+12d6)"
+  },
+  {
+    "lo": 4824,
+    "hi": 4880,
+    "tag": "-unassigned assigned",
+    "comment": "(U+12d8..U+1310)"
+  },
+  {
+    "lo": 4882,
+    "hi": 4885,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1312..U+1315)"
+  },
+  {
+    "lo": 4888,
+    "hi": 4954,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1318..U+135a)"
+  },
+  {
+    "lo": 4957,
+    "hi": 4988,
+    "tag": "-unassigned assigned",
+    "comment": "(U+135d..U+137c)"
+  },
+  {
+    "lo": 4992,
+    "hi": 5017,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1380..U+1399)"
+  },
+  {
+    "lo": 5024,
+    "hi": 5109,
+    "tag": "-unassigned assigned",
+    "comment": "(U+13a0..U+13f5)"
+  },
+  {
+    "lo": 5112,
+    "hi": 5117,
+    "tag": "-unassigned assigned",
+    "comment": "(U+13f8..U+13fd)"
+  },
+  {
+    "lo": 5120,
+    "hi": 5788,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1400..U+169c)"
+  },
+  {
+    "lo": 5792,
+    "hi": 5880,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16a0..U+16f8)"
+  },
+  {
+    "lo": 5888,
+    "hi": 5900,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1700..U+170c)"
+  },
+  {
+    "lo": 5902,
+    "hi": 5908,
+    "tag": "-unassigned assigned",
+    "comment": "(U+170e..U+1714)"
+  },
+  {
+    "lo": 5920,
+    "hi": 5942,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1720..U+1736)"
+  },
+  {
+    "lo": 5952,
+    "hi": 5971,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1740..U+1753)"
+  },
+  {
+    "lo": 5984,
+    "hi": 5996,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1760..U+176c)"
+  },
+  {
+    "lo": 5998,
+    "hi": 6000,
+    "tag": "-unassigned assigned",
+    "comment": "(U+176e..U+1770)"
+  },
+  {
+    "lo": 6002,
+    "hi": 6003,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1772..U+1773)"
+  },
+  {
+    "lo": 6016,
+    "hi": 6109,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1780..U+17dd)"
+  },
+  {
+    "lo": 6112,
+    "hi": 6121,
+    "tag": "-unassigned assigned",
+    "comment": "(U+17e0..U+17e9)"
+  },
+  {
+    "lo": 6128,
+    "hi": 6137,
+    "tag": "-unassigned assigned",
+    "comment": "(U+17f0..U+17f9)"
+  },
+  {
+    "lo": 6144,
+    "hi": 6158,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1800..U+180e)"
+  },
+  {
+    "lo": 6160,
+    "hi": 6169,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1810..U+1819)"
+  },
+  {
+    "lo": 6176,
+    "hi": 6263,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1820..U+1877)"
+  },
+  {
+    "lo": 6272,
+    "hi": 6314,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1880..U+18aa)"
+  },
+  {
+    "lo": 6320,
+    "hi": 6389,
+    "tag": "-unassigned assigned",
+    "comment": "(U+18b0..U+18f5)"
+  },
+  {
+    "lo": 6400,
+    "hi": 6430,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1900..U+191e)"
+  },
+  {
+    "lo": 6432,
+    "hi": 6443,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1920..U+192b)"
+  },
+  {
+    "lo": 6448,
+    "hi": 6459,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1930..U+193b)"
+  },
+  {
+    "lo": 6464,
+    "hi": 6464,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1940..U+1940)"
+  },
+  {
+    "lo": 6468,
+    "hi": 6509,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1944..U+196d)"
+  },
+  {
+    "lo": 6512,
+    "hi": 6516,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1970..U+1974)"
+  },
+  {
+    "lo": 6528,
+    "hi": 6571,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1980..U+19ab)"
+  },
+  {
+    "lo": 6576,
+    "hi": 6601,
+    "tag": "-unassigned assigned",
+    "comment": "(U+19b0..U+19c9)"
+  },
+  {
+    "lo": 6608,
+    "hi": 6618,
+    "tag": "-unassigned assigned",
+    "comment": "(U+19d0..U+19da)"
+  },
+  {
+    "lo": 6622,
+    "hi": 6683,
+    "tag": "-unassigned assigned",
+    "comment": "(U+19de..U+1a1b)"
+  },
+  {
+    "lo": 6686,
+    "hi": 6750,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1a1e..U+1a5e)"
+  },
+  {
+    "lo": 6752,
+    "hi": 6780,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1a60..U+1a7c)"
+  },
+  {
+    "lo": 6783,
+    "hi": 6793,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1a7f..U+1a89)"
+  },
+  {
+    "lo": 6800,
+    "hi": 6809,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1a90..U+1a99)"
+  },
+  {
+    "lo": 6816,
+    "hi": 6829,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1aa0..U+1aad)"
+  },
+  {
+    "lo": 6832,
+    "hi": 6846,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ab0..U+1abe)"
+  },
+  {
+    "lo": 6912,
+    "hi": 6987,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1b00..U+1b4b)"
+  },
+  {
+    "lo": 6992,
+    "hi": 7036,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1b50..U+1b7c)"
+  },
+  {
+    "lo": 7040,
+    "hi": 7155,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1b80..U+1bf3)"
+  },
+  {
+    "lo": 7164,
+    "hi": 7223,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1bfc..U+1c37)"
+  },
+  {
+    "lo": 7227,
+    "hi": 7241,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1c3b..U+1c49)"
+  },
+  {
+    "lo": 7245,
+    "hi": 7304,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1c4d..U+1c88)"
+  },
+  {
+    "lo": 7360,
+    "hi": 7367,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1cc0..U+1cc7)"
+  },
+  {
+    "lo": 7376,
+    "hi": 7414,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1cd0..U+1cf6)"
+  },
+  {
+    "lo": 7416,
+    "hi": 7417,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1cf8..U+1cf9)"
+  },
+  {
+    "lo": 7424,
+    "hi": 7669,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d00..U+1df5)"
+  },
+  {
+    "lo": 7675,
+    "hi": 7957,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1dfb..U+1f15)"
+  },
+  {
+    "lo": 7960,
+    "hi": 7965,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f18..U+1f1d)"
+  },
+  {
+    "lo": 7968,
+    "hi": 8005,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f20..U+1f45)"
+  },
+  {
+    "lo": 8008,
+    "hi": 8013,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f48..U+1f4d)"
+  },
+  {
+    "lo": 8016,
+    "hi": 8023,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f50..U+1f57)"
+  },
+  {
+    "lo": 8025,
+    "hi": 8025,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f59..U+1f59)"
+  },
+  {
+    "lo": 8027,
+    "hi": 8027,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f5b..U+1f5b)"
+  },
+  {
+    "lo": 8029,
+    "hi": 8029,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f5d..U+1f5d)"
+  },
+  {
+    "lo": 8031,
+    "hi": 8061,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f5f..U+1f7d)"
+  },
+  {
+    "lo": 8064,
+    "hi": 8116,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f80..U+1fb4)"
+  },
+  {
+    "lo": 8118,
+    "hi": 8132,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1fb6..U+1fc4)"
+  },
+  {
+    "lo": 8134,
+    "hi": 8147,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1fc6..U+1fd3)"
+  },
+  {
+    "lo": 8150,
+    "hi": 8155,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1fd6..U+1fdb)"
+  },
+  {
+    "lo": 8157,
+    "hi": 8175,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1fdd..U+1fef)"
+  },
+  {
+    "lo": 8178,
+    "hi": 8180,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ff2..U+1ff4)"
+  },
+  {
+    "lo": 8182,
+    "hi": 8190,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ff6..U+1ffe)"
+  },
+  {
+    "lo": 8192,
+    "hi": 8292,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2000..U+2064)"
+  },
+  {
+    "lo": 8294,
+    "hi": 8305,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2066..U+2071)"
+  },
+  {
+    "lo": 8308,
+    "hi": 8334,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2074..U+208e)"
+  },
+  {
+    "lo": 8336,
+    "hi": 8348,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2090..U+209c)"
+  },
+  {
+    "lo": 8352,
+    "hi": 8382,
+    "tag": "-unassigned assigned",
+    "comment": "(U+20a0..U+20be)"
+  },
+  {
+    "lo": 8400,
+    "hi": 8432,
+    "tag": "-unassigned assigned",
+    "comment": "(U+20d0..U+20f0)"
+  },
+  {
+    "lo": 8448,
+    "hi": 8587,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2100..U+218b)"
+  },
+  {
+    "lo": 8592,
+    "hi": 9214,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2190..U+23fe)"
+  },
+  {
+    "lo": 9216,
+    "hi": 9254,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2400..U+2426)"
+  },
+  {
+    "lo": 9280,
+    "hi": 9290,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2440..U+244a)"
+  },
+  {
+    "lo": 9312,
+    "hi": 11123,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2460..U+2b73)"
+  },
+  {
+    "lo": 11126,
+    "hi": 11157,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2b76..U+2b95)"
+  },
+  {
+    "lo": 11160,
+    "hi": 11193,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2b98..U+2bb9)"
+  },
+  {
+    "lo": 11197,
+    "hi": 11208,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2bbd..U+2bc8)"
+  },
+  {
+    "lo": 11210,
+    "hi": 11217,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2bca..U+2bd1)"
+  },
+  {
+    "lo": 11244,
+    "hi": 11247,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2bec..U+2bef)"
+  },
+  {
+    "lo": 11264,
+    "hi": 11310,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2c00..U+2c2e)"
+  },
+  {
+    "lo": 11312,
+    "hi": 11358,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2c30..U+2c5e)"
+  },
+  {
+    "lo": 11360,
+    "hi": 11507,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2c60..U+2cf3)"
+  },
+  {
+    "lo": 11513,
+    "hi": 11557,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2cf9..U+2d25)"
+  },
+  {
+    "lo": 11559,
+    "hi": 11559,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2d27..U+2d27)"
+  },
+  {
+    "lo": 11565,
+    "hi": 11565,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2d2d..U+2d2d)"
+  },
+  {
+    "lo": 11568,
+    "hi": 11623,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2d30..U+2d67)"
+  },
+  {
+    "lo": 11631,
+    "hi": 11632,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2d6f..U+2d70)"
+  },
+  {
+    "lo": 11647,
+    "hi": 11670,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2d7f..U+2d96)"
+  },
+  {
+    "lo": 11680,
+    "hi": 11686,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2da0..U+2da6)"
+  },
+  {
+    "lo": 11688,
+    "hi": 11694,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2da8..U+2dae)"
+  },
+  {
+    "lo": 11696,
+    "hi": 11702,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2db0..U+2db6)"
+  },
+  {
+    "lo": 11704,
+    "hi": 11710,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2db8..U+2dbe)"
+  },
+  {
+    "lo": 11712,
+    "hi": 11718,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2dc0..U+2dc6)"
+  },
+  {
+    "lo": 11720,
+    "hi": 11726,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2dc8..U+2dce)"
+  },
+  {
+    "lo": 11728,
+    "hi": 11734,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2dd0..U+2dd6)"
+  },
+  {
+    "lo": 11736,
+    "hi": 11742,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2dd8..U+2dde)"
+  },
+  {
+    "lo": 11744,
+    "hi": 11844,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2de0..U+2e44)"
+  },
+  {
+    "lo": 11904,
+    "hi": 11929,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2e80..U+2e99)"
+  },
+  {
+    "lo": 11931,
+    "hi": 12019,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2e9b..U+2ef3)"
+  },
+  {
+    "lo": 12032,
+    "hi": 12245,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2f00..U+2fd5)"
+  },
+  {
+    "lo": 12272,
+    "hi": 12283,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2ff0..U+2ffb)"
+  },
+  {
+    "lo": 12288,
+    "hi": 12351,
+    "tag": "-unassigned assigned",
+    "comment": "(U+3000..U+303f)"
+  },
+  {
+    "lo": 12353,
+    "hi": 12438,
+    "tag": "-unassigned assigned",
+    "comment": "(U+3041..U+3096)"
+  },
+  {
+    "lo": 12441,
+    "hi": 12543,
+    "tag": "-unassigned assigned",
+    "comment": "(U+3099..U+30ff)"
+  },
+  {
+    "lo": 12549,
+    "hi": 12589,
+    "tag": "-unassigned assigned",
+    "comment": "(U+3105..U+312d)"
+  },
+  {
+    "lo": 12593,
+    "hi": 12686,
+    "tag": "-unassigned assigned",
+    "comment": "(U+3131..U+318e)"
+  },
+  {
+    "lo": 12688,
+    "hi": 12730,
+    "tag": "-unassigned assigned",
+    "comment": "(U+3190..U+31ba)"
+  },
+  {
+    "lo": 12736,
+    "hi": 12771,
+    "tag": "-unassigned assigned",
+    "comment": "(U+31c0..U+31e3)"
+  },
+  {
+    "lo": 12784,
+    "hi": 12830,
+    "tag": "-unassigned assigned",
+    "comment": "(U+31f0..U+321e)"
+  },
+  {
+    "lo": 12832,
+    "hi": 13054,
+    "tag": "-unassigned assigned",
+    "comment": "(U+3220..U+32fe)"
+  },
+  {
+    "lo": 13312,
+    "hi": 19893,
+    "tag": "-unassigned assigned",
+    "comment": "(U+3400..U+4db5)"
+  },
+  {
+    "lo": 13056,
+    "hi": 13311,
+    "tag": "-unassigned assigned",
+    "comment": "(U+3300..U+33ff)"
+  },
+  {
+    "lo": 19968,
+    "hi": 40917,
+    "tag": "-unassigned assigned",
+    "comment": "(U+4e00..U+9fd5)"
+  },
+  {
+    "lo": 19904,
+    "hi": 19967,
+    "tag": "-unassigned assigned",
+    "comment": "(U+4dc0..U+4dff)"
+  },
+  {
+    "lo": 40960,
+    "hi": 42124,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a000..U+a48c)"
+  },
+  {
+    "lo": 42128,
+    "hi": 42182,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a490..U+a4c6)"
+  },
+  {
+    "lo": 42192,
+    "hi": 42539,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a4d0..U+a62b)"
+  },
+  {
+    "lo": 42560,
+    "hi": 42743,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a640..U+a6f7)"
+  },
+  {
+    "lo": 42752,
+    "hi": 42926,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a700..U+a7ae)"
+  },
+  {
+    "lo": 42928,
+    "hi": 42935,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a7b0..U+a7b7)"
+  },
+  {
+    "lo": 42999,
+    "hi": 43051,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a7f7..U+a82b)"
+  },
+  {
+    "lo": 43056,
+    "hi": 43065,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a830..U+a839)"
+  },
+  {
+    "lo": 43072,
+    "hi": 43127,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a840..U+a877)"
+  },
+  {
+    "lo": 43136,
+    "hi": 43205,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a880..U+a8c5)"
+  },
+  {
+    "lo": 43214,
+    "hi": 43225,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a8ce..U+a8d9)"
+  },
+  {
+    "lo": 43232,
+    "hi": 43261,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a8e0..U+a8fd)"
+  },
+  {
+    "lo": 43264,
+    "hi": 43347,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a900..U+a953)"
+  },
+  {
+    "lo": 43359,
+    "hi": 43388,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a95f..U+a97c)"
+  },
+  {
+    "lo": 43392,
+    "hi": 43469,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a980..U+a9cd)"
+  },
+  {
+    "lo": 43471,
+    "hi": 43481,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a9cf..U+a9d9)"
+  },
+  {
+    "lo": 43486,
+    "hi": 43518,
+    "tag": "-unassigned assigned",
+    "comment": "(U+a9de..U+a9fe)"
+  },
+  {
+    "lo": 43520,
+    "hi": 43574,
+    "tag": "-unassigned assigned",
+    "comment": "(U+aa00..U+aa36)"
+  },
+  {
+    "lo": 43584,
+    "hi": 43597,
+    "tag": "-unassigned assigned",
+    "comment": "(U+aa40..U+aa4d)"
+  },
+  {
+    "lo": 43600,
+    "hi": 43609,
+    "tag": "-unassigned assigned",
+    "comment": "(U+aa50..U+aa59)"
+  },
+  {
+    "lo": 43612,
+    "hi": 43714,
+    "tag": "-unassigned assigned",
+    "comment": "(U+aa5c..U+aac2)"
+  },
+  {
+    "lo": 43739,
+    "hi": 43766,
+    "tag": "-unassigned assigned",
+    "comment": "(U+aadb..U+aaf6)"
+  },
+  {
+    "lo": 43777,
+    "hi": 43782,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ab01..U+ab06)"
+  },
+  {
+    "lo": 43785,
+    "hi": 43790,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ab09..U+ab0e)"
+  },
+  {
+    "lo": 43793,
+    "hi": 43798,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ab11..U+ab16)"
+  },
+  {
+    "lo": 43808,
+    "hi": 43814,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ab20..U+ab26)"
+  },
+  {
+    "lo": 43816,
+    "hi": 43822,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ab28..U+ab2e)"
+  },
+  {
+    "lo": 43824,
+    "hi": 43877,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ab30..U+ab65)"
+  },
+  {
+    "lo": 43888,
+    "hi": 44013,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ab70..U+abed)"
+  },
+  {
+    "lo": 44032,
+    "hi": 55203,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ac00..U+d7a3)"
+  },
+  {
+    "lo": 44016,
+    "hi": 44025,
+    "tag": "-unassigned assigned",
+    "comment": "(U+abf0..U+abf9)"
+  },
+  {
+    "lo": 55216,
+    "hi": 55238,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d7b0..U+d7c6)"
+  },
+  {
+    "lo": 55296,
+    "hi": 56191,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d800..U+db7f)"
+  },
+  {
+    "lo": 56192,
+    "hi": 56319,
+    "tag": "-unassigned assigned",
+    "comment": "(U+db80..U+dbff)"
+  },
+  {
+    "lo": 56320,
+    "hi": 57343,
+    "tag": "-unassigned assigned",
+    "comment": "(U+dc00..U+dfff)"
+  },
+  {
+    "lo": 57344,
+    "hi": 63743,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e000..U+f8ff)"
+  },
+  {
+    "lo": 55243,
+    "hi": 55291,
+    "tag": "-unassigned assigned",
+    "comment": "(U+d7cb..U+d7fb)"
+  },
+  {
+    "lo": 63744,
+    "hi": 64109,
+    "tag": "-unassigned assigned",
+    "comment": "(U+f900..U+fa6d)"
+  },
+  {
+    "lo": 64112,
+    "hi": 64217,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fa70..U+fad9)"
+  },
+  {
+    "lo": 64256,
+    "hi": 64262,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fb00..U+fb06)"
+  },
+  {
+    "lo": 64275,
+    "hi": 64279,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fb13..U+fb17)"
+  },
+  {
+    "lo": 64285,
+    "hi": 64310,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fb1d..U+fb36)"
+  },
+  {
+    "lo": 64312,
+    "hi": 64316,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fb38..U+fb3c)"
+  },
+  {
+    "lo": 64318,
+    "hi": 64318,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fb3e..U+fb3e)"
+  },
+  {
+    "lo": 64320,
+    "hi": 64321,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fb40..U+fb41)"
+  },
+  {
+    "lo": 64323,
+    "hi": 64324,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fb43..U+fb44)"
+  },
+  {
+    "lo": 64326,
+    "hi": 64449,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fb46..U+fbc1)"
+  },
+  {
+    "lo": 64467,
+    "hi": 64831,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fbd3..U+fd3f)"
+  },
+  {
+    "lo": 64848,
+    "hi": 64911,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fd50..U+fd8f)"
+  },
+  {
+    "lo": 64914,
+    "hi": 64967,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fd92..U+fdc7)"
+  },
+  {
+    "lo": 65008,
+    "hi": 65021,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fdf0..U+fdfd)"
+  },
+  {
+    "lo": 65024,
+    "hi": 65049,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fe00..U+fe19)"
+  },
+  {
+    "lo": 65056,
+    "hi": 65106,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fe20..U+fe52)"
+  },
+  {
+    "lo": 65108,
+    "hi": 65126,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fe54..U+fe66)"
+  },
+  {
+    "lo": 65128,
+    "hi": 65131,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fe68..U+fe6b)"
+  },
+  {
+    "lo": 65136,
+    "hi": 65140,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fe70..U+fe74)"
+  },
+  {
+    "lo": 65142,
+    "hi": 65276,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fe76..U+fefc)"
+  },
+  {
+    "lo": 65279,
+    "hi": 65279,
+    "tag": "-unassigned assigned",
+    "comment": "(U+feff..U+feff)"
+  },
+  {
+    "lo": 65281,
+    "hi": 65470,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ff01..U+ffbe)"
+  },
+  {
+    "lo": 65474,
+    "hi": 65479,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ffc2..U+ffc7)"
+  },
+  {
+    "lo": 65482,
+    "hi": 65487,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ffca..U+ffcf)"
+  },
+  {
+    "lo": 65490,
+    "hi": 65495,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ffd2..U+ffd7)"
+  },
+  {
+    "lo": 65498,
+    "hi": 65500,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ffda..U+ffdc)"
+  },
+  {
+    "lo": 65504,
+    "hi": 65510,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ffe0..U+ffe6)"
+  },
+  {
+    "lo": 65512,
+    "hi": 65518,
+    "tag": "-unassigned assigned",
+    "comment": "(U+ffe8..U+ffee)"
+  },
+  {
+    "lo": 65529,
+    "hi": 65533,
+    "tag": "-unassigned assigned",
+    "comment": "(U+fff9..U+fffd)"
+  },
+  {
+    "lo": 65536,
+    "hi": 65547,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10000..U+1000b)"
+  },
+  {
+    "lo": 65549,
+    "hi": 65574,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1000d..U+10026)"
+  },
+  {
+    "lo": 65576,
+    "hi": 65594,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10028..U+1003a)"
+  },
+  {
+    "lo": 65596,
+    "hi": 65597,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1003c..U+1003d)"
+  },
+  {
+    "lo": 65599,
+    "hi": 65613,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1003f..U+1004d)"
+  },
+  {
+    "lo": 65616,
+    "hi": 65629,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10050..U+1005d)"
+  },
+  {
+    "lo": 65664,
+    "hi": 65786,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10080..U+100fa)"
+  },
+  {
+    "lo": 65792,
+    "hi": 65794,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10100..U+10102)"
+  },
+  {
+    "lo": 65799,
+    "hi": 65843,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10107..U+10133)"
+  },
+  {
+    "lo": 65847,
+    "hi": 65934,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10137..U+1018e)"
+  },
+  {
+    "lo": 65936,
+    "hi": 65947,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10190..U+1019b)"
+  },
+  {
+    "lo": 65952,
+    "hi": 65952,
+    "tag": "-unassigned assigned",
+    "comment": "(U+101a0..U+101a0)"
+  },
+  {
+    "lo": 66000,
+    "hi": 66045,
+    "tag": "-unassigned assigned",
+    "comment": "(U+101d0..U+101fd)"
+  },
+  {
+    "lo": 66176,
+    "hi": 66204,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10280..U+1029c)"
+  },
+  {
+    "lo": 66208,
+    "hi": 66256,
+    "tag": "-unassigned assigned",
+    "comment": "(U+102a0..U+102d0)"
+  },
+  {
+    "lo": 66272,
+    "hi": 66299,
+    "tag": "-unassigned assigned",
+    "comment": "(U+102e0..U+102fb)"
+  },
+  {
+    "lo": 66304,
+    "hi": 66339,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10300..U+10323)"
+  },
+  {
+    "lo": 66352,
+    "hi": 66378,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10330..U+1034a)"
+  },
+  {
+    "lo": 66384,
+    "hi": 66426,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10350..U+1037a)"
+  },
+  {
+    "lo": 66432,
+    "hi": 66461,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10380..U+1039d)"
+  },
+  {
+    "lo": 66463,
+    "hi": 66499,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1039f..U+103c3)"
+  },
+  {
+    "lo": 66504,
+    "hi": 66517,
+    "tag": "-unassigned assigned",
+    "comment": "(U+103c8..U+103d5)"
+  },
+  {
+    "lo": 66560,
+    "hi": 66717,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10400..U+1049d)"
+  },
+  {
+    "lo": 66720,
+    "hi": 66729,
+    "tag": "-unassigned assigned",
+    "comment": "(U+104a0..U+104a9)"
+  },
+  {
+    "lo": 66736,
+    "hi": 66771,
+    "tag": "-unassigned assigned",
+    "comment": "(U+104b0..U+104d3)"
+  },
+  {
+    "lo": 66776,
+    "hi": 66811,
+    "tag": "-unassigned assigned",
+    "comment": "(U+104d8..U+104fb)"
+  },
+  {
+    "lo": 66816,
+    "hi": 66855,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10500..U+10527)"
+  },
+  {
+    "lo": 66864,
+    "hi": 66915,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10530..U+10563)"
+  },
+  {
+    "lo": 66927,
+    "hi": 66927,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1056f..U+1056f)"
+  },
+  {
+    "lo": 67072,
+    "hi": 67382,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10600..U+10736)"
+  },
+  {
+    "lo": 67392,
+    "hi": 67413,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10740..U+10755)"
+  },
+  {
+    "lo": 67424,
+    "hi": 67431,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10760..U+10767)"
+  },
+  {
+    "lo": 67584,
+    "hi": 67589,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10800..U+10805)"
+  },
+  {
+    "lo": 67592,
+    "hi": 67592,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10808..U+10808)"
+  },
+  {
+    "lo": 67594,
+    "hi": 67637,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1080a..U+10835)"
+  },
+  {
+    "lo": 67639,
+    "hi": 67640,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10837..U+10838)"
+  },
+  {
+    "lo": 67644,
+    "hi": 67644,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1083c..U+1083c)"
+  },
+  {
+    "lo": 67647,
+    "hi": 67669,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1083f..U+10855)"
+  },
+  {
+    "lo": 67671,
+    "hi": 67742,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10857..U+1089e)"
+  },
+  {
+    "lo": 67751,
+    "hi": 67759,
+    "tag": "-unassigned assigned",
+    "comment": "(U+108a7..U+108af)"
+  },
+  {
+    "lo": 67808,
+    "hi": 67826,
+    "tag": "-unassigned assigned",
+    "comment": "(U+108e0..U+108f2)"
+  },
+  {
+    "lo": 67828,
+    "hi": 67829,
+    "tag": "-unassigned assigned",
+    "comment": "(U+108f4..U+108f5)"
+  },
+  {
+    "lo": 67835,
+    "hi": 67867,
+    "tag": "-unassigned assigned",
+    "comment": "(U+108fb..U+1091b)"
+  },
+  {
+    "lo": 67871,
+    "hi": 67897,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1091f..U+10939)"
+  },
+  {
+    "lo": 67903,
+    "hi": 67903,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1093f..U+1093f)"
+  },
+  {
+    "lo": 67968,
+    "hi": 68023,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10980..U+109b7)"
+  },
+  {
+    "lo": 68028,
+    "hi": 68047,
+    "tag": "-unassigned assigned",
+    "comment": "(U+109bc..U+109cf)"
+  },
+  {
+    "lo": 68050,
+    "hi": 68099,
+    "tag": "-unassigned assigned",
+    "comment": "(U+109d2..U+10a03)"
+  },
+  {
+    "lo": 68101,
+    "hi": 68102,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10a05..U+10a06)"
+  },
+  {
+    "lo": 68108,
+    "hi": 68115,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10a0c..U+10a13)"
+  },
+  {
+    "lo": 68117,
+    "hi": 68119,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10a15..U+10a17)"
+  },
+  {
+    "lo": 68121,
+    "hi": 68147,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10a19..U+10a33)"
+  },
+  {
+    "lo": 68152,
+    "hi": 68154,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10a38..U+10a3a)"
+  },
+  {
+    "lo": 68159,
+    "hi": 68167,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10a3f..U+10a47)"
+  },
+  {
+    "lo": 68176,
+    "hi": 68184,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10a50..U+10a58)"
+  },
+  {
+    "lo": 68192,
+    "hi": 68255,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10a60..U+10a9f)"
+  },
+  {
+    "lo": 68288,
+    "hi": 68326,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10ac0..U+10ae6)"
+  },
+  {
+    "lo": 68331,
+    "hi": 68342,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10aeb..U+10af6)"
+  },
+  {
+    "lo": 68352,
+    "hi": 68405,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10b00..U+10b35)"
+  },
+  {
+    "lo": 68409,
+    "hi": 68437,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10b39..U+10b55)"
+  },
+  {
+    "lo": 68440,
+    "hi": 68466,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10b58..U+10b72)"
+  },
+  {
+    "lo": 68472,
+    "hi": 68497,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10b78..U+10b91)"
+  },
+  {
+    "lo": 68505,
+    "hi": 68508,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10b99..U+10b9c)"
+  },
+  {
+    "lo": 68521,
+    "hi": 68527,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10ba9..U+10baf)"
+  },
+  {
+    "lo": 68608,
+    "hi": 68680,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10c00..U+10c48)"
+  },
+  {
+    "lo": 68736,
+    "hi": 68786,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10c80..U+10cb2)"
+  },
+  {
+    "lo": 68800,
+    "hi": 68850,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10cc0..U+10cf2)"
+  },
+  {
+    "lo": 68858,
+    "hi": 68863,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10cfa..U+10cff)"
+  },
+  {
+    "lo": 69216,
+    "hi": 69246,
+    "tag": "-unassigned assigned",
+    "comment": "(U+10e60..U+10e7e)"
+  },
+  {
+    "lo": 69632,
+    "hi": 69709,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11000..U+1104d)"
+  },
+  {
+    "lo": 69714,
+    "hi": 69743,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11052..U+1106f)"
+  },
+  {
+    "lo": 69759,
+    "hi": 69825,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1107f..U+110c1)"
+  },
+  {
+    "lo": 69840,
+    "hi": 69864,
+    "tag": "-unassigned assigned",
+    "comment": "(U+110d0..U+110e8)"
+  },
+  {
+    "lo": 69872,
+    "hi": 69881,
+    "tag": "-unassigned assigned",
+    "comment": "(U+110f0..U+110f9)"
+  },
+  {
+    "lo": 69888,
+    "hi": 69940,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11100..U+11134)"
+  },
+  {
+    "lo": 69942,
+    "hi": 69955,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11136..U+11143)"
+  },
+  {
+    "lo": 69968,
+    "hi": 70006,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11150..U+11176)"
+  },
+  {
+    "lo": 70016,
+    "hi": 70093,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11180..U+111cd)"
+  },
+  {
+    "lo": 70096,
+    "hi": 70111,
+    "tag": "-unassigned assigned",
+    "comment": "(U+111d0..U+111df)"
+  },
+  {
+    "lo": 70113,
+    "hi": 70132,
+    "tag": "-unassigned assigned",
+    "comment": "(U+111e1..U+111f4)"
+  },
+  {
+    "lo": 70144,
+    "hi": 70161,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11200..U+11211)"
+  },
+  {
+    "lo": 70163,
+    "hi": 70206,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11213..U+1123e)"
+  },
+  {
+    "lo": 70272,
+    "hi": 70278,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11280..U+11286)"
+  },
+  {
+    "lo": 70280,
+    "hi": 70280,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11288..U+11288)"
+  },
+  {
+    "lo": 70282,
+    "hi": 70285,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1128a..U+1128d)"
+  },
+  {
+    "lo": 70287,
+    "hi": 70301,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1128f..U+1129d)"
+  },
+  {
+    "lo": 70303,
+    "hi": 70313,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1129f..U+112a9)"
+  },
+  {
+    "lo": 70320,
+    "hi": 70378,
+    "tag": "-unassigned assigned",
+    "comment": "(U+112b0..U+112ea)"
+  },
+  {
+    "lo": 70384,
+    "hi": 70393,
+    "tag": "-unassigned assigned",
+    "comment": "(U+112f0..U+112f9)"
+  },
+  {
+    "lo": 70400,
+    "hi": 70403,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11300..U+11303)"
+  },
+  {
+    "lo": 70405,
+    "hi": 70412,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11305..U+1130c)"
+  },
+  {
+    "lo": 70415,
+    "hi": 70416,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1130f..U+11310)"
+  },
+  {
+    "lo": 70419,
+    "hi": 70440,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11313..U+11328)"
+  },
+  {
+    "lo": 70442,
+    "hi": 70448,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1132a..U+11330)"
+  },
+  {
+    "lo": 70450,
+    "hi": 70451,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11332..U+11333)"
+  },
+  {
+    "lo": 70453,
+    "hi": 70457,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11335..U+11339)"
+  },
+  {
+    "lo": 70460,
+    "hi": 70468,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1133c..U+11344)"
+  },
+  {
+    "lo": 70471,
+    "hi": 70472,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11347..U+11348)"
+  },
+  {
+    "lo": 70475,
+    "hi": 70477,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1134b..U+1134d)"
+  },
+  {
+    "lo": 70480,
+    "hi": 70480,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11350..U+11350)"
+  },
+  {
+    "lo": 70487,
+    "hi": 70487,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11357..U+11357)"
+  },
+  {
+    "lo": 70493,
+    "hi": 70499,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1135d..U+11363)"
+  },
+  {
+    "lo": 70502,
+    "hi": 70508,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11366..U+1136c)"
+  },
+  {
+    "lo": 70512,
+    "hi": 70516,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11370..U+11374)"
+  },
+  {
+    "lo": 70656,
+    "hi": 70745,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11400..U+11459)"
+  },
+  {
+    "lo": 70747,
+    "hi": 70747,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1145b..U+1145b)"
+  },
+  {
+    "lo": 70749,
+    "hi": 70749,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1145d..U+1145d)"
+  },
+  {
+    "lo": 70784,
+    "hi": 70855,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11480..U+114c7)"
+  },
+  {
+    "lo": 70864,
+    "hi": 70873,
+    "tag": "-unassigned assigned",
+    "comment": "(U+114d0..U+114d9)"
+  },
+  {
+    "lo": 71040,
+    "hi": 71093,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11580..U+115b5)"
+  },
+  {
+    "lo": 71096,
+    "hi": 71133,
+    "tag": "-unassigned assigned",
+    "comment": "(U+115b8..U+115dd)"
+  },
+  {
+    "lo": 71168,
+    "hi": 71236,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11600..U+11644)"
+  },
+  {
+    "lo": 71248,
+    "hi": 71257,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11650..U+11659)"
+  },
+  {
+    "lo": 71264,
+    "hi": 71276,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11660..U+1166c)"
+  },
+  {
+    "lo": 71296,
+    "hi": 71351,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11680..U+116b7)"
+  },
+  {
+    "lo": 71360,
+    "hi": 71369,
+    "tag": "-unassigned assigned",
+    "comment": "(U+116c0..U+116c9)"
+  },
+  {
+    "lo": 71424,
+    "hi": 71449,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11700..U+11719)"
+  },
+  {
+    "lo": 71453,
+    "hi": 71467,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1171d..U+1172b)"
+  },
+  {
+    "lo": 71472,
+    "hi": 71487,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11730..U+1173f)"
+  },
+  {
+    "lo": 71840,
+    "hi": 71922,
+    "tag": "-unassigned assigned",
+    "comment": "(U+118a0..U+118f2)"
+  },
+  {
+    "lo": 71935,
+    "hi": 71935,
+    "tag": "-unassigned assigned",
+    "comment": "(U+118ff..U+118ff)"
+  },
+  {
+    "lo": 72384,
+    "hi": 72440,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11ac0..U+11af8)"
+  },
+  {
+    "lo": 72704,
+    "hi": 72712,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11c00..U+11c08)"
+  },
+  {
+    "lo": 72714,
+    "hi": 72758,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11c0a..U+11c36)"
+  },
+  {
+    "lo": 72760,
+    "hi": 72773,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11c38..U+11c45)"
+  },
+  {
+    "lo": 72784,
+    "hi": 72812,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11c50..U+11c6c)"
+  },
+  {
+    "lo": 72816,
+    "hi": 72847,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11c70..U+11c8f)"
+  },
+  {
+    "lo": 72850,
+    "hi": 72871,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11c92..U+11ca7)"
+  },
+  {
+    "lo": 72873,
+    "hi": 72886,
+    "tag": "-unassigned assigned",
+    "comment": "(U+11ca9..U+11cb6)"
+  },
+  {
+    "lo": 73728,
+    "hi": 74649,
+    "tag": "-unassigned assigned",
+    "comment": "(U+12000..U+12399)"
+  },
+  {
+    "lo": 74752,
+    "hi": 74862,
+    "tag": "-unassigned assigned",
+    "comment": "(U+12400..U+1246e)"
+  },
+  {
+    "lo": 74864,
+    "hi": 74868,
+    "tag": "-unassigned assigned",
+    "comment": "(U+12470..U+12474)"
+  },
+  {
+    "lo": 74880,
+    "hi": 75075,
+    "tag": "-unassigned assigned",
+    "comment": "(U+12480..U+12543)"
+  },
+  {
+    "lo": 77824,
+    "hi": 78894,
+    "tag": "-unassigned assigned",
+    "comment": "(U+13000..U+1342e)"
+  },
+  {
+    "lo": 82944,
+    "hi": 83526,
+    "tag": "-unassigned assigned",
+    "comment": "(U+14400..U+14646)"
+  },
+  {
+    "lo": 92160,
+    "hi": 92728,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16800..U+16a38)"
+  },
+  {
+    "lo": 92736,
+    "hi": 92766,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16a40..U+16a5e)"
+  },
+  {
+    "lo": 92768,
+    "hi": 92777,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16a60..U+16a69)"
+  },
+  {
+    "lo": 92782,
+    "hi": 92783,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16a6e..U+16a6f)"
+  },
+  {
+    "lo": 92880,
+    "hi": 92909,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16ad0..U+16aed)"
+  },
+  {
+    "lo": 92912,
+    "hi": 92917,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16af0..U+16af5)"
+  },
+  {
+    "lo": 92928,
+    "hi": 92997,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16b00..U+16b45)"
+  },
+  {
+    "lo": 93008,
+    "hi": 93017,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16b50..U+16b59)"
+  },
+  {
+    "lo": 93019,
+    "hi": 93025,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16b5b..U+16b61)"
+  },
+  {
+    "lo": 93027,
+    "hi": 93047,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16b63..U+16b77)"
+  },
+  {
+    "lo": 93053,
+    "hi": 93071,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16b7d..U+16b8f)"
+  },
+  {
+    "lo": 93952,
+    "hi": 94020,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16f00..U+16f44)"
+  },
+  {
+    "lo": 94032,
+    "hi": 94078,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16f50..U+16f7e)"
+  },
+  {
+    "lo": 94095,
+    "hi": 94111,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16f8f..U+16f9f)"
+  },
+  {
+    "lo": 94208,
+    "hi": 100332,
+    "tag": "-unassigned assigned",
+    "comment": "(U+17000..U+187ec)"
+  },
+  {
+    "lo": 94176,
+    "hi": 94176,
+    "tag": "-unassigned assigned",
+    "comment": "(U+16fe0..U+16fe0)"
+  },
+  {
+    "lo": 100352,
+    "hi": 101106,
+    "tag": "-unassigned assigned",
+    "comment": "(U+18800..U+18af2)"
+  },
+  {
+    "lo": 110592,
+    "hi": 110593,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1b000..U+1b001)"
+  },
+  {
+    "lo": 113664,
+    "hi": 113770,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1bc00..U+1bc6a)"
+  },
+  {
+    "lo": 113776,
+    "hi": 113788,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1bc70..U+1bc7c)"
+  },
+  {
+    "lo": 113792,
+    "hi": 113800,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1bc80..U+1bc88)"
+  },
+  {
+    "lo": 113808,
+    "hi": 113817,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1bc90..U+1bc99)"
+  },
+  {
+    "lo": 113820,
+    "hi": 113827,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1bc9c..U+1bca3)"
+  },
+  {
+    "lo": 118784,
+    "hi": 119029,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d000..U+1d0f5)"
+  },
+  {
+    "lo": 119040,
+    "hi": 119078,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d100..U+1d126)"
+  },
+  {
+    "lo": 119081,
+    "hi": 119272,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d129..U+1d1e8)"
+  },
+  {
+    "lo": 119296,
+    "hi": 119365,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d200..U+1d245)"
+  },
+  {
+    "lo": 119552,
+    "hi": 119638,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d300..U+1d356)"
+  },
+  {
+    "lo": 119648,
+    "hi": 119665,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d360..U+1d371)"
+  },
+  {
+    "lo": 119808,
+    "hi": 119892,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d400..U+1d454)"
+  },
+  {
+    "lo": 119894,
+    "hi": 119964,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d456..U+1d49c)"
+  },
+  {
+    "lo": 119966,
+    "hi": 119967,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d49e..U+1d49f)"
+  },
+  {
+    "lo": 119970,
+    "hi": 119970,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d4a2..U+1d4a2)"
+  },
+  {
+    "lo": 119973,
+    "hi": 119974,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d4a5..U+1d4a6)"
+  },
+  {
+    "lo": 119977,
+    "hi": 119980,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d4a9..U+1d4ac)"
+  },
+  {
+    "lo": 119982,
+    "hi": 119993,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d4ae..U+1d4b9)"
+  },
+  {
+    "lo": 119995,
+    "hi": 119995,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d4bb..U+1d4bb)"
+  },
+  {
+    "lo": 119997,
+    "hi": 120003,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d4bd..U+1d4c3)"
+  },
+  {
+    "lo": 120005,
+    "hi": 120069,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d4c5..U+1d505)"
+  },
+  {
+    "lo": 120071,
+    "hi": 120074,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d507..U+1d50a)"
+  },
+  {
+    "lo": 120077,
+    "hi": 120084,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d50d..U+1d514)"
+  },
+  {
+    "lo": 120086,
+    "hi": 120092,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d516..U+1d51c)"
+  },
+  {
+    "lo": 120094,
+    "hi": 120121,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d51e..U+1d539)"
+  },
+  {
+    "lo": 120123,
+    "hi": 120126,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d53b..U+1d53e)"
+  },
+  {
+    "lo": 120128,
+    "hi": 120132,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d540..U+1d544)"
+  },
+  {
+    "lo": 120134,
+    "hi": 120134,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d546..U+1d546)"
+  },
+  {
+    "lo": 120138,
+    "hi": 120144,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d54a..U+1d550)"
+  },
+  {
+    "lo": 120146,
+    "hi": 120485,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d552..U+1d6a5)"
+  },
+  {
+    "lo": 120488,
+    "hi": 120779,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d6a8..U+1d7cb)"
+  },
+  {
+    "lo": 120782,
+    "hi": 121483,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1d7ce..U+1da8b)"
+  },
+  {
+    "lo": 121499,
+    "hi": 121503,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1da9b..U+1da9f)"
+  },
+  {
+    "lo": 121505,
+    "hi": 121519,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1daa1..U+1daaf)"
+  },
+  {
+    "lo": 122880,
+    "hi": 122886,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1e000..U+1e006)"
+  },
+  {
+    "lo": 122888,
+    "hi": 122904,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1e008..U+1e018)"
+  },
+  {
+    "lo": 122907,
+    "hi": 122913,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1e01b..U+1e021)"
+  },
+  {
+    "lo": 122915,
+    "hi": 122916,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1e023..U+1e024)"
+  },
+  {
+    "lo": 122918,
+    "hi": 122922,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1e026..U+1e02a)"
+  },
+  {
+    "lo": 124928,
+    "hi": 125124,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1e800..U+1e8c4)"
+  },
+  {
+    "lo": 125127,
+    "hi": 125142,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1e8c7..U+1e8d6)"
+  },
+  {
+    "lo": 125184,
+    "hi": 125258,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1e900..U+1e94a)"
+  },
+  {
+    "lo": 125264,
+    "hi": 125273,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1e950..U+1e959)"
+  },
+  {
+    "lo": 125278,
+    "hi": 125279,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1e95e..U+1e95f)"
+  },
+  {
+    "lo": 126464,
+    "hi": 126467,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee00..U+1ee03)"
+  },
+  {
+    "lo": 126469,
+    "hi": 126495,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee05..U+1ee1f)"
+  },
+  {
+    "lo": 126497,
+    "hi": 126498,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee21..U+1ee22)"
+  },
+  {
+    "lo": 126500,
+    "hi": 126500,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee24..U+1ee24)"
+  },
+  {
+    "lo": 126503,
+    "hi": 126503,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee27..U+1ee27)"
+  },
+  {
+    "lo": 126505,
+    "hi": 126514,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee29..U+1ee32)"
+  },
+  {
+    "lo": 126516,
+    "hi": 126519,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee34..U+1ee37)"
+  },
+  {
+    "lo": 126521,
+    "hi": 126521,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee39..U+1ee39)"
+  },
+  {
+    "lo": 126523,
+    "hi": 126523,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee3b..U+1ee3b)"
+  },
+  {
+    "lo": 126530,
+    "hi": 126530,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee42..U+1ee42)"
+  },
+  {
+    "lo": 126535,
+    "hi": 126535,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee47..U+1ee47)"
+  },
+  {
+    "lo": 126537,
+    "hi": 126537,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee49..U+1ee49)"
+  },
+  {
+    "lo": 126539,
+    "hi": 126539,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee4b..U+1ee4b)"
+  },
+  {
+    "lo": 126541,
+    "hi": 126543,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee4d..U+1ee4f)"
+  },
+  {
+    "lo": 126545,
+    "hi": 126546,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee51..U+1ee52)"
+  },
+  {
+    "lo": 126548,
+    "hi": 126548,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee54..U+1ee54)"
+  },
+  {
+    "lo": 126551,
+    "hi": 126551,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee57..U+1ee57)"
+  },
+  {
+    "lo": 126553,
+    "hi": 126553,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee59..U+1ee59)"
+  },
+  {
+    "lo": 126555,
+    "hi": 126555,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee5b..U+1ee5b)"
+  },
+  {
+    "lo": 126557,
+    "hi": 126557,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee5d..U+1ee5d)"
+  },
+  {
+    "lo": 126559,
+    "hi": 126559,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee5f..U+1ee5f)"
+  },
+  {
+    "lo": 126561,
+    "hi": 126562,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee61..U+1ee62)"
+  },
+  {
+    "lo": 126564,
+    "hi": 126564,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee64..U+1ee64)"
+  },
+  {
+    "lo": 126567,
+    "hi": 126570,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee67..U+1ee6a)"
+  },
+  {
+    "lo": 126572,
+    "hi": 126578,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee6c..U+1ee72)"
+  },
+  {
+    "lo": 126580,
+    "hi": 126583,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee74..U+1ee77)"
+  },
+  {
+    "lo": 126585,
+    "hi": 126588,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee79..U+1ee7c)"
+  },
+  {
+    "lo": 126590,
+    "hi": 126590,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee7e..U+1ee7e)"
+  },
+  {
+    "lo": 126592,
+    "hi": 126601,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee80..U+1ee89)"
+  },
+  {
+    "lo": 126603,
+    "hi": 126619,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1ee8b..U+1ee9b)"
+  },
+  {
+    "lo": 126625,
+    "hi": 126627,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1eea1..U+1eea3)"
+  },
+  {
+    "lo": 126629,
+    "hi": 126633,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1eea5..U+1eea9)"
+  },
+  {
+    "lo": 126635,
+    "hi": 126651,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1eeab..U+1eebb)"
+  },
+  {
+    "lo": 126704,
+    "hi": 126705,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1eef0..U+1eef1)"
+  },
+  {
+    "lo": 126976,
+    "hi": 127019,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f000..U+1f02b)"
+  },
+  {
+    "lo": 127024,
+    "hi": 127123,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f030..U+1f093)"
+  },
+  {
+    "lo": 127136,
+    "hi": 127150,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f0a0..U+1f0ae)"
+  },
+  {
+    "lo": 127153,
+    "hi": 127167,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f0b1..U+1f0bf)"
+  },
+  {
+    "lo": 127169,
+    "hi": 127183,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f0c1..U+1f0cf)"
+  },
+  {
+    "lo": 127185,
+    "hi": 127221,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f0d1..U+1f0f5)"
+  },
+  {
+    "lo": 127232,
+    "hi": 127244,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f100..U+1f10c)"
+  },
+  {
+    "lo": 127248,
+    "hi": 127278,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f110..U+1f12e)"
+  },
+  {
+    "lo": 127280,
+    "hi": 127339,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f130..U+1f16b)"
+  },
+  {
+    "lo": 127344,
+    "hi": 127404,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f170..U+1f1ac)"
+  },
+  {
+    "lo": 127462,
+    "hi": 127490,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f1e6..U+1f202)"
+  },
+  {
+    "lo": 127504,
+    "hi": 127547,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f210..U+1f23b)"
+  },
+  {
+    "lo": 127552,
+    "hi": 127560,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f240..U+1f248)"
+  },
+  {
+    "lo": 127568,
+    "hi": 127569,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f250..U+1f251)"
+  },
+  {
+    "lo": 127744,
+    "hi": 128722,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f300..U+1f6d2)"
+  },
+  {
+    "lo": 128736,
+    "hi": 128748,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f6e0..U+1f6ec)"
+  },
+  {
+    "lo": 128752,
+    "hi": 128758,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f6f0..U+1f6f6)"
+  },
+  {
+    "lo": 128768,
+    "hi": 128883,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f700..U+1f773)"
+  },
+  {
+    "lo": 128896,
+    "hi": 128980,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f780..U+1f7d4)"
+  },
+  {
+    "lo": 129024,
+    "hi": 129035,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f800..U+1f80b)"
+  },
+  {
+    "lo": 129040,
+    "hi": 129095,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f810..U+1f847)"
+  },
+  {
+    "lo": 129104,
+    "hi": 129113,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f850..U+1f859)"
+  },
+  {
+    "lo": 129120,
+    "hi": 129159,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f860..U+1f887)"
+  },
+  {
+    "lo": 129168,
+    "hi": 129197,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f890..U+1f8ad)"
+  },
+  {
+    "lo": 129296,
+    "hi": 129310,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f910..U+1f91e)"
+  },
+  {
+    "lo": 129312,
+    "hi": 129319,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f920..U+1f927)"
+  },
+  {
+    "lo": 129328,
+    "hi": 129328,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f930..U+1f930)"
+  },
+  {
+    "lo": 129331,
+    "hi": 129342,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f933..U+1f93e)"
+  },
+  {
+    "lo": 129344,
+    "hi": 129355,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f940..U+1f94b)"
+  },
+  {
+    "lo": 129360,
+    "hi": 129374,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f950..U+1f95e)"
+  },
+  {
+    "lo": 129408,
+    "hi": 129425,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f980..U+1f991)"
+  },
+  {
+    "lo": 131072,
+    "hi": 173782,
+    "tag": "-unassigned assigned",
+    "comment": "(U+20000..U+2a6d6)"
+  },
+  {
+    "lo": 173824,
+    "hi": 177972,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2a700..U+2b734)"
+  },
+  {
+    "lo": 177984,
+    "hi": 178205,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2b740..U+2b81d)"
+  },
+  {
+    "lo": 178208,
+    "hi": 183969,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2b820..U+2cea1)"
+  },
+  {
+    "lo": 129472,
+    "hi": 129472,
+    "tag": "-unassigned assigned",
+    "comment": "(U+1f9c0..U+1f9c0)"
+  },
+  {
+    "lo": 194560,
+    "hi": 195101,
+    "tag": "-unassigned assigned",
+    "comment": "(U+2f800..U+2fa1d)"
+  },
+  {
+    "lo": 917505,
+    "hi": 917505,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e0001..U+e0001)"
+  },
+  {
+    "lo": 917536,
+    "hi": 917631,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e0020..U+e007f)"
+  },
+  {
+    "lo": 983040,
+    "hi": 1048573,
+    "tag": "-unassigned assigned",
+    "comment": "(U+f0000..U+ffffd)"
+  },
+  {
+    "lo": 1048576,
+    "hi": 1114109,
+    "tag": "-unassigned assigned",
+    "comment": "(U+100000..U+10fffd)"
+  },
+  {
+    "lo": 917760,
+    "hi": 917999,
+    "tag": "-unassigned assigned",
+    "comment": "(U+e0100..U+e01ef)"
+  },
+  {
+    "lo": 0,
+    "hi": 65535,
+    "name": "plane:Basic Multilingual Plane (BMP)",
+    "type": "plane",
+    "plane": "Basic Multilingual Plane (BMP)",
+    "comment": "(U+0..U+ffff)"
+  },
+  {
+    "lo": 65536,
+    "hi": 131071,
+    "name": "plane:Supplementary Multilingual Plane (SMP)",
+    "type": "plane",
+    "plane": "Supplementary Multilingual Plane (SMP)",
+    "comment": "(U+10000..U+1ffff)"
+  },
+  {
+    "lo": 131072,
+    "hi": 196607,
+    "name": "plane:Supplementary Ideographic Plane (SIP)",
+    "type": "plane",
+    "plane": "Supplementary Ideographic Plane (SIP)",
+    "comment": "(U+20000..U+2ffff)"
+  },
+  {
+    "lo": 196608,
+    "hi": 262143,
+    "name": "plane:Tertiary Ideographic Plane (TIP)",
+    "type": "plane",
+    "plane": "Tertiary Ideographic Plane (TIP)",
+    "comment": "(U+30000..U+3ffff)"
+  },
+  {
+    "lo": 917504,
+    "hi": 983037,
+    "name": "plane:Supplementary Special-purpose Plane (SSP)",
+    "type": "plane",
+    "plane": "Supplementary Special-purpose Plane (SSP)",
+    "comment": "(U+e0000..U+efffd)"
+  },
+  {
+    "lo": 983040,
+    "hi": 1048573,
+    "name": "plane:Private Use Area (PUA)",
+    "type": "plane",
+    "plane": "Private Use Area (PUA)",
+    "comment": "(U+f0000..U+ffffd)"
+  },
+  {
+    "lo": 1048576,
+    "hi": 1114109,
+    "name": "plane:Private Use Area (PUA)",
+    "type": "plane",
+    "plane": "Private Use Area (PUA)",
+    "comment": "(U+100000..U+10fffd)"
+  },
+  {
+    "lo": 0,
+    "hi": 255,
+    "name": "area:ASCII & Latin-1 Compatibility Area",
+    "type": "area",
+    "area": "ASCII & Latin-1 Compatibility Area",
+    "comment": "(U+0..U+ff)"
+  },
+  {
+    "lo": 256,
+    "hi": 1423,
+    "name": "area:General Scripts Area",
+    "type": "area",
+    "area": "General Scripts Area",
+    "comment": "(U+100..U+58f)"
+  },
+  {
+    "lo": 1424,
+    "hi": 2303,
+    "name": "area:General Scripts Area (RTL)",
+    "type": "area",
+    "area": "General Scripts Area (RTL)",
+    "comment": "(U+590..U+8ff)"
+  },
+  {
+    "lo": 2304,
+    "hi": 8191,
+    "name": "area:General Scripts Area",
+    "type": "area",
+    "area": "General Scripts Area",
+    "comment": "(U+900..U+1fff)"
+  },
+  {
+    "lo": 8192,
+    "hi": 11263,
+    "name": "area:Punctuation and Symbols Area",
+    "type": "area",
+    "area": "Punctuation and Symbols Area",
+    "comment": "(U+2000..U+2bff)"
+  },
+  {
+    "lo": 11264,
+    "hi": 11775,
+    "name": "area:General Scripts Area",
+    "type": "area",
+    "area": "General Scripts Area",
+    "comment": "(U+2c00..U+2dff)"
+  },
+  {
+    "lo": 11776,
+    "hi": 11903,
+    "name": "area:Supplemental Punctuation Area",
+    "type": "area",
+    "area": "Supplemental Punctuation Area",
+    "comment": "(U+2e00..U+2e7f)"
+  },
+  {
+    "lo": 11904,
+    "hi": 13311,
+    "name": "area:CJK Miscellaneous Area",
+    "type": "area",
+    "area": "CJK Miscellaneous Area",
+    "comment": "(U+2e80..U+33ff)"
+  },
+  {
+    "lo": 13312,
+    "hi": 40959,
+    "name": "area:CJKV Unified Ideographs Area",
+    "type": "area",
+    "area": "CJKV Unified Ideographs Area",
+    "comment": "(U+3400..U+9fff)"
+  },
+  {
+    "lo": 40960,
+    "hi": 44031,
+    "name": "area:General Scripts Area (Asia & Africa)",
+    "type": "area",
+    "area": "General Scripts Area (Asia & Africa)",
+    "comment": "(U+a000..U+abff)"
+  },
+  {
+    "lo": 44032,
+    "hi": 55295,
+    "name": "area:Hangul Syllables Area",
+    "type": "area",
+    "area": "Hangul Syllables Area",
+    "comment": "(U+ac00..U+d7ff)"
+  },
+  {
+    "lo": 55296,
+    "hi": 57343,
+    "name": "area:Surrogate Codes",
+    "type": "area",
+    "area": "Surrogate Codes",
+    "comment": "(U+d800..U+dfff)"
+  },
+  {
+    "lo": 57344,
+    "hi": 63743,
+    "name": "area:Private Use Area (PUA)",
+    "type": "area",
+    "area": "Private Use Area (PUA)",
+    "comment": "(U+e000..U+f8ff)"
+  },
+  {
+    "lo": 63744,
+    "hi": 65535,
+    "name": "area:Compatibility and Specials Area",
+    "type": "area",
+    "area": "Compatibility and Specials Area",
+    "comment": "(U+f900..U+ffff)"
+  },
+  {
+    "lo": 65536,
+    "hi": 67583,
+    "name": "area:General Scripts Area",
+    "type": "area",
+    "area": "General Scripts Area",
+    "comment": "(U+10000..U+107ff)"
+  },
+  {
+    "lo": 67584,
+    "hi": 69631,
+    "name": "area:General Scripts Area (RTL)",
+    "type": "area",
+    "area": "General Scripts Area (RTL)",
+    "comment": "(U+10800..U+10fff)"
+  },
+  {
+    "lo": 69632,
+    "hi": 73727,
+    "name": "area:General Scripts Area",
+    "type": "area",
+    "area": "General Scripts Area",
+    "comment": "(U+11000..U+11fff)"
+  },
+  {
+    "lo": 73728,
+    "hi": 90111,
+    "name": "area:Cuneiform & Hieroglyphic Area",
+    "type": "area",
+    "area": "Cuneiform & Hieroglyphic Area",
+    "comment": "(U+12000..U+15fff)"
+  },
+  {
+    "lo": 90112,
+    "hi": 94207,
+    "name": "area:General Scripts Area",
+    "type": "area",
+    "area": "General Scripts Area",
+    "comment": "(U+16000..U+16fff)"
+  },
+  {
+    "lo": 94208,
+    "hi": 113663,
+    "name": "area:Ideographic Scripts Area",
+    "type": "area",
+    "area": "Ideographic Scripts Area",
+    "comment": "(U+17000..U+1bbff)"
+  },
+  {
+    "lo": 113664,
+    "hi": 118783,
+    "name": "area:General Scripts Area",
+    "type": "area",
+    "area": "General Scripts Area",
+    "comment": "(U+1bc00..U+1cfff)"
+  },
+  {
+    "lo": 118784,
+    "hi": 124927,
+    "name": "area:Symbols Area",
+    "type": "area",
+    "area": "Symbols Area",
+    "comment": "(U+1d000..U+1e7ff)"
+  },
+  {
+    "lo": 124928,
+    "hi": 126975,
+    "name": "area:General Scripts Area (RTL)",
+    "type": "area",
+    "area": "General Scripts Area (RTL)",
+    "comment": "(U+1e800..U+1efff)"
+  },
+  {
+    "lo": 126976,
+    "hi": 131071,
+    "name": "area:Symbols Area",
+    "type": "area",
+    "area": "Symbols Area",
+    "comment": "(U+1f000..U+1ffff)"
+  },
+  {
+    "lo": 0,
+    "hi": 127,
+    "name": "block:Basic Latin",
+    "type": "block",
+    "block": "Basic Latin",
+    "rsg": "u-latn",
+    "comment": "(U+0..U+7f)"
+  },
+  {
+    "lo": 128,
+    "hi": 255,
+    "name": "block:Latin-1 Supplement",
+    "type": "block",
+    "block": "Latin-1 Supplement",
+    "rsg": "u-latn-1",
+    "comment": "(U+80..U+ff)"
+  },
+  {
+    "lo": 256,
+    "hi": 383,
+    "name": "block:Latin Extended-A",
+    "type": "block",
+    "block": "Latin Extended-A",
+    "rsg": "u-latn-a",
+    "comment": "(U+100..U+17f)"
+  },
+  {
+    "lo": 384,
+    "hi": 591,
+    "name": "block:Latin Extended-B",
+    "type": "block",
+    "block": "Latin Extended-B",
+    "rsg": "u-latn-b",
+    "comment": "(U+180..U+24f)"
+  },
+  {
+    "lo": 592,
+    "hi": 687,
+    "name": "block:IPA Extensions",
+    "type": "block",
+    "block": "IPA Extensions",
+    "rsg": "u-ipa-x",
+    "comment": "(U+250..U+2af)"
+  },
+  {
+    "lo": 688,
+    "hi": 767,
+    "name": "block:Spacing Modifier Letters",
+    "type": "block",
+    "block": "Spacing Modifier Letters",
+    "rsg": "u-sml",
+    "comment": "(U+2b0..U+2ff)"
+  },
+  {
+    "lo": 768,
+    "hi": 879,
+    "name": "block:Combining Diacritical Marks",
+    "type": "block",
+    "block": "Combining Diacritical Marks",
+    "rsg": "u-cdm",
+    "comment": "(U+300..U+36f)"
+  },
+  {
+    "lo": 880,
+    "hi": 1023,
+    "name": "block:Greek and Coptic",
+    "type": "block",
+    "block": "Greek and Coptic",
+    "rsg": "u-grek",
+    "comment": "(U+370..U+3ff)"
+  },
+  {
+    "lo": 1024,
+    "hi": 1279,
+    "name": "block:Cyrillic",
+    "type": "block",
+    "block": "Cyrillic",
+    "rsg": "u-cyrl",
+    "comment": "(U+400..U+4ff)"
+  },
+  {
+    "lo": 1280,
+    "hi": 1327,
+    "name": "block:Cyrillic Supplement",
+    "type": "block",
+    "block": "Cyrillic Supplement",
+    "rsg": "u-cyrl-s",
+    "comment": "(U+500..U+52f)"
+  },
+  {
+    "lo": 1328,
+    "hi": 1423,
+    "name": "block:Armenian",
+    "type": "block",
+    "block": "Armenian",
+    "comment": "(U+530..U+58f)"
+  },
+  {
+    "lo": 1424,
+    "hi": 1535,
+    "name": "block:Hebrew",
+    "type": "block",
+    "block": "Hebrew",
+    "comment": "(U+590..U+5ff)"
+  },
+  {
+    "lo": 1536,
+    "hi": 1791,
+    "name": "block:Arabic",
+    "type": "block",
+    "block": "Arabic",
+    "rsg": "u-arab",
+    "comment": "(U+600..U+6ff)"
+  },
+  {
+    "lo": 1792,
+    "hi": 1871,
+    "name": "block:Syriac",
+    "type": "block",
+    "block": "Syriac",
+    "comment": "(U+700..U+74f)"
+  },
+  {
+    "lo": 1872,
+    "hi": 1919,
+    "name": "block:Arabic Supplement",
+    "type": "block",
+    "block": "Arabic Supplement",
+    "rsg": "u-arab-s",
+    "comment": "(U+750..U+77f)"
+  },
+  {
+    "lo": 1920,
+    "hi": 1983,
+    "name": "block:Thaana",
+    "type": "block",
+    "block": "Thaana",
+    "comment": "(U+780..U+7bf)"
+  },
+  {
+    "lo": 1984,
+    "hi": 2047,
+    "name": "block:NKo",
+    "type": "block",
+    "block": "NKo",
+    "comment": "(U+7c0..U+7ff)"
+  },
+  {
+    "lo": 2048,
+    "hi": 2111,
+    "name": "block:Samaritan",
+    "type": "block",
+    "block": "Samaritan",
+    "comment": "(U+800..U+83f)"
+  },
+  {
+    "lo": 2112,
+    "hi": 2143,
+    "name": "block:Mandaic",
+    "type": "block",
+    "block": "Mandaic",
+    "comment": "(U+840..U+85f)"
+  },
+  {
+    "lo": 2208,
+    "hi": 2303,
+    "name": "block:Arabic Extended-A",
+    "type": "block",
+    "block": "Arabic Extended-A",
+    "comment": "(U+8a0..U+8ff)"
+  },
+  {
+    "lo": 2304,
+    "hi": 2431,
+    "name": "block:Devanagari",
+    "type": "block",
+    "block": "Devanagari",
+    "comment": "(U+900..U+97f)"
+  },
+  {
+    "lo": 2432,
+    "hi": 2559,
+    "name": "block:Bengali",
+    "type": "block",
+    "block": "Bengali",
+    "comment": "(U+980..U+9ff)"
+  },
+  {
+    "lo": 2560,
+    "hi": 2687,
+    "name": "block:Gurmukhi",
+    "type": "block",
+    "block": "Gurmukhi",
+    "comment": "(U+a00..U+a7f)"
+  },
+  {
+    "lo": 2688,
+    "hi": 2815,
+    "name": "block:Gujarati",
+    "type": "block",
+    "block": "Gujarati",
+    "comment": "(U+a80..U+aff)"
+  },
+  {
+    "lo": 2816,
+    "hi": 2943,
+    "name": "block:Oriya",
+    "type": "block",
+    "block": "Oriya",
+    "comment": "(U+b00..U+b7f)"
+  },
+  {
+    "lo": 2944,
+    "hi": 3071,
+    "name": "block:Tamil",
+    "type": "block",
+    "block": "Tamil",
+    "comment": "(U+b80..U+bff)"
+  },
+  {
+    "lo": 3072,
+    "hi": 3199,
+    "name": "block:Telugu",
+    "type": "block",
+    "block": "Telugu",
+    "comment": "(U+c00..U+c7f)"
+  },
+  {
+    "lo": 3200,
+    "hi": 3327,
+    "name": "block:Kannada",
+    "type": "block",
+    "block": "Kannada",
+    "comment": "(U+c80..U+cff)"
+  },
+  {
+    "lo": 3328,
+    "hi": 3455,
+    "name": "block:Malayalam",
+    "type": "block",
+    "block": "Malayalam",
+    "comment": "(U+d00..U+d7f)"
+  },
+  {
+    "lo": 3456,
+    "hi": 3583,
+    "name": "block:Sinhala",
+    "type": "block",
+    "block": "Sinhala",
+    "comment": "(U+d80..U+dff)"
+  },
+  {
+    "lo": 3584,
+    "hi": 3711,
+    "name": "block:Thai",
+    "type": "block",
+    "block": "Thai",
+    "comment": "(U+e00..U+e7f)"
+  },
+  {
+    "lo": 3712,
+    "hi": 3839,
+    "name": "block:Lao",
+    "type": "block",
+    "block": "Lao",
+    "comment": "(U+e80..U+eff)"
+  },
+  {
+    "lo": 3840,
+    "hi": 4095,
+    "name": "block:Tibetan",
+    "type": "block",
+    "block": "Tibetan",
+    "comment": "(U+f00..U+fff)"
+  },
+  {
+    "lo": 4096,
+    "hi": 4255,
+    "name": "block:Myanmar",
+    "type": "block",
+    "block": "Myanmar",
+    "comment": "(U+1000..U+109f)"
+  },
+  {
+    "lo": 4256,
+    "hi": 4351,
+    "name": "block:Georgian",
+    "type": "block",
+    "block": "Georgian",
+    "comment": "(U+10a0..U+10ff)"
+  },
+  {
+    "lo": 4352,
+    "hi": 4607,
+    "name": "block:Hangul Jamo",
+    "type": "block",
+    "block": "Hangul Jamo",
+    "rsg": "u-hang-jm",
+    "comment": "(U+1100..U+11ff)"
+  },
+  {
+    "lo": 4608,
+    "hi": 4991,
+    "name": "block:Ethiopic",
+    "type": "block",
+    "block": "Ethiopic",
+    "comment": "(U+1200..U+137f)"
+  },
+  {
+    "lo": 4992,
+    "hi": 5023,
+    "name": "block:Ethiopic Supplement",
+    "type": "block",
+    "block": "Ethiopic Supplement",
+    "comment": "(U+1380..U+139f)"
+  },
+  {
+    "lo": 5024,
+    "hi": 5119,
+    "name": "block:Cherokee",
+    "type": "block",
+    "block": "Cherokee",
+    "comment": "(U+13a0..U+13ff)"
+  },
+  {
+    "lo": 5120,
+    "hi": 5759,
+    "name": "block:Unified Canadian Aboriginal Syllabics",
+    "type": "block",
+    "block": "Unified Canadian Aboriginal Syllabics",
+    "comment": "(U+1400..U+167f)"
+  },
+  {
+    "lo": 5760,
+    "hi": 5791,
+    "name": "block:Ogham",
+    "type": "block",
+    "block": "Ogham",
+    "comment": "(U+1680..U+169f)"
+  },
+  {
+    "lo": 5792,
+    "hi": 5887,
+    "name": "block:Runic",
+    "type": "block",
+    "block": "Runic",
+    "comment": "(U+16a0..U+16ff)"
+  },
+  {
+    "lo": 5888,
+    "hi": 5919,
+    "name": "block:Tagalog",
+    "type": "block",
+    "block": "Tagalog",
+    "comment": "(U+1700..U+171f)"
+  },
+  {
+    "lo": 5920,
+    "hi": 5951,
+    "name": "block:Hanunoo",
+    "type": "block",
+    "block": "Hanunoo",
+    "comment": "(U+1720..U+173f)"
+  },
+  {
+    "lo": 5952,
+    "hi": 5983,
+    "name": "block:Buhid",
+    "type": "block",
+    "block": "Buhid",
+    "comment": "(U+1740..U+175f)"
+  },
+  {
+    "lo": 5984,
+    "hi": 6015,
+    "name": "block:Tagbanwa",
+    "type": "block",
+    "block": "Tagbanwa",
+    "comment": "(U+1760..U+177f)"
+  },
+  {
+    "lo": 6016,
+    "hi": 6143,
+    "name": "block:Khmer",
+    "type": "block",
+    "block": "Khmer",
+    "comment": "(U+1780..U+17ff)"
+  },
+  {
+    "lo": 6144,
+    "hi": 6319,
+    "name": "block:Mongolian",
+    "type": "block",
+    "block": "Mongolian",
+    "comment": "(U+1800..U+18af)"
+  },
+  {
+    "lo": 6320,
+    "hi": 6399,
+    "name": "block:Unified Canadian Aboriginal Syllabics Extended",
+    "type": "block",
+    "block": "Unified Canadian Aboriginal Syllabics Extended",
+    "comment": "(U+18b0..U+18ff)"
+  },
+  {
+    "lo": 6400,
+    "hi": 6479,
+    "name": "block:Limbu",
+    "type": "block",
+    "block": "Limbu",
+    "comment": "(U+1900..U+194f)"
+  },
+  {
+    "lo": 6480,
+    "hi": 6527,
+    "name": "block:Tai Le",
+    "type": "block",
+    "block": "Tai Le",
+    "comment": "(U+1950..U+197f)"
+  },
+  {
+    "lo": 6528,
+    "hi": 6623,
+    "name": "block:New Tai Lue",
+    "type": "block",
+    "block": "New Tai Lue",
+    "comment": "(U+1980..U+19df)"
+  },
+  {
+    "lo": 6624,
+    "hi": 6655,
+    "name": "block:Khmer Symbols",
+    "type": "block",
+    "block": "Khmer Symbols",
+    "comment": "(U+19e0..U+19ff)"
+  },
+  {
+    "lo": 6656,
+    "hi": 6687,
+    "name": "block:Buginese",
+    "type": "block",
+    "block": "Buginese",
+    "comment": "(U+1a00..U+1a1f)"
+  },
+  {
+    "lo": 6688,
+    "hi": 6831,
+    "name": "block:Tai Tham",
+    "type": "block",
+    "block": "Tai Tham",
+    "comment": "(U+1a20..U+1aaf)"
+  },
+  {
+    "lo": 6832,
+    "hi": 6911,
+    "name": "block:Combining Diacritical Marks Extended",
+    "type": "block",
+    "block": "Combining Diacritical Marks Extended",
+    "comment": "(U+1ab0..U+1aff)"
+  },
+  {
+    "lo": 6912,
+    "hi": 7039,
+    "name": "block:Balinese",
+    "type": "block",
+    "block": "Balinese",
+    "comment": "(U+1b00..U+1b7f)"
+  },
+  {
+    "lo": 7040,
+    "hi": 7103,
+    "name": "block:Sundanese",
+    "type": "block",
+    "block": "Sundanese",
+    "comment": "(U+1b80..U+1bbf)"
+  },
+  {
+    "lo": 7104,
+    "hi": 7167,
+    "name": "block:Batak",
+    "type": "block",
+    "block": "Batak",
+    "comment": "(U+1bc0..U+1bff)"
+  },
+  {
+    "lo": 7168,
+    "hi": 7247,
+    "name": "block:Lepcha",
+    "type": "block",
+    "block": "Lepcha",
+    "comment": "(U+1c00..U+1c4f)"
+  },
+  {
+    "lo": 7248,
+    "hi": 7295,
+    "name": "block:Ol Chiki",
+    "type": "block",
+    "block": "Ol Chiki",
+    "rsg": "u-olck",
+    "comment": "(U+1c50..U+1c7f)"
+  },
+  {
+    "lo": 7296,
+    "hi": 7311,
+    "name": "block:Cyrillic Extended-C",
+    "type": "block",
+    "block": "Cyrillic Extended-C",
+    "comment": "(U+1c80..U+1c8f)"
+  },
+  {
+    "lo": 7360,
+    "hi": 7375,
+    "name": "block:Sundanese Supplement",
+    "type": "block",
+    "block": "Sundanese Supplement",
+    "comment": "(U+1cc0..U+1ccf)"
+  },
+  {
+    "lo": 7376,
+    "hi": 7423,
+    "name": "block:Vedic Extensions",
+    "type": "block",
+    "block": "Vedic Extensions",
+    "comment": "(U+1cd0..U+1cff)"
+  },
+  {
+    "lo": 7424,
+    "hi": 7551,
+    "name": "block:Phonetic Extensions",
+    "type": "block",
+    "block": "Phonetic Extensions",
+    "rsg": "u-phon-x",
+    "comment": "(U+1d00..U+1d7f)"
+  },
+  {
+    "lo": 7552,
+    "hi": 7615,
+    "name": "block:Phonetic Extensions Supplement",
+    "type": "block",
+    "block": "Phonetic Extensions Supplement",
+    "rsg": "u-phon-xs",
+    "comment": "(U+1d80..U+1dbf)"
+  },
+  {
+    "lo": 7616,
+    "hi": 7679,
+    "name": "block:Combining Diacritical Marks Supplement",
+    "type": "block",
+    "block": "Combining Diacritical Marks Supplement",
+    "rsg": "u-cdm-s",
+    "comment": "(U+1dc0..U+1dff)"
+  },
+  {
+    "lo": 7680,
+    "hi": 7935,
+    "name": "block:Latin Extended Additional",
+    "type": "block",
+    "block": "Latin Extended Additional",
+    "rsg": "u-latn-xa",
+    "comment": "(U+1e00..U+1eff)"
+  },
+  {
+    "lo": 7936,
+    "hi": 8191,
+    "name": "block:Greek Extended",
+    "type": "block",
+    "block": "Greek Extended",
+    "rsg": "u-grek-x",
+    "comment": "(U+1f00..U+1fff)"
+  },
+  {
+    "lo": 8192,
+    "hi": 8303,
+    "name": "block:General Punctuation",
+    "type": "block",
+    "block": "General Punctuation",
+    "rsg": "u-punct",
+    "comment": "(U+2000..U+206f)"
+  },
+  {
+    "lo": 8304,
+    "hi": 8351,
+    "name": "block:Superscripts and Subscripts",
+    "type": "block",
+    "block": "Superscripts and Subscripts",
+    "rsg": "u-supsub",
+    "comment": "(U+2070..U+209f)"
+  },
+  {
+    "lo": 8352,
+    "hi": 8399,
+    "name": "block:Currency Symbols",
+    "type": "block",
+    "block": "Currency Symbols",
+    "rsg": "u-currn",
+    "comment": "(U+20a0..U+20cf)"
+  },
+  {
+    "lo": 8400,
+    "hi": 8447,
+    "name": "block:Combining Diacritical Marks for Symbols",
+    "type": "block",
+    "block": "Combining Diacritical Marks for Symbols",
+    "rsg": "u-cdm-sy",
+    "comment": "(U+20d0..U+20ff)"
+  },
+  {
+    "lo": 8448,
+    "hi": 8527,
+    "name": "block:Letterlike Symbols",
+    "type": "block",
+    "block": "Letterlike Symbols",
+    "rsg": "u-llsym",
+    "comment": "(U+2100..U+214f)"
+  },
+  {
+    "lo": 8528,
+    "hi": 8591,
+    "name": "block:Number Forms",
+    "type": "block",
+    "block": "Number Forms",
+    "rsg": "u-num",
+    "comment": "(U+2150..U+218f)"
+  },
+  {
+    "lo": 8592,
+    "hi": 8703,
+    "name": "block:Arrows",
+    "type": "block",
+    "block": "Arrows",
+    "rsg": "u-arrow",
+    "comment": "(U+2190..U+21ff)"
+  },
+  {
+    "lo": 8704,
+    "hi": 8959,
+    "name": "block:Mathematical Operators",
+    "type": "block",
+    "block": "Mathematical Operators",
+    "comment": "(U+2200..U+22ff)"
+  },
+  {
+    "lo": 8960,
+    "hi": 9215,
+    "name": "block:Miscellaneous Technical",
+    "type": "block",
+    "block": "Miscellaneous Technical",
+    "comment": "(U+2300..U+23ff)"
+  },
+  {
+    "lo": 9216,
+    "hi": 9279,
+    "name": "block:Control Pictures",
+    "type": "block",
+    "block": "Control Pictures",
+    "rsg": "u-ctrlp",
+    "comment": "(U+2400..U+243f)"
+  },
+  {
+    "lo": 9280,
+    "hi": 9311,
+    "name": "block:Optical Character Recognition",
+    "type": "block",
+    "block": "Optical Character Recognition",
+    "rsg": "u-ocr",
+    "comment": "(U+2440..U+245f)"
+  },
+  {
+    "lo": 9312,
+    "hi": 9471,
+    "name": "block:Enclosed Alphanumerics",
+    "type": "block",
+    "block": "Enclosed Alphanumerics",
+    "rsg": "u-enalp",
+    "comment": "(U+2460..U+24ff)"
+  },
+  {
+    "lo": 9472,
+    "hi": 9599,
+    "name": "block:Box Drawing",
+    "type": "block",
+    "block": "Box Drawing",
+    "rsg": "u-boxdr",
+    "comment": "(U+2500..U+257f)"
+  },
+  {
+    "lo": 9600,
+    "hi": 9631,
+    "name": "block:Block Elements",
+    "type": "block",
+    "block": "Block Elements",
+    "rsg": "u-block",
+    "comment": "(U+2580..U+259f)"
+  },
+  {
+    "lo": 9632,
+    "hi": 9727,
+    "name": "block:Geometric Shapes",
+    "type": "block",
+    "block": "Geometric Shapes",
+    "rsg": "u-geoms",
+    "comment": "(U+25a0..U+25ff)"
+  },
+  {
+    "lo": 9728,
+    "hi": 9983,
+    "name": "block:Miscellaneous Symbols",
+    "type": "block",
+    "block": "Miscellaneous Symbols",
+    "rsg": "u-sym",
+    "comment": "(U+2600..U+26ff)"
+  },
+  {
+    "lo": 9984,
+    "hi": 10175,
+    "name": "block:Dingbats",
+    "type": "block",
+    "block": "Dingbats",
+    "rsg": "u-dingb",
+    "comment": "(U+2700..U+27bf)"
+  },
+  {
+    "lo": 10176,
+    "hi": 10223,
+    "name": "block:Miscellaneous Mathematical Symbols-A",
+    "type": "block",
+    "block": "Miscellaneous Mathematical Symbols-A",
+    "rsg": "u-maths-a",
+    "comment": "(U+27c0..U+27ef)"
+  },
+  {
+    "lo": 10224,
+    "hi": 10239,
+    "name": "block:Supplemental Arrows-A",
+    "type": "block",
+    "block": "Supplemental Arrows-A",
+    "rsg": "u-arrow-a",
+    "comment": "(U+27f0..U+27ff)"
+  },
+  {
+    "lo": 10240,
+    "hi": 10495,
+    "name": "block:Braille Patterns",
+    "type": "block",
+    "block": "Braille Patterns",
+    "rsg": "u-brail",
+    "comment": "(U+2800..U+28ff)"
+  },
+  {
+    "lo": 10496,
+    "hi": 10623,
+    "name": "block:Supplemental Arrows-B",
+    "type": "block",
+    "block": "Supplemental Arrows-B",
+    "rsg": "u-arrow-b",
+    "comment": "(U+2900..U+297f)"
+  },
+  {
+    "lo": 10624,
+    "hi": 10751,
+    "name": "block:Miscellaneous Mathematical Symbols-B",
+    "type": "block",
+    "block": "Miscellaneous Mathematical Symbols-B",
+    "comment": "(U+2980..U+29ff)"
+  },
+  {
+    "lo": 10752,
+    "hi": 11007,
+    "name": "block:Supplemental Mathematical Operators",
+    "type": "block",
+    "block": "Supplemental Mathematical Operators",
+    "comment": "(U+2a00..U+2aff)"
+  },
+  {
+    "lo": 11008,
+    "hi": 11263,
+    "name": "block:Miscellaneous Symbols and Arrows",
+    "type": "block",
+    "block": "Miscellaneous Symbols and Arrows",
+    "comment": "(U+2b00..U+2bff)"
+  },
+  {
+    "lo": 11264,
+    "hi": 11359,
+    "name": "block:Glagolitic",
+    "type": "block",
+    "block": "Glagolitic",
+    "comment": "(U+2c00..U+2c5f)"
+  },
+  {
+    "lo": 11360,
+    "hi": 11391,
+    "name": "block:Latin Extended-C",
+    "type": "block",
+    "block": "Latin Extended-C",
+    "rsg": "u-latn-c",
+    "comment": "(U+2c60..U+2c7f)"
+  },
+  {
+    "lo": 11392,
+    "hi": 11519,
+    "name": "block:Coptic",
+    "type": "block",
+    "block": "Coptic",
+    "comment": "(U+2c80..U+2cff)"
+  },
+  {
+    "lo": 11520,
+    "hi": 11567,
+    "name": "block:Georgian Supplement",
+    "type": "block",
+    "block": "Georgian Supplement",
+    "comment": "(U+2d00..U+2d2f)"
+  },
+  {
+    "lo": 11568,
+    "hi": 11647,
+    "name": "block:Tifinagh",
+    "type": "block",
+    "block": "Tifinagh",
+    "comment": "(U+2d30..U+2d7f)"
+  },
+  {
+    "lo": 11648,
+    "hi": 11743,
+    "name": "block:Ethiopic Extended",
+    "type": "block",
+    "block": "Ethiopic Extended",
+    "comment": "(U+2d80..U+2ddf)"
+  },
+  {
+    "lo": 11744,
+    "hi": 11775,
+    "name": "block:Cyrillic Extended-A",
+    "type": "block",
+    "block": "Cyrillic Extended-A",
+    "rsg": "u-cyrl-a",
+    "comment": "(U+2de0..U+2dff)"
+  },
+  {
+    "lo": 11776,
+    "hi": 11903,
+    "name": "block:Supplemental Punctuation",
+    "type": "block",
+    "block": "Supplemental Punctuation",
+    "rsg": "u-punct-s",
+    "comment": "(U+2e00..U+2e7f)"
+  },
+  {
+    "lo": 11904,
+    "hi": 12031,
+    "name": "block:CJK Radicals Supplement",
+    "type": "block",
+    "block": "CJK Radicals Supplement",
+    "rsg": "u-cjk-rad2",
+    "comment": "(U+2e80..U+2eff)"
+  },
+  {
+    "lo": 12032,
+    "hi": 12255,
+    "name": "block:Kangxi Radicals",
+    "type": "block",
+    "block": "Kangxi Radicals",
+    "rsg": "u-cjk-rad1",
+    "comment": "(U+2f00..U+2fdf)"
+  },
+  {
+    "lo": 12272,
+    "hi": 12287,
+    "name": "block:Ideographic Description Characters",
+    "type": "block",
+    "block": "Ideographic Description Characters",
+    "rsg": "u-cjk-idc",
+    "comment": "(U+2ff0..U+2fff)"
+  },
+  {
+    "lo": 12288,
+    "hi": 12351,
+    "name": "block:CJK Symbols and Punctuation",
+    "type": "block",
+    "block": "CJK Symbols and Punctuation",
+    "rsg": "u-cjk-sym",
+    "comment": "(U+3000..U+303f)"
+  },
+  {
+    "lo": 12352,
+    "hi": 12447,
+    "name": "block:Hiragana",
+    "type": "block",
+    "block": "Hiragana",
+    "rsg": "u-cjk-hira",
+    "comment": "(U+3040..U+309f)"
+  },
+  {
+    "lo": 12448,
+    "hi": 12543,
+    "name": "block:Katakana",
+    "type": "block",
+    "block": "Katakana",
+    "rsg": "u-cjk-kata",
+    "comment": "(U+30a0..U+30ff)"
+  },
+  {
+    "lo": 12544,
+    "hi": 12591,
+    "name": "block:Bopomofo",
+    "type": "block",
+    "block": "Bopomofo",
+    "rsg": "u-bopo",
+    "comment": "(U+3100..U+312f)"
+  },
+  {
+    "lo": 12592,
+    "hi": 12687,
+    "name": "block:Hangul Compatibility Jamo",
+    "type": "block",
+    "block": "Hangul Compatibility Jamo",
+    "rsg": "u-hang-comp-jm",
+    "comment": "(U+3130..U+318f)"
+  },
+  {
+    "lo": 12688,
+    "hi": 12703,
+    "name": "block:Kanbun",
+    "type": "block",
+    "block": "Kanbun",
+    "rsg": "u-cjk-kanbun",
+    "comment": "(U+3190..U+319f)"
+  },
+  {
+    "lo": 12704,
+    "hi": 12735,
+    "name": "block:Bopomofo Extended",
+    "type": "block",
+    "block": "Bopomofo Extended",
+    "rsg": "u-bopo-x",
+    "comment": "(U+31a0..U+31bf)"
+  },
+  {
+    "lo": 12736,
+    "hi": 12783,
+    "name": "block:CJK Strokes",
+    "type": "block",
+    "block": "CJK Strokes",
+    "rsg": "u-cjk-strk",
+    "comment": "(U+31c0..U+31ef)"
+  },
+  {
+    "lo": 12784,
+    "hi": 12799,
+    "name": "block:Katakana Phonetic Extensions",
+    "type": "block",
+    "block": "Katakana Phonetic Extensions",
+    "rsg": "u-cjk-kata-x",
+    "comment": "(U+31f0..U+31ff)"
+  },
+  {
+    "lo": 12800,
+    "hi": 13055,
+    "name": "block:Enclosed CJK Letters and Months",
+    "type": "block",
+    "block": "Enclosed CJK Letters and Months",
+    "rsg": "u-cjk-enclett",
+    "comment": "(U+3200..U+32ff)"
+  },
+  {
+    "lo": 13056,
+    "hi": 13311,
+    "name": "block:CJK Compatibility",
+    "type": "block",
+    "block": "CJK Compatibility",
+    "rsg": "u-cjk-cmp",
+    "comment": "(U+3300..U+33ff)"
+  },
+  {
+    "lo": 13312,
+    "hi": 19903,
+    "name": "block:CJK Unified Ideographs Extension A",
+    "type": "block",
+    "block": "CJK Unified Ideographs Extension A",
+    "rsg": "u-cjk-xa",
+    "comment": "(U+3400..U+4dbf)"
+  },
+  {
+    "lo": 19904,
+    "hi": 19967,
+    "name": "block:Yijing Hexagram Symbols",
+    "type": "block",
+    "block": "Yijing Hexagram Symbols",
+    "rsg": "u-yijng",
+    "comment": "(U+4dc0..U+4dff)"
+  },
+  {
+    "lo": 19968,
+    "hi": 40959,
+    "name": "block:CJK Unified Ideographs",
+    "type": "block",
+    "block": "CJK Unified Ideographs",
+    "rsg": "u-cjk",
+    "comment": "(U+4e00..U+9fff)"
+  },
+  {
+    "lo": 40960,
+    "hi": 42127,
+    "name": "block:Yi Syllables",
+    "type": "block",
+    "block": "Yi Syllables",
+    "comment": "(U+a000..U+a48f)"
+  },
+  {
+    "lo": 42128,
+    "hi": 42191,
+    "name": "block:Yi Radicals",
+    "type": "block",
+    "block": "Yi Radicals",
+    "comment": "(U+a490..U+a4cf)"
+  },
+  {
+    "lo": 42192,
+    "hi": 42239,
+    "name": "block:Lisu",
+    "type": "block",
+    "block": "Lisu",
+    "comment": "(U+a4d0..U+a4ff)"
+  },
+  {
+    "lo": 42240,
+    "hi": 42559,
+    "name": "block:Vai",
+    "type": "block",
+    "block": "Vai",
+    "comment": "(U+a500..U+a63f)"
+  },
+  {
+    "lo": 42560,
+    "hi": 42655,
+    "name": "block:Cyrillic Extended-B",
+    "type": "block",
+    "block": "Cyrillic Extended-B",
+    "rsg": "u-cyrl-b",
+    "comment": "(U+a640..U+a69f)"
+  },
+  {
+    "lo": 42656,
+    "hi": 42751,
+    "name": "block:Bamum",
+    "type": "block",
+    "block": "Bamum",
+    "comment": "(U+a6a0..U+a6ff)"
+  },
+  {
+    "lo": 42752,
+    "hi": 42783,
+    "name": "block:Modifier Tone Letters",
+    "type": "block",
+    "block": "Modifier Tone Letters",
+    "comment": "(U+a700..U+a71f)"
+  },
+  {
+    "lo": 42784,
+    "hi": 43007,
+    "name": "block:Latin Extended-D",
+    "type": "block",
+    "block": "Latin Extended-D",
+    "rsg": "u-latn-d",
+    "comment": "(U+a720..U+a7ff)"
+  },
+  {
+    "lo": 43008,
+    "hi": 43055,
+    "name": "block:Syloti Nagri",
+    "type": "block",
+    "block": "Syloti Nagri",
+    "comment": "(U+a800..U+a82f)"
+  },
+  {
+    "lo": 43056,
+    "hi": 43071,
+    "name": "block:Common Indic Number Forms",
+    "type": "block",
+    "block": "Common Indic Number Forms",
+    "comment": "(U+a830..U+a83f)"
+  },
+  {
+    "lo": 43072,
+    "hi": 43135,
+    "name": "block:Phags-pa",
+    "type": "block",
+    "block": "Phags-pa",
+    "comment": "(U+a840..U+a87f)"
+  },
+  {
+    "lo": 43136,
+    "hi": 43231,
+    "name": "block:Saurashtra",
+    "type": "block",
+    "block": "Saurashtra",
+    "comment": "(U+a880..U+a8df)"
+  },
+  {
+    "lo": 43232,
+    "hi": 43263,
+    "name": "block:Devanagari Extended",
+    "type": "block",
+    "block": "Devanagari Extended",
+    "comment": "(U+a8e0..U+a8ff)"
+  },
+  {
+    "lo": 43264,
+    "hi": 43311,
+    "name": "block:Kayah Li",
+    "type": "block",
+    "block": "Kayah Li",
+    "comment": "(U+a900..U+a92f)"
+  },
+  {
+    "lo": 43312,
+    "hi": 43359,
+    "name": "block:Rejang",
+    "type": "block",
+    "block": "Rejang",
+    "comment": "(U+a930..U+a95f)"
+  },
+  {
+    "lo": 43360,
+    "hi": 43391,
+    "name": "block:Hangul Jamo Extended-A",
+    "type": "block",
+    "block": "Hangul Jamo Extended-A",
+    "rsg": "u-hang-jm-xa",
+    "comment": "(U+a960..U+a97f)"
+  },
+  {
+    "lo": 43392,
+    "hi": 43487,
+    "name": "block:Javanese",
+    "type": "block",
+    "block": "Javanese",
+    "comment": "(U+a980..U+a9df)"
+  },
+  {
+    "lo": 43488,
+    "hi": 43519,
+    "name": "block:Myanmar Extended-B",
+    "type": "block",
+    "block": "Myanmar Extended-B",
+    "comment": "(U+a9e0..U+a9ff)"
+  },
+  {
+    "lo": 43520,
+    "hi": 43615,
+    "name": "block:Cham",
+    "type": "block",
+    "block": "Cham",
+    "comment": "(U+aa00..U+aa5f)"
+  },
+  {
+    "lo": 43616,
+    "hi": 43647,
+    "name": "block:Myanmar Extended-A",
+    "type": "block",
+    "block": "Myanmar Extended-A",
+    "comment": "(U+aa60..U+aa7f)"
+  },
+  {
+    "lo": 43648,
+    "hi": 43743,
+    "name": "block:Tai Viet",
+    "type": "block",
+    "block": "Tai Viet",
+    "comment": "(U+aa80..U+aadf)"
+  },
+  {
+    "lo": 43744,
+    "hi": 43775,
+    "name": "block:Meetei Mayek Extensions",
+    "type": "block",
+    "block": "Meetei Mayek Extensions",
+    "comment": "(U+aae0..U+aaff)"
+  },
+  {
+    "lo": 43776,
+    "hi": 43823,
+    "name": "block:Ethiopic Extended-A",
+    "type": "block",
+    "block": "Ethiopic Extended-A",
+    "comment": "(U+ab00..U+ab2f)"
+  },
+  {
+    "lo": 43824,
+    "hi": 43887,
+    "name": "block:Latin Extended-E",
+    "type": "block",
+    "block": "Latin Extended-E",
+    "comment": "(U+ab30..U+ab6f)"
+  },
+  {
+    "lo": 43888,
+    "hi": 43967,
+    "name": "block:Cherokee Supplement",
+    "type": "block",
+    "block": "Cherokee Supplement",
+    "comment": "(U+ab70..U+abbf)"
+  },
+  {
+    "lo": 43968,
+    "hi": 44031,
+    "name": "block:Meetei Mayek",
+    "type": "block",
+    "block": "Meetei Mayek",
+    "comment": "(U+abc0..U+abff)"
+  },
+  {
+    "lo": 44032,
+    "hi": 55215,
+    "name": "block:Hangul Syllables",
+    "type": "block",
+    "block": "Hangul Syllables",
+    "rsg": "u-hang-syl",
+    "comment": "(U+ac00..U+d7af)"
+  },
+  {
+    "lo": 55216,
+    "hi": 55295,
+    "name": "block:Hangul Jamo Extended-B",
+    "type": "block",
+    "block": "Hangul Jamo Extended-B",
+    "rsg": "u-hang-jm-xb",
+    "comment": "(U+d7b0..U+d7ff)"
+  },
+  {
+    "lo": 55296,
+    "hi": 56191,
+    "name": "block:High Surrogates",
+    "type": "block",
+    "block": "High Surrogates",
+    "comment": "(U+d800..U+db7f)"
+  },
+  {
+    "lo": 56192,
+    "hi": 56319,
+    "name": "block:High Private Use Surrogates",
+    "type": "block",
+    "block": "High Private Use Surrogates",
+    "comment": "(U+db80..U+dbff)"
+  },
+  {
+    "lo": 56320,
+    "hi": 57343,
+    "name": "block:Low Surrogates",
+    "type": "block",
+    "block": "Low Surrogates",
+    "comment": "(U+dc00..U+dfff)"
+  },
+  {
+    "lo": 57344,
+    "hi": 63743,
+    "name": "block:Private Use Area",
+    "type": "block",
+    "block": "Private Use Area",
+    "rsg": "u-pua",
+    "comment": "(U+e000..U+f8ff)"
+  },
+  {
+    "lo": 63744,
+    "hi": 64255,
+    "name": "block:CJK Compatibility Ideographs",
+    "type": "block",
+    "block": "CJK Compatibility Ideographs",
+    "rsg": "u-cjk-cmpi1",
+    "comment": "(U+f900..U+faff)"
+  },
+  {
+    "lo": 64256,
+    "hi": 64335,
+    "name": "block:Alphabetic Presentation Forms",
+    "type": "block",
+    "block": "Alphabetic Presentation Forms",
+    "rsg": "u-abc-pf",
+    "comment": "(U+fb00..U+fb4f)"
+  },
+  {
+    "lo": 64336,
+    "hi": 65023,
+    "name": "block:Arabic Presentation Forms-A",
+    "type": "block",
+    "block": "Arabic Presentation Forms-A",
+    "rsg": "u-arab-pf-a",
+    "comment": "(U+fb50..U+fdff)"
+  },
+  {
+    "lo": 65024,
+    "hi": 65039,
+    "name": "block:Variation Selectors",
+    "type": "block",
+    "block": "Variation Selectors",
+    "rsg": "u-varsl",
+    "comment": "(U+fe00..U+fe0f)"
+  },
+  {
+    "lo": 65040,
+    "hi": 65055,
+    "name": "block:Vertical Forms",
+    "type": "block",
+    "block": "Vertical Forms",
+    "rsg": "u-vertf",
+    "comment": "(U+fe10..U+fe1f)"
+  },
+  {
+    "lo": 65056,
+    "hi": 65071,
+    "name": "block:Combining Half Marks",
+    "type": "block",
+    "block": "Combining Half Marks",
+    "comment": "(U+fe20..U+fe2f)"
+  },
+  {
+    "lo": 65072,
+    "hi": 65103,
+    "name": "block:CJK Compatibility Forms",
+    "type": "block",
+    "block": "CJK Compatibility Forms",
+    "rsg": "u-cjk-cmpf",
+    "comment": "(U+fe30..U+fe4f)"
+  },
+  {
+    "lo": 65104,
+    "hi": 65135,
+    "name": "block:Small Form Variants",
+    "type": "block",
+    "block": "Small Form Variants",
+    "rsg": "u-small",
+    "comment": "(U+fe50..U+fe6f)"
+  },
+  {
+    "lo": 65136,
+    "hi": 65279,
+    "name": "block:Arabic Presentation Forms-B",
+    "type": "block",
+    "block": "Arabic Presentation Forms-B",
+    "rsg": "u-arab-pf-b",
+    "comment": "(U+fe70..U+feff)"
+  },
+  {
+    "lo": 65280,
+    "hi": 65519,
+    "name": "block:Halfwidth and Fullwidth Forms",
+    "type": "block",
+    "block": "Halfwidth and Fullwidth Forms",
+    "rsg": "u-halfull",
+    "comment": "(U+ff00..U+ffef)"
+  },
+  {
+    "lo": 65520,
+    "hi": 65535,
+    "name": "block:Specials",
+    "type": "block",
+    "block": "Specials",
+    "rsg": "u-special",
+    "comment": "(U+fff0..U+ffff)"
+  },
+  {
+    "lo": 65536,
+    "hi": 65663,
+    "name": "block:Linear B Syllabary",
+    "type": "block",
+    "block": "Linear B Syllabary",
+    "comment": "(U+10000..U+1007f)"
+  },
+  {
+    "lo": 65664,
+    "hi": 65791,
+    "name": "block:Linear B Ideograms",
+    "type": "block",
+    "block": "Linear B Ideograms",
+    "comment": "(U+10080..U+100ff)"
+  },
+  {
+    "lo": 65792,
+    "hi": 65855,
+    "name": "block:Aegean Numbers",
+    "type": "block",
+    "block": "Aegean Numbers",
+    "comment": "(U+10100..U+1013f)"
+  },
+  {
+    "lo": 65856,
+    "hi": 65935,
+    "name": "block:Ancient Greek Numbers",
+    "type": "block",
+    "block": "Ancient Greek Numbers",
+    "comment": "(U+10140..U+1018f)"
+  },
+  {
+    "lo": 65936,
+    "hi": 65999,
+    "name": "block:Ancient Symbols",
+    "type": "block",
+    "block": "Ancient Symbols",
+    "comment": "(U+10190..U+101cf)"
+  },
+  {
+    "lo": 66000,
+    "hi": 66047,
+    "name": "block:Phaistos Disc",
+    "type": "block",
+    "block": "Phaistos Disc",
+    "comment": "(U+101d0..U+101ff)"
+  },
+  {
+    "lo": 66176,
+    "hi": 66207,
+    "name": "block:Lycian",
+    "type": "block",
+    "block": "Lycian",
+    "comment": "(U+10280..U+1029f)"
+  },
+  {
+    "lo": 66208,
+    "hi": 66271,
+    "name": "block:Carian",
+    "type": "block",
+    "block": "Carian",
+    "comment": "(U+102a0..U+102df)"
+  },
+  {
+    "lo": 66272,
+    "hi": 66303,
+    "name": "block:Coptic Epact Numbers",
+    "type": "block",
+    "block": "Coptic Epact Numbers",
+    "comment": "(U+102e0..U+102ff)"
+  },
+  {
+    "lo": 66304,
+    "hi": 66351,
+    "name": "block:Old Italic",
+    "type": "block",
+    "block": "Old Italic",
+    "comment": "(U+10300..U+1032f)"
+  },
+  {
+    "lo": 66352,
+    "hi": 66383,
+    "name": "block:Gothic",
+    "type": "block",
+    "block": "Gothic",
+    "comment": "(U+10330..U+1034f)"
+  },
+  {
+    "lo": 66384,
+    "hi": 66431,
+    "name": "block:Old Permic",
+    "type": "block",
+    "block": "Old Permic",
+    "comment": "(U+10350..U+1037f)"
+  },
+  {
+    "lo": 66432,
+    "hi": 66463,
+    "name": "block:Ugaritic",
+    "type": "block",
+    "block": "Ugaritic",
+    "comment": "(U+10380..U+1039f)"
+  },
+  {
+    "lo": 66464,
+    "hi": 66527,
+    "name": "block:Old Persian",
+    "type": "block",
+    "block": "Old Persian",
+    "comment": "(U+103a0..U+103df)"
+  },
+  {
+    "lo": 66560,
+    "hi": 66639,
+    "name": "block:Deseret",
+    "type": "block",
+    "block": "Deseret",
+    "comment": "(U+10400..U+1044f)"
+  },
+  {
+    "lo": 66640,
+    "hi": 66687,
+    "name": "block:Shavian",
+    "type": "block",
+    "block": "Shavian",
+    "comment": "(U+10450..U+1047f)"
+  },
+  {
+    "lo": 66688,
+    "hi": 66735,
+    "name": "block:Osmanya",
+    "type": "block",
+    "block": "Osmanya",
+    "comment": "(U+10480..U+104af)"
+  },
+  {
+    "lo": 66736,
+    "hi": 66815,
+    "name": "block:Osage",
+    "type": "block",
+    "block": "Osage",
+    "comment": "(U+104b0..U+104ff)"
+  },
+  {
+    "lo": 66816,
+    "hi": 66863,
+    "name": "block:Elbasan",
+    "type": "block",
+    "block": "Elbasan",
+    "comment": "(U+10500..U+1052f)"
+  },
+  {
+    "lo": 66864,
+    "hi": 66927,
+    "name": "block:Caucasian Albanian",
+    "type": "block",
+    "block": "Caucasian Albanian",
+    "comment": "(U+10530..U+1056f)"
+  },
+  {
+    "lo": 67072,
+    "hi": 67455,
+    "name": "block:Linear A",
+    "type": "block",
+    "block": "Linear A",
+    "comment": "(U+10600..U+1077f)"
+  },
+  {
+    "lo": 67584,
+    "hi": 67647,
+    "name": "block:Cypriot Syllabary",
+    "type": "block",
+    "block": "Cypriot Syllabary",
+    "comment": "(U+10800..U+1083f)"
+  },
+  {
+    "lo": 67648,
+    "hi": 67679,
+    "name": "block:Imperial Aramaic",
+    "type": "block",
+    "block": "Imperial Aramaic",
+    "comment": "(U+10840..U+1085f)"
+  },
+  {
+    "lo": 67680,
+    "hi": 67711,
+    "name": "block:Palmyrene",
+    "type": "block",
+    "block": "Palmyrene",
+    "comment": "(U+10860..U+1087f)"
+  },
+  {
+    "lo": 67712,
+    "hi": 67759,
+    "name": "block:Nabataean",
+    "type": "block",
+    "block": "Nabataean",
+    "comment": "(U+10880..U+108af)"
+  },
+  {
+    "lo": 67808,
+    "hi": 67839,
+    "name": "block:Hatran",
+    "type": "block",
+    "block": "Hatran",
+    "comment": "(U+108e0..U+108ff)"
+  },
+  {
+    "lo": 67840,
+    "hi": 67871,
+    "name": "block:Phoenician",
+    "type": "block",
+    "block": "Phoenician",
+    "comment": "(U+10900..U+1091f)"
+  },
+  {
+    "lo": 67872,
+    "hi": 67903,
+    "name": "block:Lydian",
+    "type": "block",
+    "block": "Lydian",
+    "comment": "(U+10920..U+1093f)"
+  },
+  {
+    "lo": 67968,
+    "hi": 67999,
+    "name": "block:Meroitic Hieroglyphs",
+    "type": "block",
+    "block": "Meroitic Hieroglyphs",
+    "comment": "(U+10980..U+1099f)"
+  },
+  {
+    "lo": 68000,
+    "hi": 68095,
+    "name": "block:Meroitic Cursive",
+    "type": "block",
+    "block": "Meroitic Cursive",
+    "comment": "(U+109a0..U+109ff)"
+  },
+  {
+    "lo": 68096,
+    "hi": 68191,
+    "name": "block:Kharoshthi",
+    "type": "block",
+    "block": "Kharoshthi",
+    "comment": "(U+10a00..U+10a5f)"
+  },
+  {
+    "lo": 68192,
+    "hi": 68223,
+    "name": "block:Old South Arabian",
+    "type": "block",
+    "block": "Old South Arabian",
+    "comment": "(U+10a60..U+10a7f)"
+  },
+  {
+    "lo": 68224,
+    "hi": 68255,
+    "name": "block:Old North Arabian",
+    "type": "block",
+    "block": "Old North Arabian",
+    "comment": "(U+10a80..U+10a9f)"
+  },
+  {
+    "lo": 68288,
+    "hi": 68351,
+    "name": "block:Manichaean",
+    "type": "block",
+    "block": "Manichaean",
+    "comment": "(U+10ac0..U+10aff)"
+  },
+  {
+    "lo": 68352,
+    "hi": 68415,
+    "name": "block:Avestan",
+    "type": "block",
+    "block": "Avestan",
+    "comment": "(U+10b00..U+10b3f)"
+  },
+  {
+    "lo": 68416,
+    "hi": 68447,
+    "name": "block:Inscriptional Parthian",
+    "type": "block",
+    "block": "Inscriptional Parthian",
+    "comment": "(U+10b40..U+10b5f)"
+  },
+  {
+    "lo": 68448,
+    "hi": 68479,
+    "name": "block:Inscriptional Pahlavi",
+    "type": "block",
+    "block": "Inscriptional Pahlavi",
+    "comment": "(U+10b60..U+10b7f)"
+  },
+  {
+    "lo": 68480,
+    "hi": 68527,
+    "name": "block:Psalter Pahlavi",
+    "type": "block",
+    "block": "Psalter Pahlavi",
+    "comment": "(U+10b80..U+10baf)"
+  },
+  {
+    "lo": 68608,
+    "hi": 68687,
+    "name": "block:Old Turkic",
+    "type": "block",
+    "block": "Old Turkic",
+    "comment": "(U+10c00..U+10c4f)"
+  },
+  {
+    "lo": 68736,
+    "hi": 68863,
+    "name": "block:Old Hungarian",
+    "type": "block",
+    "block": "Old Hungarian",
+    "comment": "(U+10c80..U+10cff)"
+  },
+  {
+    "lo": 69216,
+    "hi": 69247,
+    "name": "block:Rumi Numeral Symbols",
+    "type": "block",
+    "block": "Rumi Numeral Symbols",
+    "comment": "(U+10e60..U+10e7f)"
+  },
+  {
+    "lo": 69632,
+    "hi": 69759,
+    "name": "block:Brahmi",
+    "type": "block",
+    "block": "Brahmi",
+    "comment": "(U+11000..U+1107f)"
+  },
+  {
+    "lo": 69760,
+    "hi": 69839,
+    "name": "block:Kaithi",
+    "type": "block",
+    "block": "Kaithi",
+    "comment": "(U+11080..U+110cf)"
+  },
+  {
+    "lo": 69840,
+    "hi": 69887,
+    "name": "block:Sora Sompeng",
+    "type": "block",
+    "block": "Sora Sompeng",
+    "comment": "(U+110d0..U+110ff)"
+  },
+  {
+    "lo": 69888,
+    "hi": 69967,
+    "name": "block:Chakma",
+    "type": "block",
+    "block": "Chakma",
+    "comment": "(U+11100..U+1114f)"
+  },
+  {
+    "lo": 69968,
+    "hi": 70015,
+    "name": "block:Mahajani",
+    "type": "block",
+    "block": "Mahajani",
+    "comment": "(U+11150..U+1117f)"
+  },
+  {
+    "lo": 70016,
+    "hi": 70111,
+    "name": "block:Sharada",
+    "type": "block",
+    "block": "Sharada",
+    "comment": "(U+11180..U+111df)"
+  },
+  {
+    "lo": 70112,
+    "hi": 70143,
+    "name": "block:Sinhala Archaic Numbers",
+    "type": "block",
+    "block": "Sinhala Archaic Numbers",
+    "comment": "(U+111e0..U+111ff)"
+  },
+  {
+    "lo": 70144,
+    "hi": 70223,
+    "name": "block:Khojki",
+    "type": "block",
+    "block": "Khojki",
+    "comment": "(U+11200..U+1124f)"
+  },
+  {
+    "lo": 70272,
+    "hi": 70319,
+    "name": "block:Multani",
+    "type": "block",
+    "block": "Multani",
+    "comment": "(U+11280..U+112af)"
+  },
+  {
+    "lo": 70320,
+    "hi": 70399,
+    "name": "block:Khudawadi",
+    "type": "block",
+    "block": "Khudawadi",
+    "comment": "(U+112b0..U+112ff)"
+  },
+  {
+    "lo": 70400,
+    "hi": 70527,
+    "name": "block:Grantha",
+    "type": "block",
+    "block": "Grantha",
+    "comment": "(U+11300..U+1137f)"
+  },
+  {
+    "lo": 70656,
+    "hi": 70783,
+    "name": "block:Newa",
+    "type": "block",
+    "block": "Newa",
+    "comment": "(U+11400..U+1147f)"
+  },
+  {
+    "lo": 70784,
+    "hi": 70879,
+    "name": "block:Tirhuta",
+    "type": "block",
+    "block": "Tirhuta",
+    "comment": "(U+11480..U+114df)"
+  },
+  {
+    "lo": 71040,
+    "hi": 71167,
+    "name": "block:Siddham",
+    "type": "block",
+    "block": "Siddham",
+    "comment": "(U+11580..U+115ff)"
+  },
+  {
+    "lo": 71168,
+    "hi": 71263,
+    "name": "block:Modi",
+    "type": "block",
+    "block": "Modi",
+    "comment": "(U+11600..U+1165f)"
+  },
+  {
+    "lo": 71264,
+    "hi": 71295,
+    "name": "block:Mongolian Supplement",
+    "type": "block",
+    "block": "Mongolian Supplement",
+    "comment": "(U+11660..U+1167f)"
+  },
+  {
+    "lo": 71296,
+    "hi": 71375,
+    "name": "block:Takri",
+    "type": "block",
+    "block": "Takri",
+    "comment": "(U+11680..U+116cf)"
+  },
+  {
+    "lo": 71424,
+    "hi": 71487,
+    "name": "block:Ahom",
+    "type": "block",
+    "block": "Ahom",
+    "comment": "(U+11700..U+1173f)"
+  },
+  {
+    "lo": 71840,
+    "hi": 71935,
+    "name": "block:Warang Citi",
+    "type": "block",
+    "block": "Warang Citi",
+    "comment": "(U+118a0..U+118ff)"
+  },
+  {
+    "lo": 72384,
+    "hi": 72447,
+    "name": "block:Pau Cin Hau",
+    "type": "block",
+    "block": "Pau Cin Hau",
+    "comment": "(U+11ac0..U+11aff)"
+  },
+  {
+    "lo": 72704,
+    "hi": 72815,
+    "name": "block:Bhaiksuki",
+    "type": "block",
+    "block": "Bhaiksuki",
+    "comment": "(U+11c00..U+11c6f)"
+  },
+  {
+    "lo": 72816,
+    "hi": 72895,
+    "name": "block:Marchen",
+    "type": "block",
+    "block": "Marchen",
+    "comment": "(U+11c70..U+11cbf)"
+  },
+  {
+    "lo": 73728,
+    "hi": 74751,
+    "name": "block:Cuneiform",
+    "type": "block",
+    "block": "Cuneiform",
+    "comment": "(U+12000..U+123ff)"
+  },
+  {
+    "lo": 74752,
+    "hi": 74879,
+    "name": "block:Cuneiform Numbers and Punctuation",
+    "type": "block",
+    "block": "Cuneiform Numbers and Punctuation",
+    "comment": "(U+12400..U+1247f)"
+  },
+  {
+    "lo": 74880,
+    "hi": 75087,
+    "name": "block:Early Dynastic Cuneiform",
+    "type": "block",
+    "block": "Early Dynastic Cuneiform",
+    "comment": "(U+12480..U+1254f)"
+  },
+  {
+    "lo": 77824,
+    "hi": 78895,
+    "name": "block:Egyptian Hieroglyphs",
+    "type": "block",
+    "block": "Egyptian Hieroglyphs",
+    "comment": "(U+13000..U+1342f)"
+  },
+  {
+    "lo": 82944,
+    "hi": 83583,
+    "name": "block:Anatolian Hieroglyphs",
+    "type": "block",
+    "block": "Anatolian Hieroglyphs",
+    "comment": "(U+14400..U+1467f)"
+  },
+  {
+    "lo": 92160,
+    "hi": 92735,
+    "name": "block:Bamum Supplement",
+    "type": "block",
+    "block": "Bamum Supplement",
+    "comment": "(U+16800..U+16a3f)"
+  },
+  {
+    "lo": 92736,
+    "hi": 92783,
+    "name": "block:Mro",
+    "type": "block",
+    "block": "Mro",
+    "comment": "(U+16a40..U+16a6f)"
+  },
+  {
+    "lo": 92880,
+    "hi": 92927,
+    "name": "block:Bassa Vah",
+    "type": "block",
+    "block": "Bassa Vah",
+    "comment": "(U+16ad0..U+16aff)"
+  },
+  {
+    "lo": 92928,
+    "hi": 93071,
+    "name": "block:Pahawh Hmong",
+    "type": "block",
+    "block": "Pahawh Hmong",
+    "comment": "(U+16b00..U+16b8f)"
+  },
+  {
+    "lo": 93952,
+    "hi": 94111,
+    "name": "block:Miao",
+    "type": "block",
+    "block": "Miao",
+    "comment": "(U+16f00..U+16f9f)"
+  },
+  {
+    "lo": 94176,
+    "hi": 94207,
+    "name": "block:Ideographic Symbols and Punctuation",
+    "type": "block",
+    "block": "Ideographic Symbols and Punctuation",
+    "comment": "(U+16fe0..U+16fff)"
+  },
+  {
+    "lo": 94208,
+    "hi": 100351,
+    "name": "block:Tangut",
+    "type": "block",
+    "block": "Tangut",
+    "comment": "(U+17000..U+187ff)"
+  },
+  {
+    "lo": 100352,
+    "hi": 101119,
+    "name": "block:Tangut Components",
+    "type": "block",
+    "block": "Tangut Components",
+    "comment": "(U+18800..U+18aff)"
+  },
+  {
+    "lo": 110592,
+    "hi": 110847,
+    "name": "block:Kana Supplement",
+    "type": "block",
+    "block": "Kana Supplement",
+    "comment": "(U+1b000..U+1b0ff)"
+  },
+  {
+    "lo": 113664,
+    "hi": 113823,
+    "name": "block:Duployan",
+    "type": "block",
+    "block": "Duployan",
+    "comment": "(U+1bc00..U+1bc9f)"
+  },
+  {
+    "lo": 113824,
+    "hi": 113839,
+    "name": "block:Shorthand Format Controls",
+    "type": "block",
+    "block": "Shorthand Format Controls",
+    "comment": "(U+1bca0..U+1bcaf)"
+  },
+  {
+    "lo": 118784,
+    "hi": 119039,
+    "name": "block:Byzantine Musical Symbols",
+    "type": "block",
+    "block": "Byzantine Musical Symbols",
+    "comment": "(U+1d000..U+1d0ff)"
+  },
+  {
+    "lo": 119040,
+    "hi": 119295,
+    "name": "block:Musical Symbols",
+    "type": "block",
+    "block": "Musical Symbols",
+    "comment": "(U+1d100..U+1d1ff)"
+  },
+  {
+    "lo": 119296,
+    "hi": 119375,
+    "name": "block:Ancient Greek Musical Notation",
+    "type": "block",
+    "block": "Ancient Greek Musical Notation",
+    "comment": "(U+1d200..U+1d24f)"
+  },
+  {
+    "lo": 119552,
+    "hi": 119647,
+    "name": "block:Tai Xuan Jing Symbols",
+    "type": "block",
+    "block": "Tai Xuan Jing Symbols",
+    "rsg": "u-txj-sym",
+    "comment": "(U+1d300..U+1d35f)"
+  },
+  {
+    "lo": 119648,
+    "hi": 119679,
+    "name": "block:Counting Rod Numerals",
+    "type": "block",
+    "block": "Counting Rod Numerals",
+    "comment": "(U+1d360..U+1d37f)"
+  },
+  {
+    "lo": 119808,
+    "hi": 120831,
+    "name": "block:Mathematical Alphanumeric Symbols",
+    "type": "block",
+    "block": "Mathematical Alphanumeric Symbols",
+    "comment": "(U+1d400..U+1d7ff)"
+  },
+  {
+    "lo": 120832,
+    "hi": 121519,
+    "name": "block:Sutton SignWriting",
+    "type": "block",
+    "block": "Sutton SignWriting",
+    "comment": "(U+1d800..U+1daaf)"
+  },
+  {
+    "lo": 122880,
+    "hi": 122927,
+    "name": "block:Glagolitic Supplement",
+    "type": "block",
+    "block": "Glagolitic Supplement",
+    "comment": "(U+1e000..U+1e02f)"
+  },
+  {
+    "lo": 124928,
+    "hi": 125151,
+    "name": "block:Mende Kikakui",
+    "type": "block",
+    "block": "Mende Kikakui",
+    "comment": "(U+1e800..U+1e8df)"
+  },
+  {
+    "lo": 125184,
+    "hi": 125279,
+    "name": "block:Adlam",
+    "type": "block",
+    "block": "Adlam",
+    "comment": "(U+1e900..U+1e95f)"
+  },
+  {
+    "lo": 126464,
+    "hi": 126719,
+    "name": "block:Arabic Mathematical Alphabetic Symbols",
+    "type": "block",
+    "block": "Arabic Mathematical Alphabetic Symbols",
+    "comment": "(U+1ee00..U+1eeff)"
+  },
+  {
+    "lo": 126976,
+    "hi": 127023,
+    "name": "block:Mahjong Tiles",
+    "type": "block",
+    "block": "Mahjong Tiles",
+    "comment": "(U+1f000..U+1f02f)"
+  },
+  {
+    "lo": 127024,
+    "hi": 127135,
+    "name": "block:Domino Tiles",
+    "type": "block",
+    "block": "Domino Tiles",
+    "comment": "(U+1f030..U+1f09f)"
+  },
+  {
+    "lo": 127136,
+    "hi": 127231,
+    "name": "block:Playing Cards",
+    "type": "block",
+    "block": "Playing Cards",
+    "comment": "(U+1f0a0..U+1f0ff)"
+  },
+  {
+    "lo": 127232,
+    "hi": 127487,
+    "name": "block:Enclosed Alphanumeric Supplement",
+    "type": "block",
+    "block": "Enclosed Alphanumeric Supplement",
+    "comment": "(U+1f100..U+1f1ff)"
+  },
+  {
+    "lo": 127488,
+    "hi": 127743,
+    "name": "block:Enclosed Ideographic Supplement",
+    "type": "block",
+    "block": "Enclosed Ideographic Supplement",
+    "rsg": "u-cjk-encsupp",
+    "comment": "(U+1f200..U+1f2ff)"
+  },
+  {
+    "lo": 127744,
+    "hi": 128511,
+    "name": "block:Miscellaneous Symbols and Pictographs",
+    "type": "block",
+    "block": "Miscellaneous Symbols and Pictographs",
+    "comment": "(U+1f300..U+1f5ff)"
+  },
+  {
+    "lo": 128512,
+    "hi": 128591,
+    "name": "block:Emoticons",
+    "type": "block",
+    "block": "Emoticons",
+    "comment": "(U+1f600..U+1f64f)"
+  },
+  {
+    "lo": 128592,
+    "hi": 128639,
+    "name": "block:Ornamental Dingbats",
+    "type": "block",
+    "block": "Ornamental Dingbats",
+    "comment": "(U+1f650..U+1f67f)"
+  },
+  {
+    "lo": 128640,
+    "hi": 128767,
+    "name": "block:Transport and Map Symbols",
+    "type": "block",
+    "block": "Transport and Map Symbols",
+    "comment": "(U+1f680..U+1f6ff)"
+  },
+  {
+    "lo": 128768,
+    "hi": 128895,
+    "name": "block:Alchemical Symbols",
+    "type": "block",
+    "block": "Alchemical Symbols",
+    "comment": "(U+1f700..U+1f77f)"
+  },
+  {
+    "lo": 128896,
+    "hi": 129023,
+    "name": "block:Geometric Shapes Extended",
+    "type": "block",
+    "block": "Geometric Shapes Extended",
+    "comment": "(U+1f780..U+1f7ff)"
+  },
+  {
+    "lo": 129024,
+    "hi": 129279,
+    "name": "block:Supplemental Arrows-C",
+    "type": "block",
+    "block": "Supplemental Arrows-C",
+    "comment": "(U+1f800..U+1f8ff)"
+  },
+  {
+    "lo": 129280,
+    "hi": 129535,
+    "name": "block:Supplemental Symbols and Pictographs",
+    "type": "block",
+    "block": "Supplemental Symbols and Pictographs",
+    "comment": "(U+1f900..U+1f9ff)"
+  },
+  {
+    "lo": 131072,
+    "hi": 173791,
+    "name": "block:CJK Unified Ideographs Extension B",
+    "type": "block",
+    "block": "CJK Unified Ideographs Extension B",
+    "rsg": "u-cjk-xb",
+    "comment": "(U+20000..U+2a6df)"
+  },
+  {
+    "lo": 173824,
+    "hi": 177983,
+    "name": "block:CJK Unified Ideographs Extension C",
+    "type": "block",
+    "block": "CJK Unified Ideographs Extension C",
+    "rsg": "u-cjk-xc",
+    "comment": "(U+2a700..U+2b73f)"
+  },
+  {
+    "lo": 177984,
+    "hi": 178207,
+    "name": "block:CJK Unified Ideographs Extension D",
+    "type": "block",
+    "block": "CJK Unified Ideographs Extension D",
+    "rsg": "u-cjk-xd",
+    "comment": "(U+2b740..U+2b81f)"
+  },
+  {
+    "lo": 178208,
+    "hi": 183983,
+    "name": "block:CJK Unified Ideographs Extension E",
+    "type": "block",
+    "block": "CJK Unified Ideographs Extension E",
+    "rsg": "u-cjk-xe",
+    "comment": "(U+2b820..U+2ceaf)"
+  },
+  {
+    "lo": 194560,
+    "hi": 195103,
+    "name": "block:CJK Compatibility Ideographs Supplement",
+    "type": "block",
+    "block": "CJK Compatibility Ideographs Supplement",
+    "rsg": "u-cjk-cmpi2",
+    "comment": "(U+2f800..U+2fa1f)"
+  },
+  {
+    "lo": 917504,
+    "hi": 917631,
+    "name": "block:Tags",
+    "type": "block",
+    "block": "Tags",
+    "comment": "(U+e0000..U+e007f)"
+  },
+  {
+    "lo": 917760,
+    "hi": 917999,
+    "name": "block:Variation Selectors Supplement",
+    "type": "block",
+    "block": "Variation Selectors Supplement",
+    "rsg": "u-varsl-s",
+    "comment": "(U+e0100..U+e01ef)"
+  },
+  {
+    "lo": 983040,
+    "hi": 1048575,
+    "name": "block:Supplementary Private Use Area-A",
+    "type": "block",
+    "block": "Supplementary Private Use Area-A",
+    "rsg": "u-pua-xa",
+    "comment": "(U+f0000..U+fffff)"
+  },
+  {
+    "lo": 1048576,
+    "hi": 1114111,
+    "name": "block:Supplementary Private Use Area-B",
+    "type": "block",
+    "block": "Supplementary Private Use Area-B",
+    "rsg": "u-pua-xb",
+    "comment": "(U+100000..U+10ffff)"
+  },
+  {
+    "lo": 19968,
+    "hi": 40959,
+    "comment": "(U+4e00..U+9fff) References RSG u-cjk (CJK Unified Ideographs).",
+    "tag": "cjk ideograph"
+  },
+  {
+    "lo": 13312,
+    "hi": 19903,
+    "comment": "(U+3400..U+4dbf) References RSG u-cjk-xa (CJK Unified Ideographs Extension A).",
+    "tag": "cjk ideograph"
+  },
+  {
+    "lo": 131072,
+    "hi": 173791,
+    "comment": "(U+20000..U+2a6df) References RSG u-cjk-xb (CJK Unified Ideographs Extension B).",
+    "tag": "cjk ideograph"
+  },
+  {
+    "lo": 173824,
+    "hi": 177983,
+    "comment": "(U+2a700..U+2b73f) References RSG u-cjk-xc (CJK Unified Ideographs Extension C).",
+    "tag": "cjk ideograph"
+  },
+  {
+    "lo": 177984,
+    "hi": 178207,
+    "comment": "(U+2b740..U+2b81f) References RSG u-cjk-xd (CJK Unified Ideographs Extension D).",
+    "tag": "cjk ideograph"
+  },
+  {
+    "lo": 178208,
+    "hi": 183983,
+    "comment": "(U+2b820..U+2ceaf) References RSG u-cjk-xe (CJK Unified Ideographs Extension E).",
+    "tag": "cjk ideograph"
+  },
+  {
+    "lo": 12272,
+    "hi": 12287,
+    "comment": "(U+2ff0..U+2fff) References RSG u-cjk-idc (Ideographic Description Characters).",
+    "tag": "cjk idl"
+  },
+  {
+    "lo": 12736,
+    "hi": 12783,
+    "comment": "(U+31c0..U+31ef) References RSG u-cjk-strk (CJK Strokes).",
+    "tag": "cjk stroke ideograph"
+  },
+  {
+    "lo": 12800,
+    "hi": 13055,
+    "comment": "(U+3200..U+32ff) References RSG u-cjk-enclett (Enclosed CJK Letters and Months).",
+    "tag": "cjk"
+  },
+  {
+    "lo": 12832,
+    "hi": 12871,
+    "tag": "cjk ideograph",
+    "comment": "(U+3220..U+3247)"
+  },
+  {
+    "lo": 12928,
+    "hi": 12976,
+    "tag": "cjk ideograph",
+    "comment": "(U+3280..U+32b0)"
+  },
+  {
+    "lo": 12032,
+    "hi": 12255,
+    "comment": "(U+2f00..U+2fdf) References RSG u-cjk-rad1 (Kangxi Radicals).",
+    "tag": "cjk ideograph kxr"
+  },
+  {
+    "lo": 11904,
+    "hi": 12031,
+    "comment": "(U+2e80..U+2eff) References RSG u-cjk-rad2 (CJK Radicals Supplement).",
+    "tag": "cjk ideograph"
+  },
+  {
+    "lo": 12352,
+    "hi": 12447,
+    "comment": "(U+3040..U+309f) References RSG u-cjk-hira (Hiragana).",
+    "tag": "cjk japanese kana hiragana"
+  },
+  {
+    "lo": 12448,
+    "hi": 12543,
+    "comment": "(U+30a0..U+30ff) References RSG u-cjk-kata (Katakana).",
+    "tag": "cjk japanese kana katakana"
+  },
+  {
+    "lo": 12688,
+    "hi": 12703,
+    "comment": "(U+3190..U+319f) References RSG u-cjk-kanbun (Kanbun).",
+    "tag": "cjk japanese kanbun"
+  },
+  {
+    "lo": 12784,
+    "hi": 12799,
+    "comment": "(U+31f0..U+31ff) References RSG u-cjk-kata-x (Katakana Phonetic Extensions).",
+    "tag": "cjk japanese kana katakana"
+  },
+  {
+    "lo": 4352,
+    "hi": 4607,
+    "comment": "(U+1100..U+11ff) References RSG u-hang-jm (Hangul Jamo).",
+    "tag": "cjk korean hangeul jamo"
+  },
+  {
+    "lo": 44032,
+    "hi": 55215,
+    "comment": "(U+ac00..U+d7af) References RSG u-hang-syl (Hangul Syllables).",
+    "tag": "cjk korean hangeul syllable"
+  },
+  {
+    "lo": 43360,
+    "hi": 43391,
+    "comment": "(U+a960..U+a97f) References RSG u-hang-jm-xa (Hangul Jamo Extended-A).",
+    "tag": "cjk korean hangeul jamo"
+  },
+  {
+    "lo": 55216,
+    "hi": 55295,
+    "comment": "(U+d7b0..U+d7ff) References RSG u-hang-jm-xb (Hangul Jamo Extended-B).",
+    "tag": "cjk korean hangeul jamo"
+  },
+  {
+    "lo": 12592,
+    "hi": 12687,
+    "comment": "(U+3130..U+318f) References RSG u-hang-comp-jm (Hangul Compatibility Jamo).",
+    "tag": "cjk korean hangeul jamo"
+  },
+  {
+    "lo": 12544,
+    "hi": 12591,
+    "comment": "(U+3100..U+312f) References RSG u-bopo (Bopomofo).",
+    "tag": "cjk bopomofo"
+  },
+  {
+    "lo": 12704,
+    "hi": 12735,
+    "comment": "(U+31a0..U+31bf) References RSG u-bopo-x (Bopomofo Extended).",
+    "tag": "cjk bopomofo"
+  },
+  {
+    "lo": 65072,
+    "hi": 65103,
+    "comment": "(U+fe30..U+fe4f) References RSG u-cjk-cmpf (CJK Compatibility Forms).",
+    "tag": "cjk vertical"
+  },
+  {
+    "lo": 65093,
+    "hi": 65094,
+    "tag": "-vertical",
+    "comment": "(U+fe45..U+fe46)"
+  },
+  {
+    "lo": 65097,
+    "hi": 65103,
+    "tag": "-vertical",
+    "comment": "(U+fe49..U+fe4f)"
+  },
+  {
+    "lo": 65040,
+    "hi": 65055,
+    "comment": "(U+fe10..U+fe1f) References RSG u-vertf (Vertical Forms).",
+    "tag": "cjk vertical"
+  },
+  {
+    "lo": 9728,
+    "hi": 9983,
+    "comment": "(U+2600..U+26ff) References RSG u-sym (Miscellaneous Symbols)."
+  },
+  {
+    "lo": 9775,
+    "hi": 9783,
+    "tag": "cjk",
+    "comment": "(U+262f..U+2637)"
+  },
+  {
+    "lo": 9776,
+    "hi": 9783,
+    "tag": "cjk yijing trigram",
+    "comment": "(U+2630..U+2637)"
+  },
+  {
+    "lo": 19904,
+    "hi": 19967,
+    "comment": "(U+4dc0..U+4dff) References RSG u-yijng (Yijing Hexagram Symbols).",
+    "tag": "cjk yijing hexagram"
+  },
+  {
+    "lo": 119552,
+    "hi": 119647,
+    "comment": "(U+1d300..U+1d35f) References RSG u-txj-sym (Tai Xuan Jing Symbols).",
+    "tag": "cjk yijing taixuanjing tetragram"
+  },
+  {
+    "lo": 13056,
+    "hi": 13311,
+    "comment": "(U+3300..U+33ff) References RSG u-cjk-cmp (CJK Compatibility).",
+    "tag": "cjk"
+  },
+  {
+    "lo": 13179,
+    "hi": 13183,
+    "tag": "cjk ideograph",
+    "comment": "(U+337b..U+337f)"
+  },
+  {
+    "lo": 63744,
+    "hi": 64255,
+    "comment": "(U+f900..U+faff) References RSG u-cjk-cmpi1 (CJK Compatibility Ideographs).",
+    "tag": "cjk ideograph"
+  },
+  {
+    "lo": 194560,
+    "hi": 195103,
+    "comment": "(U+2f800..U+2fa1f) References RSG u-cjk-cmpi2 (CJK Compatibility Ideographs Supplement).",
+    "tag": "cjk ideograph"
+  },
+  {
+    "lo": 57344,
+    "hi": 63743,
+    "comment": "(U+e000..U+f8ff) References RSG u-pua (Private Use Area).",
+    "tag": "pua"
+  },
+  {
+    "lo": 983040,
+    "hi": 1048575,
+    "comment": "(U+f0000..U+fffff) References RSG u-pua-xa (Supplementary Private Use Area-A).",
+    "tag": "pua"
+  },
+  {
+    "lo": 1048576,
+    "hi": 1114111,
+    "comment": "(U+100000..U+10ffff) References RSG u-pua-xb (Supplementary Private Use Area-B).",
+    "tag": "pua"
+  },
+  {
+    "lo": 12288,
+    "hi": 12351,
+    "comment": "(U+3000..U+303f) References RSG u-cjk-sym (CJK Symbols and Punctuation).",
+    "tag": "cjk"
+  },
+  {
+    "lo": 12289,
+    "hi": 12291,
+    "tag": "punctuation",
+    "comment": "(U+3001..U+3003)"
+  },
+  {
+    "lo": 12292,
+    "hi": 12292,
+    "tag": "symbol",
+    "comment": "(U+3004..U+3004)"
+  },
+  {
+    "lo": 12293,
+    "hi": 12295,
+    "tag": "ideograph",
+    "comment": "(U+3005..U+3007)"
+  },
+  {
+    "lo": 12296,
+    "hi": 12305,
+    "tag": "punctuation",
+    "comment": "(U+3008..U+3011)"
+  },
+  {
+    "lo": 12306,
+    "hi": 12306,
+    "tag": "symbol",
+    "comment": "(U+3012..U+3012)"
+  },
+  {
+    "lo": 12307,
+    "hi": 12307,
+    "tag": "ideograph geta",
+    "comment": "(U+3013..U+3013)"
+  },
+  {
+    "lo": 12308,
+    "hi": 12319,
+    "tag": "punctuation",
+    "comment": "(U+3014..U+301f)"
+  },
+  {
+    "lo": 12320,
+    "hi": 12320,
+    "tag": "symbol",
+    "comment": "(U+3020..U+3020)"
+  },
+  {
+    "lo": 12321,
+    "hi": 12329,
+    "tag": "ideograph",
+    "comment": "(U+3021..U+3029)"
+  },
+  {
+    "lo": 12330,
+    "hi": 12336,
+    "tag": "punctuation",
+    "comment": "(U+302a..U+3030)"
+  },
+  {
+    "lo": 12337,
+    "hi": 12341,
+    "tag": "kana",
+    "comment": "(U+3031..U+3035)"
+  },
+  {
+    "lo": 12342,
+    "hi": 12343,
+    "tag": "symbol",
+    "comment": "(U+3036..U+3037)"
+  },
+  {
+    "lo": 12344,
+    "hi": 12348,
+    "tag": "ideograph",
+    "comment": "(U+3038..U+303c)"
+  },
+  {
+    "lo": 12349,
+    "hi": 12349,
+    "tag": "symbol",
+    "comment": "(U+303d..U+303d)"
+  }
+]

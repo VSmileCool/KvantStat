@@ -1,0 +1,157 @@
+
+# # Asssociations between Range Sigils (RSGs) or codepoint intervals and tags
+
+
+# NOTE: Fields are separated by
+#
+# — *one* or more tabs (U+0009), or
+# — *two* or more spaces (U+0020), or
+#
+# combinations thereof.
+
+
+
+#...........................................................................................................
+u-cjk               cjk ideograph                             # block: CJK Unified Ideographs
+#...........................................................................................................
+u-cjk-xa            cjk ideograph                             # block: CJK Unified Ideographs Extension A
+u-cjk-xb            cjk ideograph                             # block: CJK Unified Ideographs Extension B
+u-cjk-xc            cjk ideograph                             # block: CJK Unified Ideographs Extension C
+u-cjk-xd            cjk ideograph                             # block: CJK Unified Ideographs Extension D
+u-cjk-xe            cjk ideograph                             # block: CJK Unified Ideographs Extension E
+# u-cjk-xf            cjk ideograph                             # block: CJK Unified Ideographs Extension F
+u-cjk-strk          cjk stroke ideograph                      # block: CJK Strokes
+#...........................................................................................................
+u-cjk-enclett       cjk enclosed                              # block: Enclosed CJK Letters and Months
+^3220..3247         cjk ideograph                             # ㈠..㉇
+^3280..32b0         cjk ideograph                             # ㊀..㊰
+#...........................................................................................................
+u-cjk-rad1          cjk ideograph kxr                         # block: Kangxi Radicals
+u-cjk-rad2          cjk ideograph                             # block: CJK Radicals Supplement
+#...........................................................................................................
+u-cjk-hira          cjk japanese kana hiragana                # block: Hiragana
+u-cjk-kata          cjk japanese kana katakana                # block: Katakana
+u-cjk-kanbun        cjk japanese kanbun                       # block: Kanbun
+u-cjk-kata-x        cjk japanese kana katakana                # block: Katakana Phonetic Extensions
+#...........................................................................................................
+u-hang-jm           cjk korean hangeul jamo                   # block: Hangul Jamo
+u-hang-syl          cjk korean hangeul syllable               # block: Hangul Syllables
+u-hang-jm-xa        cjk korean hangeul jamo                   # block: Hangul Jamo Extended-A
+u-hang-jm-xb        cjk korean hangeul jamo                   # block: Hangul Jamo Extended-B
+u-hang-comp-jm      cjk korean hangeul jamo                   # block: Hangul Compatibility Jamo
+#...........................................................................................................
+u-bopo              cjk bopomofo                              # block: Bopomofo
+u-bopo-x            cjk bopomofo                              # block: Bopomofo Extended
+#...........................................................................................................
+u-cjk-cmpf          cjk punctuation                           # block: CJK Compatibility Forms
+^fe30..fe48         vertical
+u-vertf             cjk vertical punctuation                  # block: Vertical Forms
+#...........................................................................................................
+u-sym                                                         # block: Miscellaneous Symbols
+^262f..2637         cjk
+^2630..2637         cjk yijing trigram
+u-yijng             cjk yijing hexagram                       # block: Yijing Hexagram Symbols
+u-txj-sym           cjk yijing taixuanjing tetragram          # block: Tai Xuan Jing Symbols
+#...........................................................................................................
+u-cjk-cmp           cjk                                       # block: CJK Compatibility
+^337b..337f         cjk ideograph                             # ㍻㍼㍽㍾㍿
+#...........................................................................................................
+u-cjk-cmpi1         cjk ideograph                             # block: CJK Compatibility Ideographs
+u-cjk-cmpi2         cjk ideograph                             # block: CJK Compatibility Ideographs Supplement
+#...........................................................................................................
+u-pua               pua puax-                                 # block: Private Use Area
+u-pua-xa            pua puax+                                 # Supplementary Private Use Area-A
+u-pua-xb            pua puax+                                 # Supplementary Private Use Area-B
+#...........................................................................................................
+u-cjk-sym           cjk                                       # block: CJK Symbols and Punctuation
+^3001..3003         punctuation                               # 、。〃
+^3004..3004         symbol                                    # 〄
+^3005..3007         ideograph                                 # 々〆〇
+^3008..3011         punctuation                               # 〈〉《》「」『』【】
+^3012..3012         symbol                                    # 〒
+^3013..3013         ideograph geta                            # 〓
+^3014..301f         punctuation                               # 〔〕〖〗〘〙〚〛〜〝〞〟
+^3020..3020         symbol                                    # 〠
+^3021..3029         ideograph                                 # 〡〢〣〤〥〦〧〨〩
+^302a..3030         punctuation                               # 〪〭〮〯〫〬〰
+^3031..3035         kana                                      # 〱〲〳〴〵
+^3036..3037         symbol                                    # 〶〷
+^3038..303c         ideograph                                 # 〸〹〺〻〼〽
+^303d..303d         symbol                                    # 〽
+#...........................................................................................................
+^d800..dfff         surrogate
+#...........................................................................................................
+^00a7..00a7         cjk idlx                                  # §
+u-cjk-idc           cjk idl idlb                              # block: Ideographic Description Characters
+^28..28             cjk idl idlx open-bracket                 # (
+^29..29             cjk idl idlx close-bracket                # )
+^2194..2194         cjk idl idlx                              # ↔
+^21bb..21bb         cjk idl idlx                              # ↻
+^2248..2248         cjk idl idlx                              # ≈ (deprecated)
+^3c..3c             cjk idl idlx                              # <
+^3e..3e             cjk idl idlx                              # >
+^3f..3f             cjk idl idlx                              # ?
+^2195..2195         cjk idl idlx                              # ↕
+^24e7..24e7         cjk idl idlx                              # ⓧ
+^24e8..24e8         cjk idl idlx                              # ⓨ
+^24e9..24e9         cjk idl idlx                              # ⓩ
+^3013..3013         cjk idl idlx                              # 〓
+^a7..a7             cjk idl idlx                              # §
+^25bd..25bd         cjk idl idlx                              # ▽
+^25cf..25cf         cjk idl idlx terminal                     # ●
+^25f0..25f0         cjk idl idlx                              # ◰
+^2ff0..2ff0         idlx                                      # ⿰
+^2ff1..2ff1         idlx                                      # ⿱
+# ^2ff2..2ff2                                                   # ⿲
+# ^2ff3..2ff3                                                   # ⿳
+^2ff4..2ff4         idlx                                      # ⿴
+^2ff5..2ff5         idlx                                      # ⿵
+^2ff6..2ff6         idlx                                      # ⿶
+^2ff7..2ff7         idlx                                      # ⿷
+^2ff8..2ff8         idlx                                      # ⿸
+^2ff9..2ff9         idlx                                      # ⿹
+^2ffa..2ffa         idlx                                      # ⿺
+^2ffb..2ffb         idlx                                      # ⿻
+
+^2205..2205   idl idlx2 nosuchformula                         # ∅ (automatically supplied empty formula)
+^e01b..e01b   idl idlx2                                       # 
+^e01c..e01c   idl idlx2                                       # 
+^e01d..e01d   idl idlx2                                       # 
+^e024..e024   idl idlx2                                       # 
+^e025..e025   idl idlx2                                       # 
+^e026..e026   idl idlx2                                       # 
+^e027..e027   idl idlx2                                       # 
+^e028..e028   idl idlx2                                       # 
+^e029..e029   idl idlx2                                       # 
+^e02a..e02a   idl idlx2                                       # 
+^e02b..e02b   idl idlx2                                       # 
+^e02c..e02c   idl idlx2                                       # 
+^e02d..e02d   idl idlx2                                       # 
+^e02e..e02e   idl idlx2                                       # 
+^e02f..e02f   idl idlx2                                       # 
+^e030..e030   idl idlx2                                       # 
+^e031..e031   idl idlx2                                       # 
+^e032..e032   idl idlx2                                       # 
+^e033..e033   idl idlx2                                       # 
+^e034..e034   idl idlx2                                       # 
+^e035..e035   idl idlx2                                       # 
+^e036..e036   idl idlx2                                       # 
+^e037..e037   idl idlx2                                       # 
+^e038..e038   idl idlx2                                       # 
+^e039..e039   idl idlx2                                       # 
+^e03a..e03a   idl idlx2                                       # 
+^e03b..e03b   idl idlx2                                       # 
+^e03c..e03c   idl idlx2                                       # 
+^e03d..e03d   idl idlx2                                       # 
+^e03e..e03e   idl idlx2                                       # 
+^e03f..e03f   idl idlx2                                       # 
+^e040..e040   idl idlx2                                       # 
+^e041..e041   idl idlx2                                       # 
+^e042..e042   idl idlx2                                       # 
+^e043..e043   idl idlx2                                       # 
+^e044..e044   idl idlx2                                       # 
+^e045..e045   idl idlx2                                       # 
+^e046..e046   idl idlx2                                       # 
+^e047..e047   idl idlx2                                       # 
+^e048..e048   idl idlx2                                       # 
+^e049..e049   idl idlx2                                       # 

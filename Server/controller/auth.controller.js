@@ -1,54 +1,67 @@
-const userService = require("../services/user.service");
-const crypto = require("crypto");
-class UserController {
-  async registration(req, res) {
-    try {
-      res.set("Access-Control-Allow-Origin", "*");
-      const {
-        firstname,
-        surname,
-        patronymic,
-        certificate,
-        yearOfIssue,
-        rights,
-      } = req.body;
-      const userData = await userService.registration(
-        firstname,
-        surname,
-        patronymic,
-        certificate,
-        yearOfIssue,
-        rights
-      );
-      res.cookie({
-        maxAge: 30 * 24 * 60 * 60 * 1000,
-        httpOnly: true,
-      });
-      return res.json({
-        return: userData,
-      });
-    } catch (e) {
-      console.log(e);
-    }
-  }
+const authService = require('../services/auth.service')
+const tokenService = require('../services/token.service')
 
-  async login(req, res) {
-    try {
-      res.set("Access-Control-Allow-Origin", "*");
-      const email = req.body.email;
-      const password = req.body.password;
-      const userData = await userService.login(email, password);
-      return res.json(userData);
-    } catch (e) {
-      console.log(e);
-    }
-  }
+class AuthController{
+    async registration(req, res, next){
+        try {
+            const name = req.body.name
+            const code = req.body.code
+            const email = req.body.email
+            const password = req.body.password
+            const userData = await authService.registration(name, code, email, password, )
+            console.log(userData)
+            res.cookie('refreshToken', userData.refreshToken, {maxAge: 30 * 24 * 60 * 60 * 1000, httpOnly: true})
+            return res.status(200).json(userData)
+        }catch (e){
+            next(e)
+        }
 
-  async getUsers(req, res) {
-    try {
-      res.json("sozdal vse");
-    } catch (e) {}
-  }
+    }
+
+    async login(req, res, next){
+        try {
+            const email = req.body.email
+            const password = req.body.password
+            const userData = await authService.login(email, password);
+            res.cookie('refreshToken', userData.refreshToken, {maxAge: 30 * 24 * 60 * 60 * 1000, httpOnly: true})
+            console.log(userData)
+            return res.json(userData);
+        }catch (e){
+            next(e)
+        }
+    }
+
+    async refresh(req, res, next) {
+        try {
+            const refreshToken = req.cookies['refreshToken']
+            const userData = await authService.refresh(refreshToken);
+            res.cookie('refreshToken', userData.refreshToken, {maxAge: 30 * 24 * 60 * 60 * 1000, httpOnly: true})
+            return res.json(userData);
+        } catch (e) {
+            next(e);
+        }
+    }
+
+    async logout(req, res, next) {
+        try {
+            const refreshToken = req.cookies['refreshToken']
+            const token = await authService.logout(refreshToken);
+            res.clearCookie('refreshToken');
+            return res.json(token);
+        } catch (e) {
+            next(e);
+        }
+    }
+
+    async getUsers(req, res, next) {
+        try {
+            const users = await authService.getAllUsers();
+            return res.json(users);
+        } catch (e) {
+            next(e);
+        }
+    }
+
 }
 
-module.exports = new UserController();
+module.exports = new AuthController();

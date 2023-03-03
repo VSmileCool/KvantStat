@@ -1,0 +1,13 @@
+lockfileVersion: 5.3
+
+specifiers:
+  multimix: ^5.0.0
+
+dependencies:
+  multimix: 5.0.0
+
+packages:
+
+  /multimix/5.0.0:
+    resolution: {integrity: sha512-N9cdGSDDD7kxOV7R6e4iZqsHTZ4F4iiSDWqMcVqx4gEH6HBtRXav39Gj3fgT1YqvBcwPCQuf0Oa5R2cDaLWK8A==}
+    dev: false

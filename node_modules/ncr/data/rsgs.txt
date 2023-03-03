@@ -1,0 +1,98 @@
+
+# # Asssociations between 'range sigils' (RSGs) and Unicode Block names
+
+# NOTE: Fields are separated by
+#
+# — *one* or more tabs (U+0009), or
+# — *two* or more spaces (U+0020), or
+#
+# combinations thereof.
+
+
+u-abc-pf                                Alphabetic Presentation Forms
+u-arab                                  Arabic
+u-arab-pf-a                             Arabic Presentation Forms-A
+u-arab-pf-b                             Arabic Presentation Forms-B
+u-arab-s                                Arabic Supplement
+u-arrow                                 Arrows
+u-arrow-a                               Supplemental Arrows-A
+u-arrow-b                               Supplemental Arrows-B
+u-block                                 Block Elements
+u-bopo                                  Bopomofo
+u-bopo-x                                Bopomofo Extended
+u-boxdr                                 Box Drawing
+u-brail                                 Braille Patterns
+u-cdm                                   Combining Diacritical Marks
+u-cdm-s                                 Combining Diacritical Marks Supplement
+u-cdm-sy                                Combining Diacritical Marks for Symbols
+u-cjk                                   CJK Unified Ideographs
+u-cjk-cmp                               CJK Compatibility
+u-cjk-cmpf                              CJK Compatibility Forms
+u-cjk-cmpi1                             CJK Compatibility Ideographs
+u-cjk-cmpi2                             CJK Compatibility Ideographs Supplement
+u-cjk-enclett                           Enclosed CJK Letters and Months
+u-cjk-encsupp                           Enclosed Ideographic Supplement
+u-cjk-hira                              Hiragana
+u-cjk-idc                               Ideographic Description Characters
+u-cjk-kanbun                            Kanbun
+u-cjk-kata                              Katakana
+u-cjk-kata-x                            Katakana Phonetic Extensions
+u-cjk-rad1                              Kangxi Radicals
+u-cjk-rad2                              CJK Radicals Supplement
+u-cjk-strk                              CJK Strokes
+u-cjk-sym                               CJK Symbols and Punctuation
+u-cjk-xa                                CJK Unified Ideographs Extension A
+u-cjk-xb                                CJK Unified Ideographs Extension B
+u-cjk-xc                                CJK Unified Ideographs Extension C
+u-cjk-xd                                CJK Unified Ideographs Extension D
+u-cjk-xe                                CJK Unified Ideographs Extension E
+# u-cjk-xf                                CJK Unified Ideographs Extension F
+u-ctrlp                                 Control Pictures
+u-currn                                 Currency Symbols
+u-cyrl                                  Cyrillic
+u-cyrl-a                                Cyrillic Extended-A
+u-cyrl-b                                Cyrillic Extended-B
+u-cyrl-s                                Cyrillic Supplement
+u-dingb                                 Dingbats
+u-enalp                                 Enclosed Alphanumerics
+u-geoms                                 Geometric Shapes
+u-grek                                  Greek and Coptic
+u-grek-x                                Greek Extended
+u-halfull                               Halfwidth and Fullwidth Forms
+u-hang-comp-jm                          Hangul Compatibility Jamo
+u-hang-jm                               Hangul Jamo
+u-hang-jm-xa                            Hangul Jamo Extended-A
+u-hang-jm-xb                            Hangul Jamo Extended-B
+u-hang-syl                              Hangul Syllables
+u-ipa-x                                 IPA Extensions
+u-latn                                  Basic Latin
+u-latn-1                                Latin-1 Supplement
+u-latn-a                                Latin Extended-A
+u-latn-b                                Latin Extended-B
+u-latn-c                                Latin Extended-C
+u-latn-d                                Latin Extended-D
+u-latn-xa                               Latin Extended Additional
+u-llsym                                 Letterlike Symbols
+u-maths-a                               Miscellaneous Mathematical Symbols-A
+u-num                                   Number Forms
+u-ocr                                   Optical Character Recognition
+u-olck                                  Ol Chiki
+u-phon-x                                Phonetic Extensions
+u-phon-xs                               Phonetic Extensions Supplement
+u-pua                                   Private Use Area
+u-pua-xa                                Supplementary Private Use Area-A
+u-pua-xb                                Supplementary Private Use Area-B
+u-punct                                 General Punctuation
+u-punct-s                               Supplemental Punctuation
+u-small                                 Small Form Variants
+u-sml                                   Spacing Modifier Letters
+u-special                               Specials
+u-supsub                                Superscripts and Subscripts
+u-sym                                   Miscellaneous Symbols
+u-txj-sym                               Tai Xuan Jing Symbols
+u-varsl                                 Variation Selectors
+u-varsl-s                               Variation Selectors Supplement
+u-vertf                                 Vertical Forms
+u-yijng                                 Yijing Hexagram Symbols
+
+

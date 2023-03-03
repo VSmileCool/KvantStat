@@ -1,5 +1,5 @@
 const InstitutesService = require("../services/institute.service");
-const userService = require("../services/user.service");
+const userService = require("../services/auth.service");
 
 class InstitutesController {
   async getAllInstitutes(req, res) {

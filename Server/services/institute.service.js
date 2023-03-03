@@ -2,8 +2,7 @@ const institutes_model = require("../models/institute.model");
 
 class InstituteService {
   async getAllInstitutes() {
-    const institutes = await institutes_model.findAll();
-    return institutes.map((institute) => institute.toJSON());
+    return await institutes_model.findAll;
   }
 
   async createInstitute(name) {

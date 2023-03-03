@@ -1,20 +1,16 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../db");
 
-const Institute = sequelize.define("Institute", {
-  id: {
+const institutes = sequelize.define("institutes", {
+  institute_id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
+    allowNull: false,
     autoIncrement: true,
   },
-  name: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  },
-  location: {
+  institute_name: {
     type: DataTypes.STRING,
     allowNull: false,
   },
 });
-
-module.exports = Institute;
+module.exports = institutes;

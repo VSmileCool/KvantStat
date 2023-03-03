@@ -1,0 +1,54 @@
+
+# # Planes and Areas
+
+# NOTE: Fields are separated by
+#
+# — *one* or more tabs (U+0009), or
+# — *two* or more spaces (U+0020), or
+#
+# combinations thereof.
+
+
+#-----------------------------------------------------------------------------------------------------------
+# Data from "The Unicode Standard, V9.0.0"
+
+^0000..ffff         plane       Basic Multilingual Plane (BMP)
+^10000..1ffff       plane       Supplementary Multilingual Plane (SMP)
+^20000..2ffff       plane       Supplementary Ideographic Plane (SIP)
+^30000..3ffff       plane       Tertiary Ideographic Plane (TIP)
+^e0000..efffd       plane       Supplementary Special-purpose Plane (SSP)
+^f0000..ffffd       plane       Private Use Area (PUA)
+^100000..10fffd     plane       Private Use Area (PUA)
+
+#-----------------------------------------------------------------------------------------------------------
+# Data from
+# "The Unicode Standard, V9.0.0", p49, Figure 2-14. "Allocation on the BMP" and
+# "The Unicode Standard, V9.0.0", p51, Figure 2-15. "Allocation on Plane 1"
+
+^0000..00ff         area        ASCII & Latin-1 Compatibility Area
+^0100..058f         area        General Scripts Area
+^0590..08ff         area        General Scripts Area (RTL)
+^0900..1fff         area        General Scripts Area
+^2000..2bff         area        Punctuation and Symbols Area
+^2c00..2dff         area        General Scripts Area
+^2e00..2e7f         area        Supplemental Punctuation Area
+^2e80..33ff         area        CJK Miscellaneous Area
+^3400..9fff         area        CJKV Unified Ideographs Area
+^a000..abff         area        General Scripts Area (Asia & Africa)
+^ac00..d7ff         area        Hangul Syllables Area
+^d800..dfff         area        Surrogate Codes
+^e000..f8ff         area        Private Use Area (PUA)
+^f900..ffff         area        Compatibility and Specials Area
+^10000..107ff       area        General Scripts Area
+^10800..10fff       area        General Scripts Area (RTL)
+^11000..11fff       area        General Scripts Area
+^12000..15fff       area        Cuneiform & Hieroglyphic Area
+^16000..16fff       area        General Scripts Area
+^17000..1bbff       area        Ideographic Scripts Area
+^1bc00..1cfff       area        General Scripts Area
+^1d000..1e7ff       area        Symbols Area
+^1e800..1efff       area        General Scripts Area (RTL)
+^1f000..1ffff       area        Symbols Area
+
+# EOF
+
