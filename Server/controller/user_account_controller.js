@@ -1,4 +1,4 @@
-const authService = require('../services/auth.service')
+const authService = require('../services/user_account_service')
 const tokenService = require('../services/token.service')
 
 class AuthController{
