@@ -23,7 +23,7 @@ const User = sequelize.define("User", {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  yearOfIssue: {
+  yearOfGraduation: {
     type: DataTypes.INTEGER,
     allowNull: false,
   },
@@ -37,8 +37,16 @@ const User = sequelize.define("User", {
     allowNull: false,
     unique: true,
   },
+  email: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
   password: {
     type: DataTypes.STRING,
+    allowNull: false,
+  },
+  confirmation: {
+    type: DataTypes.BOOLEAN,
     allowNull: false,
   },
 });

@@ -1,9 +1,9 @@
-const userService = require("../services/user.service");
-const crypto = require("crypto");
-class UserController {
-  async registration(req, res) {
+const authService = require("../services/auth.service");
+const tokenService = require("../services/token.service");
+
+class AuthController {
+  async registration(req, res, next) {
     try {
-      res.set("Access-Control-Allow-Origin", "*");
       const {
         firstname,
         surname,
@@ -11,44 +11,42 @@ class UserController {
         certificate,
         yearOfIssue,
         rights,
+        password,
+        confirmation,
       } = req.body;
-      const userData = await userService.registration(
+      const userData = await authService.registration(
         firstname,
         surname,
         patronymic,
         certificate,
         yearOfIssue,
-        rights
+        rights,
+        password
       );
-      res.cookie({
+      res.cookie("refreshToken", userData.refreshToken, {
         maxAge: 30 * 24 * 60 * 60 * 1000,
         httpOnly: true,
       });
-      return res.json({
-        return: userData,
-      });
+      return res.status(200).json(userData);
     } catch (e) {
-      console.log(e);
+      next(e);
     }
   }
 
-  async login(req, res) {
+  async login(req, res, next) {
     try {
-      res.set("Access-Control-Allow-Origin", "*");
-      const email = req.body.email;
-      const password = req.body.password;
-      const userData = await userService.login(email, password);
+      const { login, password } = req.body;
+      const userData = await authService.login(login, password);
+      res.cookie("refreshToken", userData.refreshToken, {
+        maxAge: 30 * 24 * 60 * 60 * 1000,
+        httpOnly: true,
+      });
+      console.log(userData);
       return res.json(userData);
     } catch (e) {
-      console.log(e);
+      next(e);
     }
-  }
-
-  async getUsers(req, res) {
-    try {
-      res.json("sozdal vse");
-    } catch (e) {}
   }
 }
 
-module.exports = new UserController();
+module.exports = new AuthController();

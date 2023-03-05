@@ -1,54 +1,29 @@
-const winston = require("winston");
+const admin_router = require("./routes/admin.routes");
+const auth_router = require("./routes/auth.routes");
+const user_router = require("../test_back/routes/user.router");
+const errorMiddleware = require("../test_back/middlewares/error.mddleware");
 const express = require("express");
 const sequelize = require("./db");
 const cookieParser = require("cookie-parser");
-const cors = require("cors");
-const certificate_router = require("./routes/certificate.routes");
-const auth_router = require("./routes/auth.routes");
-const institute_router = require("./routes/institute.routes");
-
-// Create a logger
-const logger = winston.createLogger({
-  level: "info",
-  format: winston.format.combine(
-    winston.format.timestamp(),
-    winston.format.printf((info) => {
-      const { timestamp, level, message } = info;
-      const levelColor =
-        level === "error"
-          ? "\x1b[31m" // Red
-          : level === "warn"
-          ? "\x1b[33m" // Yellow
-          : "\x1b[32m"; // Green
-      const resetColor = "\x1b[0m"; // Reset color
-      return `[${timestamp}] ${levelColor}${level.toUpperCase()}${resetColor}: ${message}`;
-    })
-  ),
-  transports: [
-    new winston.transports.Console(),
-    new winston.transports.File({ filename: "logs.log" }),
-  ],
-});
 
 const app = express();
-const PORT = 4000;
+const PORT = "4999";
 
-app.use(cors());
 app.use(express.json());
-app.use("/api", certificate_router);
+app.use("/user", user_router);
 app.use("/auth", auth_router);
-app.use("/institute", institute_router);
+app.use("/admin", admin_router);
 app.use(cookieParser());
+app.use(errorMiddleware);
 
 const start = async () => {
   try {
     await sequelize.authenticate();
-    await sequelize.sync({ force: true });
-    app.listen(PORT, () => {
-      logger.info(`Server started on port ${PORT}`);
-    });
+    await sequelize.sync();
+    console.log("успешное подклюение к бд");
+    app.listen(PORT, () => console.log("сервер работает"));
   } catch (error) {
-    logger.error(`Error starting server: ${error.message}`);
+    console.log("ошибка: " + error);
   }
 };
 
