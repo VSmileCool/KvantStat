@@ -10,7 +10,14 @@ export interface User {
 
 export const authService = {
   async login(email: string, password: string): Promise<User> {
-    const response = await axios.post<User>("/api/login", { email, password });
+    console.log("AUTH");
+    const response = await axios.post<User>(
+      "http://localhost:/4000/auth/registration",
+      {
+        email,
+        password,
+      }
+    );
     return response.data;
   },
 

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { login, register } from "../redux/actions/AuthActions";
 import "../css/Auth.css";
+import { useDispatch } from "react-redux";
 const Auth = () => {
   const [certificateCode, setCertificateCode] = useState("");
   const [email, setEmail] = useState("");
@@ -91,7 +92,7 @@ const Auth = () => {
         )}
 
         <input
-          type="email"
+          type="text"
           id="email"
           required
           value={email}

@@ -14,6 +14,7 @@ export const login = (
   password: string
 ): ThunkAction<void, RootState, null, LoginSuccessAction> => {
   return async (dispatch) => {
+    console.log("PREAUTH");
     const user = await authService.login(email, password);
     dispatch({ type: "LOGIN_SUCCESS", payload: user });
   };

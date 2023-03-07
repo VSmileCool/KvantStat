@@ -1,7 +1,8 @@
 import React from "react";
+import WorldMap from "../components/map";
 
 const InstituteMap = () => {
-  return <div>InstituteMap</div>;
+  return <WorldMap />;
 };
 
 export default InstituteMap;
