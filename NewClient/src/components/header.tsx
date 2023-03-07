@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../img/КВАНТОРИУМ.png";
 import "../css/header.css";
 import { useLocation, useNavigate } from "react-router-dom";
+
 const Header: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();

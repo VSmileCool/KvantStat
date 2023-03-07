@@ -7,7 +7,7 @@ import {
   LOGOUT_SUCCESS,
   REGISTER_SUCCESS,
 } from "../types/AuthTypes";
-import { authService, User } from "../../http/auth";
+import { authService } from "../../http/auth";
 
 export const login = (
   email: string,

@@ -8,39 +8,56 @@ input {
   color: #000;
   margin-bottom: 15px;
 }
+
 input::-webkit-input-placeholder {
   color: #c7c7cc;
 }
+
 input::-moz-placeholder {
   color: #c7c7cc;
 }
+
 input:-ms-input-placeholder {
   color: #c7c7cc;
 }
+
 input::-ms-input-placeholder {
   color: #c7c7cc;
 }
+
 input::placeholder {
   color: #c7c7cc;
 }
+
 input:focus {
   outline: none;
-  background: -webkit-gradient(linear, left top, right top, from(#0066cc), to(#33ccff));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0066cc),
+    to(#33ccff)
+  );
   background: linear-gradient(to right, #0066cc, #33ccff);
   color: #fff;
 }
+
 input:focus::-webkit-input-placeholder {
   color: #e0e0e0;
 }
+
 input:focus::-moz-placeholder {
   color: #e0e0e0;
 }
+
 input:focus:-ms-input-placeholder {
   color: #e0e0e0;
 }
+
 input:focus::-ms-input-placeholder {
   color: #e0e0e0;
 }
+
 input:focus::placeholder {
   color: #e0e0e0;
 }
@@ -51,21 +68,28 @@ form {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
+
 form:first-child {
   margin-top: 70px;
 }
 
 .auth {
-  background: -webkit-gradient(linear, left top, right top, from(#0066cc), to(#33ccff));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0066cc),
+    to(#33ccff)
+  );
   background: linear-gradient(to right, #0066cc, #33ccff);
   color: white;
   font-size: 18px;

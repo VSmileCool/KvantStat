@@ -7,18 +7,22 @@ input {
   background-color: #f2f2f7;
   color: #000;
   margin-bottom: 15px;
+
   &::placeholder {
     color: #c7c7cc;
   }
+
   &:focus {
     outline: none;
     background: linear-gradient(to right, #0066cc, #33ccff);
     color: #fff;
+
     &::placeholder {
       color: #e0e0e0;
     }
   }
 }
+
 form {
   &:first-child {
     margin-top: 70px;
@@ -29,6 +33,7 @@ form {
   justify-content: center;
   align-items: center;
 }
+
 .auth {
   background: linear-gradient(to right, #0066cc, #33ccff);
   color: white;
