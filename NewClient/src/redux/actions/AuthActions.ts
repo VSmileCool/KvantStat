@@ -7,17 +7,12 @@ import {
   LOGOUT_SUCCESS,
   REGISTER_SUCCESS,
 } from "../types/AuthTypes";
-import { authService } from "../../http/auth";
+import { authService, User } from "../../http/auth";
 
-export const login = (
-  email: string,
-  password: string
-): ThunkAction<void, RootState, null, LoginSuccessAction> => {
-  return async (dispatch) => {
-    console.log("PREAUTH");
-    const user = await authService.login(email, password);
-    dispatch({ type: "LOGIN_SUCCESS", payload: user });
-  };
+export const login = (email: string, password: string): Promise<User> => {
+  console.log("AAA");
+  const user = authService.login(email, password);
+  return user;
 };
 
 export const logout = (): ThunkAction<

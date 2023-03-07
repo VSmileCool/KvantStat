@@ -1,5 +1,4 @@
-import { Sequelize } from "sequelize";
-
+const Sequelize = require("sequelize");
 const db = new Sequelize({
   database: "KvantStat",
   username: "postgres",

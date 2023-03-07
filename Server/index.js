@@ -1,11 +1,10 @@
 // const admin_router = require("./routes/admin.routes");
-const auth_router = require("./routes/auth.routes");
-const user_router = require("./routes/user.router");
-const errorMiddleware = require("./middlewares/error.mddleware");
 const express = require("express");
 const sequelize = require("./db");
 const cookieParser = require("cookie-parser");
-
+import * as user_router from "./routes/user.router";
+import * as errorMiddleware from "./middlewares/error.mddleware";
+import * as auth_router from "./routes/auth.routes";
 const app = express();
 const PORT = "4999";
 
