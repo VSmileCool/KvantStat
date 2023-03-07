@@ -7,6 +7,7 @@ const university_model = require('./models/university_model')
 const admin_model = require('./models/admin.model')
 const certificate_id_model = require('./models/cetrificate.model')
 const user_model = require('./models/user_model')
+const user_account_model = require('./models/user_acount_model')
 // const user_info_model = require('./models/')
 
 //routes

@@ -4,11 +4,10 @@ const tokenService = require('../services/token.service')
 class AuthController{
     async registration(req, res, next){
         try {
-            const name = req.body.name
-            const code = req.body.code
-            const email = req.body.email
+            const id = req.body.id
+            const login = req.body.login
             const password = req.body.password
-            const userData = await authService.registration(name, code, email, password, )
+            const userData = await authService.registration(id, login, password, )
             console.log(userData)
             res.cookie('refreshToken', userData.refreshToken, {maxAge: 30 * 24 * 60 * 60 * 1000, httpOnly: true})
             return res.status(200).json(userData)

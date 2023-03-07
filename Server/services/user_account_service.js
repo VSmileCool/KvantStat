@@ -5,23 +5,22 @@ const ApiError = require('../middleware/error.middleware');
 const bcrypt = require('bcrypt')
 
 class UserService{
-    async registration(name, code, email, password){
-        const candidate = await user_info.findOne({where:{user_email: email}})
+    async registration(id, login, password){
+        const candidate = await user_info.findOne({where:{login: login}})
             if (candidate){
-                throw ApiError.BadRequest('пользователь с такой почтой уже есть')
+                throw ApiError.BadRequest('пользователь с таким логином уже есть')
             }
             const hashPassword = bcrypt.hashSync(password, 5)
             const new_user = new user_info({
-                user_code: code,
-                user_email: email,
-                user_password: hashPassword,
-                user_name: name,
+                id: id,
+                password: hashPassword,
+                login: login,
             })
             await new_user.save()
 
             const user = await user_info.findOne({where:{user_email: email}})
-            const userId = user.user_id
-            const userDto = new UserDto(email, userId)
+            const userId = user.id
+            const userDto = new UserDto(login, userId)
             const tokens = tokenService.generateTokens({...userDto})
             await tokenService.saveToken(userDto.id, tokens.refreshToken);
             return {...tokens}
