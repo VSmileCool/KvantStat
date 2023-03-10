@@ -1,11 +1,12 @@
 const Sequelize = require("sequelize");
+
 const db = new Sequelize({
-  database: "KvantStat",
+  database: "postgres",
   username: "postgres",
-  password: "root",
+  password: "superuser",
   host: "localhost",
   dialect: "postgres",
-  port: 5432,
+  port: "5432",
 });
 
-export default db;
+module.exports = db;

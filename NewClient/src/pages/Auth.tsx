@@ -30,7 +30,6 @@ const Auth = () => {
 
     if (isLogin) {
       login(email, password);
-      console.log("AUth");
     } else {
       user.certificateCode = certificateCode;
       user.firstName = firstName;

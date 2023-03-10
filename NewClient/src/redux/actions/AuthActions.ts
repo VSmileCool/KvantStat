@@ -9,10 +9,8 @@ import {
 } from "../types/AuthTypes";
 import { authService, User } from "../../http/auth";
 
-export const login = (email: string, password: string): Promise<User> => {
-  console.log("AAA");
-  const user = authService.login(email, password);
-  return user;
+export const login = (email: string, password: string) => {
+  return authService.login(email, password);
 };
 
 export const logout = (): ThunkAction<
