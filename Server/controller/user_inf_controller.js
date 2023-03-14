@@ -7,14 +7,14 @@ class UserController {
     async save_user_info(req, res) {
 
         try {
-
-            const id = req.body.id
             const first_name = req.body.first_name
             const last_name = req.body.last_name
             const father_name = req.body.father_name
             const email = req.body.email
             const certificat = req.body.certificat
             const date_of_birthday = req.body.date_of_birthday
+
+            const id = ;
 
             const res_json = user_inf_service.save_user_info
             
