@@ -27,11 +27,11 @@ class UserService {
   }
 
   async login(email, password) {
-    const user = await user_info.findOne({ where: { user_email: email } });
+    const user = await user_info.findOne({ where: { email: email } });
     if (!user) {
       throw ApiError.BadRequest("Пользователь с таким именем не найден");
     }
-    const validPassword = bcrypt.compareSync(password, user.user_password);
+    const validPassword = bcrypt.compareSync(password, user.password);
     if (!validPassword) {
       throw ApiError.BadRequest("Неправильный пароль");
     }
