@@ -2,26 +2,27 @@ const user_info = require('../models/user_model')
 const tokenService = require('./token.service')
 const UserDto = require('../dtos/user.dto')
 const ApiError = require('../middleware/error.middleware');
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcrypt');
+const user_acc = require('../models/user_acount_model');
 
 class UserService{
-    async registration(id, login, password){
-        const candidate = await user_info.findOne({where:{login: login}})
+    async registration(login, password){
+        const candidate = await user_acc.findOne({where:{login: login}})
             if (candidate){
                 throw ApiError.BadRequest('пользователь с таким логином уже есть')
             }
             const hashPassword = bcrypt.hashSync(password, 5)
-            const new_user = new user_info({
-                id: id,
+            const new_user = new user_acc({
                 password: hashPassword,
                 login: login,
             })
             await new_user.save()
 
-            const user = await user_info.findOne({where:{user_email: email}})
-            const userId = user.id
+            const userId = new_user.id
+            console.log(userId)
             const userDto = new UserDto(login, userId)
             const tokens = tokenService.generateTokens({...userDto})
+            console.log(tokens)
             await tokenService.saveToken(userDto.id, tokens.refreshToken);
             return {...tokens}
     }

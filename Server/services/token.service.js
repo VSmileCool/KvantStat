@@ -12,22 +12,23 @@ class TokenService {
   }
 
   async saveToken(userId, refreshToken){
-    const tokenData = await token_model.findOne({where:{userUserId:userId}})
+    const tokenData = await token_model.findOne({where:{userAccountId:userId}})
+    console.log(tokenData)
       if(tokenData){
         tokenData.refreshToken = refreshToken
         tokenData.save()
       }
-      const token = await token_model.create({userUserId:userId, refreshToken})
+      const token = await token_model.create({userAccountId:userId, refreshToken})
       return token
   }
 
   async saveAdmToken(userId, refreshToken){
-    const tokenData = await token_model.findOne({where:{userUserId:userId}})
+    const tokenData = await token_model.findOne({where:{userAccountId:userId}})
     if(tokenData){
       tokenData.refreshToken = refreshToken
       tokenData.save()
     }
-    const token = await token_model.create({userUserId:userId, refreshToken})
+    const token = await token_model.create({userAccountId:userId, refreshToken})
     return token
   }
 
