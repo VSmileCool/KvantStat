@@ -1,0 +1,12 @@
+.footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: #bec6ca;
+  color: black;
+  height: 46px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/*# sourceMappingURL=Footer.css.map */

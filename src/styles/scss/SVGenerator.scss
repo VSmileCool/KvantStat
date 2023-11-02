@@ -1,0 +1,11 @@
+.svg-container {
+  position: relative;
+
+  .svg-path {
+    transition: filter 0.3s;
+  }
+
+  .svg-path-active {
+    filter: brightness(1.2); /* Увеличьте значение, чтобы увеличить яркость */
+  }
+}

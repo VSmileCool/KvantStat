@@ -1,0 +1,35 @@
+.chooser {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 28px 0;
+}
+
+.chooser .selector {
+  background-color: #e6e6e6;
+  width: 1080px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+
+.chooser .selector .button {
+  background-color: black;
+  width: 300px;
+  height: 50px;
+  color: white;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.chooser .selector .button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+/*# sourceMappingURL=Selector.css.map */

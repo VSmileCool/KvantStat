@@ -1,0 +1,158 @@
+.back {
+  background-color: #c1dfe7;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  margin: 30px auto;
+  padding: 25px;
+  min-height: 550px;
+  width: 700px;
+}
+
+.input {
+  background: #ffffff;
+  border: 2px solid #1a9dc0;
+  border-radius: 30px;
+  height: 60px;
+  margin-top: 36px;
+  padding: 10px;
+  width: 500px;
+
+  &::placeholder {
+    color: rgba(0, 150, 191, 0.4);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    transform: translateX(30px) translateY(3px);
+  }
+
+  &:focus,
+  &:hover {
+    border: 3px solid #1a9dc0;
+    transition: border 0s ease;
+  }
+}
+
+.checkbox.style-c {
+  margin-top: 30px;
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-weight: 800;
+  user-select: none;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+    &:checked {
+      ~ .checkbox__checkmark {
+        background-color: rgba(0, 150, 191, 0.4);
+
+        &:after {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .checkbox__checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    transition: background-color 0.25s ease;
+    border-radius: 5px;
+
+    &:after {
+      filter: brightness(0) invert(1);
+      content: "";
+      position: absolute;
+      left: 7px;
+      top: 2px;
+      width: 5px;
+      height: 10px;
+      border: solid #333;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+  }
+
+  .checkbox__body {
+    color: #333;
+    line-height: 1.4;
+    font-size: 16px;
+  }
+
+  &:hover {
+    input ~ .checkbox__checkmark {
+      background-color: #eee;
+    }
+
+    input:checked ~ .checkbox__checkmark {
+      background-color: rgba(0, 150, 191, 0.4);
+    }
+  }
+}
+
+.login {
+  font-size: 28px;
+  color: white;
+  width: 360px;
+  height: 70px;
+  background: black;
+  border-radius: 60px;
+  margin-top: 24px;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background: white;
+    color: black;
+    box-shadow: 1px 1px grey;
+    transition: background 0.25s ease, color 0.25s ease;
+  }
+}
+
+.registration {
+  border: 1px solid #0096bf;
+  border-radius: 60px;
+  width: 300px;
+  height: 70px;
+  background-color: transparent;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0096bf;
+  margin: 15px auto;
+  cursor: pointer;
+
+  &:hover {
+    transition: background 0.25s ease, color 0.25s ease;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-bottom: 17px;
+    box-shadow: 1px 1px grey;
+  }
+}

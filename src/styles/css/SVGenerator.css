@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.svg-container {
+  position: relative;
+}
+
+.svg-container .svg-path {
+  transition: filter 0.3s;
+}
+
+.svg-container .svg-path-active {
+  filter: brightness(1.2); /* Увеличьте значение, чтобы увеличить яркость */
+}
+
+/*# sourceMappingURL=SVGenerator.css.map */

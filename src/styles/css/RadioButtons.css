@@ -1,0 +1,21 @@
+.radio-buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 16px auto;
+  background-color: #e6e6e6;
+  width: 1000px;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.radio-buttons .radio-buttons__input {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  width: 334px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=RadioButtons.css.map */
