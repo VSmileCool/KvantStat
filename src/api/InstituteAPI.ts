@@ -4,15 +4,15 @@ import { AxiosResponse } from "axios";
 /**
  * Получает список институтов в определенном федеральном округе.
  *
- * @param federal_district - Федеральный округ, для которого необходимо получить институты.
+ * @param federalDistrict - Федеральный округ, для которого необходимо получить институты.
  * @returns Promise, который разрешается в список институтов.
  */
 export const getInstitutes = async (
-  federal_district: string
+  federalDistrict: string
 ): Promise<Array<string>> => {
   try {
-    const response = await $host.post("university/university-get", {
-      federal_district,
+    const response = await $host.post("/api/v1/universities/s", {
+      federalDistrict,
     });
     console.log("getInstitutes - Статус:", response.status);
     return response.data;
