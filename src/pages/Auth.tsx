@@ -11,11 +11,10 @@ const Auth = () => {
   const background = isLogin ? "#c1dfe7" : "#E7DCC1";
 
   const [formData, setFormData] = useState({
-    code: "",
     firstName: "",
     lastName: "",
     patronymic: "",
-    certificate: "",
+    certificateId: 0,
     password: "",
     email: "",
     login: "",
@@ -29,15 +28,16 @@ const Auth = () => {
   const handleFormSubmit = (e: any) => {
     e.preventDefault();
     if (isLogin) {
-      login(formData.login, formData.password);
+      login(formData.email, formData.password);
     } else {
       register(
         formData.email,
-        formData.certificate,
+        formData.certificateId,
         formData.firstName,
         formData.lastName,
         formData.patronymic,
-        formData.institute
+        formData.institute,
+        formData.password,
       );
       navigate(REGISTRATION_ROUTE);
     }
@@ -62,11 +62,11 @@ const Auth = () => {
       return (
         <>
           <input
-            className="code input"
+            className="certificateId input"
             type="text"
             placeholder="Код сертификата"
-            value={formData.code}
-            name="code"
+            value={formData.certificateId}
+            name="certificateId"
             onChange={handleInputChange}
           />
           <input
@@ -112,9 +112,8 @@ const Auth = () => {
           value={formData.email}
           name="email"
           onChange={handleInputChange}
-          placeholder={isLogin ? "Логин" : "Email"}
+          placeholder={isLogin ? "Почта" : "Email"}
         />
-        {isLogin && (
           <input
             className="password input"
             type="password"
@@ -123,7 +122,6 @@ const Auth = () => {
             onChange={handleInputChange}
             placeholder="Пароль"
           />
-        )}
         <label className="checkbox style-c">
           <input type="checkbox" />
           <div className="checkbox__checkmark"></div>

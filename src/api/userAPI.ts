@@ -3,16 +3,17 @@ import { $host } from "./index";
 interface Iregistr {
   (
     email: string,
-    certificate: string,
-    name: string,
+    certificateId: number,
+    firstname: string,
     surname: string,
     lastname: string,
-    institute: string
+    institute: string,
+    password: string,
   ): Promise<any>;
 }
 
 interface Ilogin {
-  (login: string, password: string): Promise<any>;
+  (email: string, password: string): Promise<any>;
 }
 
 interface Iexit {
@@ -21,25 +22,28 @@ interface Iexit {
 
 export const register: Iregistr = async (
   email,
-  certificate,
-  name,
+  certificateId,
+  firstname,
   surname,
   lastname,
-  institute
+  institute,
+  password
 ) => {
-  const { data, status } = await $host.post("auth/registration", {
+  const { data, status } = await $host.post("auth/signUp", {
     email,
-    certificate,
-    name,
+    certificateId,
+    firstname,
     surname,
     lastname,
     institute,
+    password,
   });
   console.log(status);
   return data;
 };
-export const login: Ilogin = async (login, password) => {
-  const { data, status } = await $host.post("auth/login", { login, password });
+export const login: Ilogin = async (email, password) => {
+  console.log(email + " " + password)
+  const { data, status } = await $host.post("auth/login", { email, password });
   console.log(status);
   return data;
 };
