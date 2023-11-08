@@ -1,14 +1,22 @@
 import React from "react";
 import Offcanvas, { OffcanvasPlacement } from "react-bootstrap/Offcanvas";
 
+/**
+ * Props for the OffCanvasExample component.
+ */
 interface OffCanvasExampleProps {
   show: boolean;
   handleClose: () => void;
-  text: any;
+  text: any[]; // Ensure that `text` is an array
   title?: string;
   placement: OffcanvasPlacement;
 }
 
+/**
+ * OffCanvasExample is a React component that displays off-canvas content.
+ *
+ * @param {OffCanvasExampleProps} props - The component props.
+ */
 const OffCanvasExample: React.FC<OffCanvasExampleProps> = ({
   show,
   handleClose,
