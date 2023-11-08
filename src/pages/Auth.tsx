@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { LOGIN_ROUTE, REGISTRATION_ROUTE } from "../router/consts";
+import {FULLMAP_ROUTE, LOGIN_ROUTE, REGISTRATION_ROUTE, SIMPLEMAP_ROUTE} from "../router/consts";
 import "../styles/css/Auth.css";
 import { login, register } from "../api/userAPI";
 
@@ -39,7 +39,7 @@ const Auth = () => {
         formData.institute,
         formData.password,
       );
-      navigate(REGISTRATION_ROUTE);
+      navigate(FULLMAP_ROUTE);
     }
   };
 

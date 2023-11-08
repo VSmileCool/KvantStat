@@ -28,7 +28,7 @@ export const getInstitutes = async (
  * @param id - Идентификатор института, для которого необходимо получить изображение.
  * @returns Promise, который разрешается данными изображения в формате Blob или ошибкой.
  */
-export const getImg = async (id: string) => {
+export const getImg = async (id: number) => {
   try {
     const response: AxiosResponse = await $host.get(`university/${id}/image`);
     return await response.data.blob();
@@ -44,7 +44,7 @@ export const getImg = async (id: string) => {
  * @param id - Идентификатор института, для которого необходимо получить описание.
  * @returns Promise, который разрешается описанием института.
  */
-export const getInstituteDescription = async (id: string): Promise<any> => {
+export const getInstituteDescription = async (id: number): Promise<any> => {
   try {
     const response = await $host.get(`/institute/${id}`);
     return response.data;

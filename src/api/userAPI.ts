@@ -1,5 +1,7 @@
 import { $host } from "./index";
-
+import { useSelector } from "react-redux";
+import { saveAccessToken } from "../store/userAction";
+import { RootState } from "../store/userSlice";
 interface Iregistr {
   (
     email: string,
@@ -8,7 +10,7 @@ interface Iregistr {
     surname: string,
     lastname: string,
     institute: string,
-    password: string,
+    password: string
   ): Promise<any>;
 }
 
@@ -39,12 +41,14 @@ export const register: Iregistr = async (
     password,
   });
   console.log(status);
+  data.token ? saveAccessToken(data.token) : null;
   return data;
 };
 export const login: Ilogin = async (email, password) => {
-  console.log(email + " " + password)
+  console.log(email + " " + password);
   const { data, status } = await $host.post("auth/login", { email, password });
   console.log(status);
+  data.token ? saveAccessToken(data.token) : null;
   return data;
 };
 export const exit: Iexit = async (refreshToken) => {
@@ -55,4 +59,12 @@ export const exit: Iexit = async (refreshToken) => {
   );
   console.log(status);
   return data;
+};
+export const Ientered = async (instituteID: number, access_token: any) => {
+  const { data, status } = await $host.post("auth/login", {
+    access_token,
+    instituteID,
+  });
+  console.log(status);
+  return status;
 };
