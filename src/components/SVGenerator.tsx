@@ -17,7 +17,7 @@ const regionTitles = {
 
 const SVGGenerator: React.FC = () => {
   const [show, setShow] = useState(false);
-  const [text, setText] = useState<Array<string>>([]);
+  const [text, setText] = useState<Array<any>>([]);
   const [title, setTitle] = useState<string>("");
 
   const handleClose = () => {

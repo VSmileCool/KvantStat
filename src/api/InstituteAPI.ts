@@ -46,7 +46,7 @@ export const getImg = async (id: number) => {
  */
 export const getInstituteDescription = async (id: number): Promise<any> => {
   try {
-    const response = await $host.get(`/institute/${id}`);
+    const response = await $host.get(`/api/v1/universities/about/${id}`);
     return response.data;
   } catch (error) {
     console.error(`getInstituteDescriptions - Ошибка: ${error}`);

@@ -7,7 +7,7 @@ import Offcanvas, { OffcanvasPlacement } from "react-bootstrap/Offcanvas";
 interface OffCanvasExampleProps {
   show: boolean;
   handleClose: () => void;
-  text: any[]; // Ensure that `text` is an array
+  text: Array<any>; // Ensure that `text` is an array
   title?: string;
   placement: OffcanvasPlacement;
 }
@@ -32,7 +32,7 @@ const OffCanvasExample: React.FC<OffCanvasExampleProps> = ({
       <Offcanvas.Body>
         {text.map((institute: any, index: number) => (
           <div key={index}>
-            <h2>{institute}</h2>
+            <h2>{institute.name}</h2>
             <div className="black-stripe"></div>
           </div>
         ))}
