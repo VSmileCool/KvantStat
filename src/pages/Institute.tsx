@@ -23,7 +23,7 @@ const Institute = (): JSX.Element => {
 
   const [screenShot, setScreenshot] = useState<string | undefined>("");
   const [description, setDescription] = useState<string>("");
-  const [listOfIncoming, setListOfIncoming] = useState<string[] | null>(null);
+  const [listOfIncoming, setListOfIncoming] = useState<Array<any> | null>(null);
   const [name, setName] = useState<string>("");
   const [confirm, setConfirm] = useState<string | null>(null);
   const access_token = useSelector((state: RootState) => state.access_token);
@@ -32,15 +32,20 @@ const Institute = (): JSX.Element => {
    */
   const fetchData = async (): Promise<void> => {
     try {
-      const [img, response] = await Promise.all([
-        getImg(id),
+      // const [img, response] = await Promise.all([
+      //   getImg(id),
+      //   getInstituteDescription(id),
+      // ]);
+      // console.log(`Получен ответ ${img}`);
+      // setScreenshot(URL.createObjectURL(img));
+
+      const [response] = await Promise.all([
         getInstituteDescription(id),
       ]);
-      console.log(`Получен ответ ${img}`);
-      setScreenshot(URL.createObjectURL(img));
 
-      const instituteData: InstituteData = response.data;
+      const instituteData: InstituteData = response;
       const { description, listOfIncoming, name } = instituteData;
+      console.log(instituteData.description + listOfIncoming + name)
 
       setDescription(description);
       setListOfIncoming(listOfIncoming);
@@ -88,7 +93,7 @@ const Institute = (): JSX.Element => {
       {listOfIncoming ? (
         listOfIncoming.map((incomer) => (
           <div key={incomer}>
-            <h4 className="Institute-incomer">{incomer}</h4>
+            <h4 className="Institute-incomer">{incomer.firstname} {incomer.lastname} {incomer.surname}</h4>
             <div className="black-stripe" />
           </div>
         ))

@@ -41,14 +41,14 @@ export const register: Iregistr = async (
     password,
   });
   console.log(status);
-  data.token ? saveAccessToken(data.token) : null;
   return data;
 };
 export const login: Ilogin = async (email, password) => {
   console.log(email + " " + password);
   const { data, status } = await $host.post("auth/login", { email, password });
   console.log(status);
-  data.token ? saveAccessToken(data.token) : null;
+  console.log(data.accessToken);
+  data.token ? saveAccessToken(data.accessToken) : null;
   return data;
 };
 export const exit: Iexit = async (refreshToken) => {
@@ -61,10 +61,12 @@ export const exit: Iexit = async (refreshToken) => {
   return data;
 };
 export const Ientered = async (instituteID: number, access_token: any) => {
-  const { data, status } = await $host.post("auth/login", {
-    access_token,
+  console.log(access_token)
+  const { data, status } = await $host.post("auth/addUserToUni", {
+    headers:{"Authorization" : "Bearer " + access_token},
     instituteID,
-  });
+  },
+  );
   console.log(status);
   return status;
 };
