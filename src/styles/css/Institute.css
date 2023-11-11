@@ -1,5 +1,5 @@
 .Institute-page {
-  background: #f5dfd1;
+  background-color: #f5dfd1;
   padding: 40px 0;
 }
 .Institute-page .Institute-name {
@@ -7,7 +7,6 @@
   text-align: center;
   color: #000;
   font-size: 36px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
@@ -16,7 +15,6 @@
   text-align: justify;
   color: #000;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   width: 1080px;
@@ -29,9 +27,9 @@
 .Institute-page .Institute-incomer {
   color: #000;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 200px;
 }
 .Institute-page .black-stripe {
   background-color: black;
@@ -39,7 +37,7 @@
   width: 100%;
 }
 .Institute-page .IenteredButton {
-  background: #000;
+  background-color: #000;
   border-radius: 30px;
   display: inline-block;
   padding: 10px 40px;

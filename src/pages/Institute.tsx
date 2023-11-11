@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getImg, getInstituteDescription } from "../api/InstituteAPI";
+import { instituteEntry } from "../api/userAPI";
 import "../styles/css/Institute.css";
-import { Ientered } from "../api/userAPI";
-import { useSelector } from "react-redux";
-import { RootState } from "../store/userSlice";
 
 /**
  * Интерфейс для данных, получаемых от API.
@@ -25,8 +23,8 @@ const Institute = (): JSX.Element => {
   const [description, setDescription] = useState<string>("");
   const [listOfIncoming, setListOfIncoming] = useState<string[] | null>(null);
   const [name, setName] = useState<string>("");
-  const [confirm, setConfirm] = useState<string | null>(null);
-  const access_token = useSelector((state: RootState) => state.access_token);
+  const [confirmation, setConfirmation] = useState<string | null>(null);
+
   /**
    * Загрузка данных о институте.
    */
@@ -36,6 +34,7 @@ const Institute = (): JSX.Element => {
         getImg(id),
         getInstituteDescription(id),
       ]);
+
       console.log(`Получен ответ ${img}`);
       setScreenshot(URL.createObjectURL(img));
 
@@ -58,15 +57,16 @@ const Institute = (): JSX.Element => {
     <div className="Institute-page">
       <h2 className="Institute-name">{name || "Lorem ipsum dolor sit amet"}</h2>
       <button
-        disabled={confirm == "200"}
-        onClick={() => {
-          const confirmation = Ientered(id, access_token);
-          setConfirm(confirmation + "");
+        disabled={confirmation === "200"}
+        onClick={async () => {
+          const result = await instituteEntry(id);
+          setConfirmation(result + "");
         }}
         className="IenteredButton"
       >
-        {confirm == "200" ? "Вы поступили в этот ВУЗ" : "Я поступил"}
+        {confirmation === "200" ? "Вы поступили в этот ВУЗ" : "Я поступил"}
       </button>
+
       {screenShot ? (
         <img
           src={screenShot}
@@ -81,10 +81,9 @@ const Institute = (): JSX.Element => {
 
       <h3 className="Institute-description">
         {description ||
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem " +
-            "sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per " +
-            "conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus."}
+          "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. "}
       </h3>
+
       {listOfIncoming ? (
         listOfIncoming.map((incomer) => (
           <div key={incomer}>

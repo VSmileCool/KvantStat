@@ -32,7 +32,7 @@ const OffCanvasExample: React.FC<OffCanvasExampleProps> = ({
       <Offcanvas.Body>
         {text.map((institute: any, index: number) => (
           <div key={index}>
-            <h2>{institute.name}</h2>
+            <a href={`/institute/${institute.id}`}>{institute.name}</a>
             <div className="black-stripe"></div>
           </div>
         ))}
