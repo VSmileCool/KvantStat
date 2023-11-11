@@ -1,91 +1,72 @@
 import { $host } from "./index";
-import AuthService from "../components/AuthStorage";
+import { useSelector } from "react-redux";
+import { saveAccessToken } from "../store/userAction";
+import { RootState } from "../store/userSlice";
+interface Iregistr {
+  (
+    email: string,
+    certificateId: number,
+    firstname: string,
+    surname: string,
+    lastname: string,
+    institute: string,
+    password: string
+  ): Promise<any>;
+}
 
-/**
- * Регистрация пользователя.
- * @param email - Электронная почта пользователя.
- * @param certificateId - Идентификатор сертификата пользователя.
- * @param firstname - Имя пользователя.
- * @param surname - Фамилия пользователя.
- * @param lastname - Отчество пользователя.
- * @param institute - Название института пользователя.
- * @param password - Пароль пользователя.
- * @returns Promise с данными регистрации.
- */
-export const register = async (
-  email: string,
-  certificateId: number,
-  firstname: string,
-  surname: string,
-  lastname: string,
-  institute: string,
-  password: string
-): Promise<any> => {
-  try {
-    const { data, status } = await $host.post("auth/signUp", {
-      email,
-      certificateId,
-      firstname,
-      surname,
-      lastname,
-      institute,
-      password,
-    });
+interface Ilogin {
+  (email: string, password: string): Promise<any>;
+}
 
-    console.log(status);
+interface Iexit {
+  (refreshToken: string): Promise<any>;
+}
 
-    if (status === 200) {
-      await login(email, password);
-    }
-
-    return data;
-  } catch (error) {
-    console.error(error);
-    throw new Error("Ошибка при регистрации пользователя");
-  }
+export const register: Iregistr = async (
+  email,
+  certificateId,
+  firstname,
+  surname,
+  lastname,
+  institute,
+  password
+) => {
+  const { data, status } = await $host.post("auth/signUp", {
+    email,
+    certificateId,
+    firstname,
+    surname,
+    lastname,
+    institute,
+    password,
+  });
+  console.log(status);
+  return data;
 };
-
-/**
- * Вход пользователя.
- * @param email - Электронная почта пользователя.
- * @param password - Пароль пользователя.
- * @returns Promise с данными входа пользователя.
- */
-export const login = async (email: string, password: string): Promise<any> => {
-  try {
-    const { data, status } = await $host.post("auth/login", {
-      email,
-      password,
-    });
-
-    if (data.token) {
-      AuthService.saveAccessToken(data.token);
-    }
-
-    return data;
-  } catch (error) {
-    console.error(error);
-    throw new Error("Ошибка при входе пользователя");
-  }
+export const login: Ilogin = async (email, password) => {
+  console.log(email + " " + password);
+  const { data, status } = await $host.post("auth/login", { email, password });
+  console.log(status);
+  console.log(data.accessToken);
+  data.token ? saveAccessToken(data.accessToken) : null;
+  return data;
 };
-
-/**
- * Вход с использованием токена и идентификатора института.
- * @param instituteID - Идентификатор института.
- * @returns Promise с данными входа пользователя.
- */
-export const instituteEntry = async (instituteID: number): Promise<any> => {
-  try {
-    const accessToken = AuthService.getAccessToken();
-    const { data, status } = await $host.post("auth/login", {
-      accessToken,
-      instituteID,
-    });
-
-    console.log(status);
-    return data;
-  } catch (error) {
-    console.error(error);
-    throw new Error("Ошибка при входе пользователя по токену и ID института");
-  }
+export const exit: Iexit = async (refreshToken) => {
+  const { data, status } = await $host.post(
+    "auth.logout",
+    {},
+    { headers: { refreshToken: refreshToken } }
+  );
+  console.log(status);
+  return data;
+};
+export const Ientered = async (instituteID: number, access_token: any) => {
+  console.log(access_token)
+  const { data, status } = await $host.post("auth/addUserToUni", {
+    headers:{"Authorization" : "Bearer " + access_token},
+    instituteID,
+  },
+  );
+  console.log(status);
+  return status;
 };
