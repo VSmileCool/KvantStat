@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import {FULLMAP_ROUTE, LOGIN_ROUTE, REGISTRATION_ROUTE, SIMPLEMAP_ROUTE} from "../router/consts";
+import {
+  FULLMAP_ROUTE,
+  LOGIN_ROUTE,
+  REGISTRATION_ROUTE,
+} from "../router/consts";
 import "../styles/css/Auth.css";
 import { login, register } from "../api/userAPI";
 
@@ -37,7 +41,7 @@ const Auth = () => {
         formData.lastName,
         formData.patronymic,
         formData.institute,
-        formData.password,
+        formData.password
       );
       navigate(FULLMAP_ROUTE);
     }
@@ -114,14 +118,14 @@ const Auth = () => {
           onChange={handleInputChange}
           placeholder={isLogin ? "Почта" : "Email"}
         />
-          <input
-            className="password input"
-            type="password"
-            value={formData.password}
-            name="password"
-            onChange={handleInputChange}
-            placeholder="Пароль"
-          />
+        <input
+          className="password input"
+          type="password"
+          value={formData.password}
+          name="password"
+          onChange={handleInputChange}
+          placeholder="Пароль"
+        />
         <label className="checkbox style-c">
           <input type="checkbox" />
           <div className="checkbox__checkmark"></div>

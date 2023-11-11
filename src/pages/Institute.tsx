@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from "react";
-import { getImg, getInstituteDescription } from "../api/InstituteAPI";
-import "../styles/css/Institute.css";
+import { getInstituteDescription } from "../api/InstituteAPI";
 import { Ientered } from "../api/userAPI";
-import { useSelector } from "react-redux";
-import { RootState } from "../store/userSlice";
+import "../styles/css/Institute.css";
 
 /**
  * Интерфейс для данных, получаемых от API.
  */
 interface InstituteData {
   description: string;
-  listOfIncoming: string[] | null;
+  listOfIncoming: Array<{
+    firstname: string;
+    lastname: string;
+    surname: string;
+  }> | null;
   name: string;
 }
 
@@ -26,26 +28,16 @@ const Institute = (): JSX.Element => {
   const [listOfIncoming, setListOfIncoming] = useState<Array<any> | null>(null);
   const [name, setName] = useState<string>("");
   const [confirm, setConfirm] = useState<string | null>(null);
-  const access_token = useSelector((state: RootState) => state.access_token);
+
   /**
    * Загрузка данных о институте.
    */
   const fetchData = async (): Promise<void> => {
     try {
-      // const [img, response] = await Promise.all([
-      //   getImg(id),
-      //   getInstituteDescription(id),
-      // ]);
-      // console.log(`Получен ответ ${img}`);
-      // setScreenshot(URL.createObjectURL(img));
-
-      const [response] = await Promise.all([
-        getInstituteDescription(id),
-      ]);
+      const response = await getInstituteDescription(id);
 
       const instituteData: InstituteData = response;
       const { description, listOfIncoming, name } = instituteData;
-      console.log(instituteData.description + listOfIncoming + name)
 
       setDescription(description);
       setListOfIncoming(listOfIncoming);
@@ -59,18 +51,22 @@ const Institute = (): JSX.Element => {
     fetchData();
   }, [id]);
 
+  const handleConfirmation = async () => {
+    if (confirm !== "200") {
+      const confirmation = await Ientered(id);
+      setConfirm(confirmation + "");
+    }
+  };
+
   return (
     <div className="Institute-page">
       <h2 className="Institute-name">{name || "Lorem ipsum dolor sit amet"}</h2>
       <button
-        disabled={confirm == "200"}
-        onClick={() => {
-          const confirmation = Ientered(id, access_token);
-          setConfirm(confirmation + "");
-        }}
+        disabled={confirm === "200"}
+        onClick={handleConfirmation}
         className="IenteredButton"
       >
-        {confirm == "200" ? "Вы поступили в этот ВУЗ" : "Я поступил"}
+        {confirm === "200" ? "Вы поступили в этот ВУЗ" : "Я поступил"}
       </button>
       {screenShot ? (
         <img
@@ -86,14 +82,14 @@ const Institute = (): JSX.Element => {
 
       <h3 className="Institute-description">
         {description ||
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem " +
-            "sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per " +
-            "conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus."}
+          "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."}
       </h3>
       {listOfIncoming ? (
-        listOfIncoming.map((incomer) => (
-          <div key={incomer}>
-            <h4 className="Institute-incomer">{incomer.firstname} {incomer.lastname} {incomer.surname}</h4>
+        listOfIncoming.map((incomer, index) => (
+          <div key={index}>
+            <h4 className="Institute-incomer">
+              {incomer.firstname} {incomer.lastname} {incomer.surname}
+            </h4>
             <div className="black-stripe" />
           </div>
         ))
