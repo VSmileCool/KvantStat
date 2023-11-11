@@ -13,6 +13,7 @@ interface InstituteData {
     lastname: string;
     surname: string;
   }> | null;
+  uni_img: string
   name: string;
 }
 
@@ -23,7 +24,7 @@ const Institute = (): JSX.Element => {
   const currentURL = window.location.href;
   const id = +currentURL.substring(currentURL.lastIndexOf("/") + 1);
 
-  const [screenShot, setScreenshot] = useState<string | undefined>("");
+  const [uni_img, setUniImg] = useState<string | undefined>("");
   const [description, setDescription] = useState<string>("");
   const [listOfIncoming, setListOfIncoming] = useState<Array<any> | null>(null);
   const [name, setName] = useState<string>("");
@@ -37,11 +38,15 @@ const Institute = (): JSX.Element => {
       const response = await getInstituteDescription(id);
 
       const instituteData: InstituteData = response;
-      const { description, listOfIncoming, name } = instituteData;
+      const { description, listOfIncoming, name, uni_img} = instituteData;
 
+      console.log(uni_img)
+
+      setUniImg(uni_img)
       setDescription(description);
       setListOfIncoming(listOfIncoming);
       setName(name);
+    
     } catch (error) {
       console.error("Произошла ошибка при загрузке данных", error);
     }
@@ -63,22 +68,16 @@ const Institute = (): JSX.Element => {
       <h2 className="Institute-name">{name || "Lorem ipsum dolor sit amet"}</h2>
       <button
         disabled={confirm === "200"}
-        onClick={handleConfirmation}
+        onClick={()=>{handleConfirmation(); fetchData()}}
         className="IenteredButton"
       >
         {confirm === "200" ? "Вы поступили в этот ВУЗ" : "Я поступил"}
       </button>
-      {screenShot ? (
-        <img
-          src={screenShot}
-          className="Institute-screenshot"
-          alt="Скриншот института"
-        />
-      ) : (
-        <h6 style={{ textAlign: "center", margin: "20px 0" }}>
-          Показ скриншота
-        </h6>
-      )}
+      <img
+        src={uni_img}
+        className="Institute-screenshot"
+        alt="Скриншот института"
+      />
 
       <h3 className="Institute-description">
         {description ||

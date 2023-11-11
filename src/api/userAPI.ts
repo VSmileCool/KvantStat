@@ -97,10 +97,10 @@ export const Ientered = async (instituteID: number) => {
     const access_token = AuthService.getAccessToken();
     const { data, status } = await $host.post(
       "auth/addUserToUni",
-      { instituteID },
+      { instituteID, access_token},
       { headers: { Authorization: `Bearer ${access_token}` } }
     );
-
+    console.log(data)
     console.log(status);
     return status;
   } catch (error) {
