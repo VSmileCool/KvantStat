@@ -22,7 +22,6 @@ const Auth = () => {
     password: "",
     email: "",
     login: "",
-    institute: "",
   });
 
   const handleInputChange = (e: any) => {
@@ -40,7 +39,6 @@ const Auth = () => {
         formData.firstName,
         formData.lastName,
         formData.patronymic,
-        formData.institute,
         formData.password
       );
     }

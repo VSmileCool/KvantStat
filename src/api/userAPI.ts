@@ -8,7 +8,6 @@ interface Iregistr {
     firstname: string,
     surname: string,
     lastname: string,
-    institute: string,
     password: string
   ): Promise<any>;
 }
@@ -25,7 +24,6 @@ interface Ilogin {
  * @param firstname - Имя пользователя.
  * @param surname - Фамилия пользователя.
  * @param lastname - Отчество пользователя.
- * @param institute - Название института, к которому привязан пользователь.
  * @param password - Пароль пользователя.
  * @returns Промис, который разрешится данными ответа.
  */
@@ -35,7 +33,6 @@ export const register: Iregistr = async (
   firstname,
   surname,
   lastname,
-  institute,
   password
 ) => {
   try {
@@ -45,16 +42,13 @@ export const register: Iregistr = async (
       firstname,
       surname,
       lastname,
-      institute,
       password,
     });
-
     console.log(status);
     return data;
   } catch (error) {
     console.error(error);
   }
-
   try {
     if (status === "200") {
       await login(email, password);
