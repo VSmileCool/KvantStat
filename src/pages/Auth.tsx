@@ -18,7 +18,7 @@ const Auth = () => {
     firstName: "",
     lastName: "",
     patronymic: "",
-    certificateId: 0,
+    certificateId: +"",
     password: "",
     email: "",
     login: "",
