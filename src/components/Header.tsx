@@ -19,7 +19,13 @@ const Header: React.FC<HeaderProps> = ({ currentPath }) => {
       text: accessToken ? "Выйти" : "Войти",
     },
   ];
-
+  const onClick = (link: any) => {
+    if (link.path != "/") {
+      setPagePath(window.location.href);
+    } else {
+      AuthService.clearData("accessToken");
+    }
+  };
   return (
     <div className="header-block">
       <header className="header">
@@ -40,9 +46,7 @@ const Header: React.FC<HeaderProps> = ({ currentPath }) => {
                   className={`header-navigation-link ${
                     currentPath === pagePath ? "active" : ""
                   }`}
-                  onClick={() => {
-                    setPagePath(window.location.href);
-                  }}
+                  onClick={() => onClick(link)}
                 >
                   {link.text}
                 </NavLink>
