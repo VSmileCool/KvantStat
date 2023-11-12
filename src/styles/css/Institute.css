@@ -27,6 +27,7 @@
   max-width: 960px;
 }
 .Institute-page .Institute-incomer {
+  margin: 0px auto;
   color: #000;
   font-size: 16px;
   font-weight: 400;
@@ -34,6 +35,7 @@
   max-width: 200px;
 }
 .Institute-page .black-stripe {
+  margin: 0px auto;
   background-color: black;
   height: 1px;
   max-width: 200px;
