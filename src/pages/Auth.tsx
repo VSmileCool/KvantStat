@@ -43,8 +43,8 @@ const Auth = () => {
         formData.institute,
         formData.password
       );
-      navigate(FULLMAP_ROUTE);
     }
+    navigate(`${FULLMAP_ROUTE}`);
   };
 
   const renderRegistrationButton = () => {

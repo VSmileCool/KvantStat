@@ -62,6 +62,40 @@ input {
   }
 }
 
+// Обнуление стилей для кнопки
 button {
-  all: unset;
+  // Сброс стилей
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  cursor: pointer;
+
+  // Наследование шрифта
+  font-family: inherit;
+
+  // Установка стиля текста
+  text-align: left;
+  text-decoration: none;
+
+  // Убираем стили для списков, когда кнопка используется внутри
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+  // Определение стилей для состояний
+  &:hover,
+  &:active,
+  &:focus {
+    // Добавьте свои стили при необходимости
+  }
+
+  // Определение стилей для дочерних элементов
+  > * {
+    // Добавьте свои стили при необходимости
+  }
 }

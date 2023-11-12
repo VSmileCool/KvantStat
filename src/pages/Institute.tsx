@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { getInstituteDescription } from "../api/InstituteAPI";
 import { getUserInfo, Ientered } from "../api/userAPI";
 import "../styles/css/Institute.css";
-import user from "./User";
 
 /**
  * Интерфейс для данных, получаемых от API.

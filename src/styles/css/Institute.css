@@ -31,12 +31,12 @@
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
-  width: 200px;
+  max-width: 200px;
 }
 .Institute-page .black-stripe {
   background-color: black;
   height: 1px;
-  width: 100%;
+  max-width: 200px;
 }
 .Institute-page .IenteredButton {
   z-index: 2;

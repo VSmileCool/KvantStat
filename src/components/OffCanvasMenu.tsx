@@ -1,6 +1,7 @@
 import React from "react";
 import Offcanvas, { OffcanvasPlacement } from "react-bootstrap/Offcanvas";
 import "../styles/css/OffCanvasMenu.css";
+
 /**
  * Props for the OffCanvasExample component.
  */
