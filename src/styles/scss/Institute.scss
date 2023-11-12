@@ -26,9 +26,11 @@
 
   // Стили для скриншота института
   .Institute-screenshot {
+    display: block;
+    z-index: 2;
     margin: 20px auto;
     text-align: center;
-    width: 1080px;
+    max-width: 960px;
   }
 
   // Стили для поступивших в институт
@@ -49,9 +51,9 @@
 
   // Стили для кнопки "Я поступил"
   .IenteredButton {
+    z-index: 2;
     background-color: #000;
     border-radius: 30px;
-    display: inline-block;
     padding: 10px 40px;
     text-decoration: none;
     color: #fff;
@@ -68,5 +70,8 @@
       backdrop-filter: blur(10px);
       opacity: 1;
     }
+  }
+  .Incoming-title {
+    text-align: center;
   }
 }

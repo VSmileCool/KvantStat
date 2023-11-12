@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { ReactComponent as LogoSvg } from "../img/Logo.svg";
 import "../styles/css/Header.css";
+import AuthService from "./AuthStorage";
 
 interface HeaderProps {
   currentPath: string;
@@ -9,11 +10,14 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ currentPath }) => {
   const [pagePath, setPagePath] = useState(window.location.href);
-
+  const accessToken = AuthService.getData("accessToken");
   const navigationLinks = [
     { path: "/about-us", text: "О нас" },
     { path: "/map", text: "Карта" },
-    { path: "/login", text: "Войти" },
+    {
+      path: accessToken ? "/" : "/login",
+      text: accessToken ? "Выйти" : "Войти",
+    },
   ];
 
   return (

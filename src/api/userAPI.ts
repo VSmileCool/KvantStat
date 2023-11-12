@@ -78,7 +78,19 @@ export const login: Ilogin = async (email, password) => {
       password,
     });
 
-    data.token ? AuthService.saveAccessToken(data.accessToken) : null;
+    data.token ? AuthService.saveData("accessToken", data.accessToken) : null;
+
+    return data;
+  } catch (error) {
+    console.error(error);
+    throw error; // Propagate the error to the caller
+  }
+};
+
+export const getUserInfo = async () => {
+  try {
+    const access_token = AuthService.getData("accessToken");
+    const { data, status } = await $host.post("user/getUserInfo", access_token);
     return data;
   } catch (error) {
     console.error(error);
@@ -94,13 +106,13 @@ export const login: Ilogin = async (email, password) => {
  */
 export const Ientered = async (instituteID: number) => {
   try {
-    const access_token = AuthService.getAccessToken();
+    const access_token = AuthService.getData("accessToken");
     const { data, status } = await $host.post(
       "auth/addUserToUni",
-      { instituteID, access_token},
+      { instituteID, access_token },
       { headers: { Authorization: `Bearer ${access_token}` } }
     );
-    console.log(data)
+    console.log(data);
     console.log(status);
     return status;
   } catch (error) {

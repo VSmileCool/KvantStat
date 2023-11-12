@@ -2,7 +2,6 @@
   background-color: #f5dfd1;
   padding: 40px 0;
 }
-
 .Institute-page .Institute-name {
   margin: 0 0 20px 0;
   text-align: center;
@@ -11,7 +10,6 @@
   font-weight: 500;
   line-height: normal;
 }
-
 .Institute-page .Institute-description {
   margin: 0 auto;
   text-align: justify;
@@ -21,13 +19,13 @@
   line-height: normal;
   width: 1080px;
 }
-
 .Institute-page .Institute-screenshot {
+  display: block;
+  z-index: 2;
   margin: 20px auto;
   text-align: center;
-  width: 1080px;
+  max-width: 960px;
 }
-
 .Institute-page .Institute-incomer {
   color: #000;
   font-size: 16px;
@@ -35,17 +33,15 @@
   line-height: normal;
   width: 200px;
 }
-
 .Institute-page .black-stripe {
   background-color: black;
   height: 1px;
   width: 100%;
 }
-
 .Institute-page .IenteredButton {
+  z-index: 2;
   background-color: #000;
   border-radius: 30px;
-  display: inline-block;
   padding: 10px 40px;
   text-decoration: none;
   color: #fff;
@@ -56,12 +52,14 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
-
 .Institute-page .IenteredButton:hover {
   background-color: transparent;
   color: black;
   backdrop-filter: blur(10px);
   opacity: 1;
+}
+.Institute-page .Incoming-title {
+  text-align: center;
 }
 
 /*# sourceMappingURL=Institute.css.map */

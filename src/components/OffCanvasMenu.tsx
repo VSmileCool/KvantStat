@@ -1,6 +1,6 @@
 import React from "react";
 import Offcanvas, { OffcanvasPlacement } from "react-bootstrap/Offcanvas";
-
+import "../styles/css/OffCanvasMenu.css";
 /**
  * Props for the OffCanvasExample component.
  */
@@ -32,7 +32,9 @@ const OffCanvasExample: React.FC<OffCanvasExampleProps> = ({
       <Offcanvas.Body>
         {text.map((institute: any, index: number) => (
           <div key={index}>
-            <a href={`/institute/${institute.id}`}>{institute.name}</a>
+            <a className="institute-link" href={`/institute/${institute.id}`}>
+              {institute.name}
+            </a>
             <div className="black-stripe"></div>
           </div>
         ))}

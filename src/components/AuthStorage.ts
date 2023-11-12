@@ -1,20 +1,35 @@
-class AuthService {
-  private static ACCESS_TOKEN_KEY = "access_token";
-
-  // Save access token to localStorage
-  static saveAccessToken(token: string): void {
-    localStorage.setItem(AuthService.ACCESS_TOKEN_KEY, token);
+/**
+ * Класс для управления данными в локальном хранилище.
+ */
+class LocalStorageService {
+  /**
+   * Сохраняет данные в локальное хранилище.
+   *
+   * @param key - Ключ, по которому данные будут сохранены.
+   * @param data - Данные, которые необходимо сохранить.
+   */
+  static saveData(key: string, data: string): void {
+    localStorage.setItem(key, data);
   }
 
-  // Get access token from localStorage
-  static getAccessToken(): string | null {
-    return localStorage.getItem(AuthService.ACCESS_TOKEN_KEY);
+  /**
+   * Получает данные из локального хранилища по ключу.
+   *
+   * @param key - Ключ, по которому необходимо получить данные.
+   * @returns Данные, сохраненные по указанному ключу, или null, если данные отсутствуют.
+   */
+  static getData(key: string): string | null {
+    return localStorage.getItem(key);
   }
 
-  // Clear access token from localStorage
-  static clearAccessToken(): void {
-    localStorage.removeItem(AuthService.ACCESS_TOKEN_KEY);
+  /**
+   * Удаляет данные из локального хранилища по ключу.
+   *
+   * @param key - Ключ, по которому следует удалить данные.
+   */
+  static clearData(key: string): void {
+    localStorage.removeItem(key);
   }
 }
 
-export default AuthService;
+export default LocalStorageService;
