@@ -24,9 +24,7 @@ const Institute = (): JSX.Element => {
   const currentURL = window.location.href;
   const id = +currentURL.substring(currentURL.lastIndexOf("/") + 1);
 
-  const [uni_img, setUniImg] = useState<string | undefined>(
-    "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.0Nm2Ca65y0oMvs8RZtrkLQHaE7%26pid%3DApi&f=1&ipt=9c0bb7bcb3590776dd58d340b45033f0c48214ed2b7238f28a87c762fcbae3d4&ipo=images"
-  );
+  const [uni_img, setUniImg] = useState<string | undefined>("");
   const [description, setDescription] = useState<string>("");
   const [listOfIncoming, setListOfIncoming] = useState<Array<any> | null>(null);
   const [name, setName] = useState<string>("");
@@ -56,8 +54,6 @@ const Institute = (): JSX.Element => {
       setUserInfo(userInfo);
       setInstitute(instituteData);
       const { description, listOfIncoming, name, uni_img } = instituteData;
-
-      console.log(uni_img);
 
       setUniImg(uni_img);
       setDescription(description);
