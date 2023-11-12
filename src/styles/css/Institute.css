@@ -32,13 +32,13 @@
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
-  max-width: 200px;
+  max-width: 400px;
 }
 .Institute-page .black-stripe {
   margin: 0px auto;
   background-color: black;
   height: 1px;
-  max-width: 200px;
+  max-width: 400px;
 }
 .Institute-page .IenteredButton {
   z-index: 2;
